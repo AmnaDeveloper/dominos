@@ -1,0 +1,239 @@
+[
+  {
+    "id": "pepperoni-pizza",
+    "slug": "pepperoni-pizza",
+    "category": "Pizzas",
+    "title": "Domino's Pepperoni Pizza",
+    "description": "The classic crowd-pleaser: a generous layer of pepperoni over 100% real mozzarella and signature tomato sauce, on your choice of crust.",
+    "fullContent": "<h2>The Pizza Everybody Orders First</h2><p>Let's start with the obvious: the <strong>Pepperoni Pizza</strong> is the most-ordered item at Domino's, and honestly, it earns that spot. There's nothing fancy going on here, and that's precisely the point. You get the signature tomato sauce, a proper layer of 100% real mozzarella, and pepperoni that curls and crisps at the edges in the oven. Simple, consistent, and it never lets you down. Whether it's a solo dinner in front of the TV or the anchor of a big family order, pepperoni just works. Every single time.</p><p>Ask ten people their go-to Domino's order and most of them will say pepperoni without even pausing. That kind of loyalty doesn't happen by accident — it happens because the pizza is reliably good and endlessly flexible. You can keep it plain, load it up, or use it as the safe pick alongside something more adventurous for the table.</p><h2>Picking the Right Crust</h2><p>Here's where a lot of people order on autopilot and miss out. Pepperoni tastes genuinely different depending on the crust underneath it, so it's worth a moment's thought.</p><table><thead><tr><th>Crust</th><th>What You Get</th><th>Best For</th></tr></thead><tbody><tr><td>Hand Tossed</td><td>Soft, pillowy, the classic</td><td>Most people, most nights</td></tr><tr><td>Handmade Pan</td><td>Thick, buttery, indulgent</td><td>When you want a treat</td></tr><tr><td>Crunchy Thin</td><td>Light, crisp, less bread</td><td>Letting the pepperoni shine</td></tr><tr><td>Brooklyn Style</td><td>Big, foldable slices</td><td>That New York vibe</td></tr><tr><td>Gluten Free</td><td>Small size only</td><td>Avoiding wheat</td></tr></tbody></table><p>My honest pick? Hand Tossed for a crowd, Crunchy Thin when I want the pepperoni to be the star rather than the dough. There's no wrong answer, but there's definitely a right one for your mood. If you want the full rundown on which size to pair with it, the <a href=\"/posts/dominos-pizza-sizes-and-prices\">pizza sizes guide</a> lays it all out.</p><h2>How to Order It for Less</h2><p>Never pay full menu price for a pepperoni. I mean it. It's one of the items that almost always qualifies for a deal, so grab it through <a href=\"/posts/dominos-mix-and-match-deal\">Mix &amp; Match</a> or the $6.99 Each promo and you'll routinely pay less than the sticker price. A Large Pepperoni inside a two-item deal frequently costs less than ordering it alone, which feels almost backwards until you get used to it. Check the current <a href=\"/coupons\">coupons</a> first, choose carryout to skip the delivery fee, and make sure you're signed into <a href=\"/dominos-rewards\">Domino's Rewards</a> so it banks points toward a free pizza down the line.</p><h2>What's Actually In It (Nutrition &amp; Allergens)</h2><p>Let's be straight about the nutrition, because pizza is a treat and pretending otherwise helps nobody. A single slice of a Large Hand Tossed Pepperoni runs roughly 290 to 320 calories depending on how it's portioned. The pizza contains <strong>wheat and milk</strong>, and the pepperoni is a pork product, so it isn't suitable for vegetarian, halal, or kosher diets. If you're watching calories, asking for light cheese or going Crunchy Thin trims things down noticeably. And if wheat's the concern, the Gluten Free crust is there, though Domino's makes it in a shared kitchen, so it suits a preference more than a serious medical allergy.</p><h2>Make It Your Own</h2><p>The plain pepperoni is a blank canvas, and half the fun is tweaking it. Extra pepperoni is the obvious move for the devoted. Adding a second meat like Italian sausage turns it into something heartier. And if you find yourself wanting more going on, the loaded <a href=\"/menus-prices/extravaganzza-pizza\">ExtravaganZZa</a> is the natural next step up — same deal pricing, a lot more toppings. For families, my go-to trick is pairing one pepperoni with a plain cheese so the picky eaters stay happy. There's more of that thinking in the <a href=\"/posts/best-dominos-pizzas-for-families\">family picks guide</a>.</p><h2>Round Out the Meal</h2><p>A pepperoni pizza rarely travels alone in my house. Add an order of <a href=\"/menus-prices/stuffed-cheesy-bread\">Stuffed Cheesy Bread</a> and it turns a pizza into a proper spread, and a <a href=\"/drinks\">2-liter</a> keeps everyone's cup full for cheap. Order the pizza and the side together through a deal and the whole thing stays friendly on the wallet.</p><h2>The Bottom Line</h2><p>The Pepperoni Pizza is popular because it's genuinely good, reliably consistent, and easy to make your own. Order it through a deal, pick the crust that matches your mood, and you've got a dinner that never disappoints. Just remember these are example prices — this is an independent, unofficial guide, so let the official Domino's app confirm the real total at checkout.</p>",
+    "price": "$12.99",
+    "currency": "USD",
+    "calories": "1980 (whole Large)",
+    "rating": 4.7,
+    "reviewCount": 5210,
+    "image": "/pepperoni-pizza.webp",
+    "imageAlt": "Domino's Pepperoni Pizza with crispy pepperoni on melted mozzarella",
+    "ingredients": [
+      "Signature pizza dough",
+      "Domino's tomato sauce",
+      "100% real mozzarella",
+      "Pepperoni",
+      "Oregano seasoning"
+    ],
+    "allergens": [
+      { "name": "Wheat/Gluten", "present": true, "note": "Choose Gluten Free crust to avoid (prepared in a shared kitchen)" },
+      { "name": "Milk", "present": true, "note": "From mozzarella cheese" },
+      { "name": "Soy", "present": true, "note": "May be present in dough conditioners" },
+      { "name": "Egg", "present": false },
+      { "name": "Tree Nuts", "present": false },
+      { "name": "Fish/Shellfish", "present": false }
+    ],
+    "sizes": [
+      { "size": "Small (10\") Hand Tossed", "price": "$8.99", "calories": "1140" },
+      { "size": "Medium (12\") Hand Tossed", "price": "$10.99", "calories": "1560" },
+      { "size": "Large (14\") Hand Tossed", "price": "$12.99", "calories": "1980" },
+      { "size": "X-Large (16\") Brooklyn", "price": "$15.99", "calories": "2400" }
+    ],
+    "faqs": [
+      { "question": "How much is a large pepperoni pizza at Domino's?", "answer": "A Large (14\") Hand Tossed Pepperoni is typically around $12.99 at carryout, but it is often cheaper through the Mix & Match or $6.99 Each deal. Prices vary by location — verify at official checkout." },
+      { "question": "How many slices are in a Domino's pepperoni pizza?", "answer": "A Small has 6 slices, a Medium 8 slices, and a Large 8 slices by default. You can ask for a Large to be cut into 10 or 12 squares at no charge." },
+      { "question": "Is the pepperoni pizza available on gluten-free crust?", "answer": "Yes, on the Small Gluten Free crust. Domino's notes it is prepared in a shared kitchen, so it is not suitable for those with severe gluten allergies or celiac disease." }
+    ],
+    "featured": true
+  },
+  {
+    "id": "extravaganzza-pizza",
+    "slug": "extravaganzza-pizza",
+    "category": "Specialty Pizzas",
+    "title": "Domino's ExtravaganZZa Pizza",
+    "description": "Domino's most loaded specialty pizza: pepperoni, ham, Italian sausage, beef, onions, green peppers, mushrooms and black olives with extra cheese.",
+    "fullContent": "<h2>The Everything Pizza</h2><p>If plain pepperoni ever starts to feel a little boring, the <strong>ExtravaganZZa</strong> is your answer. This is Domino's take on the classic supreme, and it's the most loaded pizza on the whole specialty menu, no contest. We're talking a genuine pile-up of toppings on a single pie. It's the pizza you order when you want a bit of everything and you don't want to make any hard choices about what to leave off.</p><p>Here's what actually lands on it, because the name isn't exaggerating.</p><table><thead><tr><th>Toppings</th><th>The Finish</th></tr></thead><tbody><tr><td>Pepperoni, ham, Italian sausage, seasoned beef</td><td>Four meats, seriously</td></tr><tr><td>Onions, green peppers, mushrooms, black olives</td><td>Four veggies for balance</td></tr><tr><td>Extra mozzarella</td><td>Because of course</td></tr></tbody></table><p>Eight toppings and extra cheese. That's not a pizza, that's a commitment, and I mean that as the highest compliment.</p><h2>Who Should Order It</h2><p>The ExtravaganZZa is made for two kinds of people. First, the die-hard meat lovers who measure a pizza by how much is going on. Second, and this is the underrated one, groups that can't agree on toppings. When everybody wants something different, a pizza that already has everything quietly settles the argument. Nobody's disappointed because a little bit of what they wanted is right there. Vegetarians are the exception here — you'll want the Pacific Veggie instead, which is a proper pizza in its own right rather than an afterthought.</p><h2>Getting It for the Right Price</h2><p>Because it carries a full load of premium toppings, the ExtravaganZZa sits above a plain two-topping on the menu. But here's the trick that changes everything: specialty pizzas usually qualify for <a href=\"/posts/dominos-mix-and-match-deal\">Mix &amp; Match</a> at the same per-item price as a basic pie. So you get all those toppings for the price of a plain one. That's genuinely one of the best-value moves on the entire menu. Check the current <a href=\"/coupons\">deals</a>, go carryout to dodge the fee, and stay in <a href=\"/dominos-rewards\">Domino's Rewards</a> so even this pricier pizza banks points toward a free one.</p><h2>Lightening It Up</h2><p>Let's be honest about the nutrition, because with eight toppings and extra cheese, this is one of the higher-calorie pizzas Domino's makes. Expect roughly 320 to 360 calories per slice on a Large Hand Tossed. It contains <strong>wheat, milk and soy</strong>, and includes both pork and beef. If you want to enjoy it without the full weight, two easy levers help a lot: ask for light cheese, or order it on Crunchy Thin Crust. The thin crust in particular is great here — it cuts some dough and, weirdly, lets all those toppings shine even more. Win-win.</p><h2>Building a Full Meal Around It</h2><p>The ExtravaganZZa is hearty enough to headline a real spread. Pair it with <a href=\"/menus-prices/stuffed-cheesy-bread\">Stuffed Cheesy Bread</a> and a <a href=\"/drinks\">2-liter</a> and you've got a complete family dinner sorted. If you're feeding a mixed crowd, run one ExtravaganZZa for the adventurous eaters alongside a plain <a href=\"/menus-prices/pepperoni-pizza\">pepperoni</a> for the purists — that combo covers just about everyone. The <a href=\"/posts/best-dominos-pizzas-for-families\">family picks guide</a> has more combos like it.</p><h2>The Bottom Line</h2><p>The ExtravaganZZa is the pizza for people who don't want to choose. Loaded, satisfying, and surprisingly good value when you order it inside a deal. Just remember the prices here are examples — this is an independent, unofficial guide, so let the official Domino's app confirm the real total when you check out. Then dig in, because there's a lot going on with this one.</p>",
+    "price": "$16.99",
+    "currency": "USD",
+    "calories": "2400 (whole Large)",
+    "rating": 4.6,
+    "reviewCount": 3120,
+    "image": "/extravaganzza-pizza.webp",
+    "imageAlt": "Domino's ExtravaganZZa loaded with meats and vegetables",
+    "ingredients": [
+      "Signature pizza dough",
+      "Domino's tomato sauce",
+      "Extra mozzarella",
+      "Pepperoni",
+      "Ham",
+      "Italian sausage",
+      "Seasoned beef",
+      "Onions",
+      "Green peppers",
+      "Mushrooms",
+      "Black olives"
+    ],
+    "allergens": [
+      { "name": "Wheat/Gluten", "present": true },
+      { "name": "Milk", "present": true },
+      { "name": "Soy", "present": true },
+      { "name": "Egg", "present": false },
+      { "name": "Tree Nuts", "present": false },
+      { "name": "Fish/Shellfish", "present": false }
+    ],
+    "sizes": [
+      { "size": "Small (10\") Hand Tossed", "price": "$12.99", "calories": "1440" },
+      { "size": "Medium (12\") Hand Tossed", "price": "$14.99", "calories": "1920" },
+      { "size": "Large (14\") Hand Tossed", "price": "$16.99", "calories": "2400" }
+    ],
+    "faqs": [
+      { "question": "What comes on the ExtravaganZZa pizza?", "answer": "Pepperoni, ham, Italian sausage, seasoned beef, onions, green peppers, mushrooms, black olives and extra mozzarella on Domino's signature sauce and crust." },
+      { "question": "Is the ExtravaganZZa part of the Mix & Match deal?", "answer": "Yes. Specialty pizzas including the ExtravaganZZa typically qualify for the Mix & Match per-item deal price, which is usually cheaper than menu price. Verify at checkout." }
+    ]
+  },
+  {
+    "id": "philly-cheese-steak-pizza",
+    "slug": "philly-cheese-steak-pizza",
+    "category": "Specialty Pizzas",
+    "title": "Domino's Philly Cheese Steak Pizza",
+    "description": "Tender steak, fresh onions, green peppers and mushrooms over a creamy blend of American and provolone cheese instead of tomato sauce.",
+    "fullContent": "<h2>A Cheesesteak That Thinks It's a Pizza</h2><p>Now here's something a little different. The <strong>Philly Cheese Steak Pizza</strong> throws out the rulebook and skips tomato sauce entirely. Instead, it's built on a creamy blend of American and provolone cheese, then loaded with tender steak, fresh onions, green peppers and mushrooms. The result? It tastes far more like an actual Philly cheesesteak sandwich than a traditional pizza. If you've ever found yourself a bit bored of red-sauce pizzas, this one's going to feel like a revelation.</p><p>What I really like about it is that it doesn't pretend to be something it's not. It leans all the way into the cheesesteak idea, and it commits. That confidence is exactly why it's built a loyal following among people who want their pizza to surprise them a little.</p><h2>Why It Stands Out</h2><p>Two things make this pizza genuinely different from almost everything else on the menu, and they matter more than you'd think.</p><table><thead><tr><th>What's Different</th><th>Why It Matters</th></tr></thead><tbody><tr><td>No tomato sauce</td><td>Perfect if you're not a red-sauce fan</td></tr><tr><td>American + provolone base</td><td>Rich, creamy, true cheesesteak flavor</td></tr><tr><td>Steak, no pork</td><td>A solid pick for pork-free households</td></tr></tbody></table><p>That last point deserves a mention. Because it's built on steak with no pork, the Philly Cheese Steak is a genuinely good option for households that skip pork — and it doesn't feel like a compromise while doing it.</p><h2>The Best Way to Order It</h2><p>Because the topping load is rich and cheesy, a lot of fans swear by the Crunchy Thin Crust here. It keeps the base crisp underneath all that provolone instead of going soft, and the contrast is lovely. Hand Tossed works fine too if you like it pillowy, but thin crust is the move I'd steer you toward for this particular pie. As for price, it's a specialty pizza, so it sits a bit higher on the menu — but it usually qualifies for <a href=\"/posts/dominos-mix-and-match-deal\">Mix &amp; Match</a>, which drags it down to the same per-item rate as a basic pizza. Check the <a href=\"/coupons\">current deals</a> before you order and you'll rarely pay full price.</p><h2>Nutrition and Allergens, Honestly</h2><p>Expect roughly 300 to 330 calories per Large slice, which is fairly reasonable for how rich it tastes. It contains <strong>wheat and milk</strong> — the milk comes from that double dose of cheese — and includes beef. As I mentioned, there's no pork, which some diners specifically look for. If you want to trim it down, the usual two tricks apply: ask for light cheese, or order it on thin crust. Both help without gutting the flavor.</p><h2>What to Pair It With</h2><p>The Philly Cheese Steak is savory and satisfying, so it plays well with something a little different alongside it. I'd pair it with <a href=\"/menus-prices/boneless-chicken\">Boneless Chicken</a> and a <a href=\"/drinks\">drink</a> through a deal, or add <a href=\"/menus-prices/stuffed-cheesy-bread\">Stuffed Cheesy Bread</a> for a proper two-item meal that fills the table. Since it's a bit of an adventurous pick, it also pairs nicely next to a plain <a href=\"/menus-prices/pepperoni-pizza\">pepperoni</a> when you're feeding a mixed crowd.</p><h2>The Bottom Line</h2><p>The Philly Cheese Steak Pizza is for anyone craving something savory, cheesy, and refreshingly off the beaten path. No red sauce, no pork, all flavor. Order it thin-crust through a deal and you've got a genuinely different dinner without paying extra for the privilege. As always, these are example prices — this is an independent, unofficial guide, so let the official Domino's app confirm the real total at checkout.</p>",
+    "price": "$16.99",
+    "currency": "USD",
+    "calories": "2280 (whole Large)",
+    "rating": 4.5,
+    "reviewCount": 2140,
+    "image": "/philly-cheese-steak-pizza.webp",
+    "imageAlt": "Domino's Philly Cheese Steak Pizza with steak, peppers and provolone",
+    "ingredients": [
+      "Signature pizza dough",
+      "American cheese",
+      "Provolone cheese",
+      "Philly steak",
+      "Fresh onions",
+      "Green peppers",
+      "Mushrooms"
+    ],
+    "allergens": [
+      { "name": "Wheat/Gluten", "present": true },
+      { "name": "Milk", "present": true },
+      { "name": "Soy", "present": true },
+      { "name": "Egg", "present": false },
+      { "name": "Tree Nuts", "present": false },
+      { "name": "Fish/Shellfish", "present": false }
+    ],
+    "sizes": [
+      { "size": "Small (10\") Hand Tossed", "price": "$12.99", "calories": "1320" },
+      { "size": "Medium (12\") Hand Tossed", "price": "$14.99", "calories": "1800" },
+      { "size": "Large (14\") Hand Tossed", "price": "$16.99", "calories": "2280" }
+    ],
+    "faqs": [
+      { "question": "Does the Philly Cheese Steak pizza have tomato sauce?", "answer": "No. It uses a blend of American and provolone cheese as the base instead of tomato sauce, giving it a true cheesesteak-style flavor." },
+      { "question": "What kind of meat is on it?", "answer": "Tender Philly-style steak. There is no pork on this pizza, which makes it a good pick for diners avoiding pork." }
+    ]
+  },
+  {
+    "id": "stuffed-cheesy-bread",
+    "slug": "stuffed-cheesy-bread",
+    "category": "Sides & Bread",
+    "title": "Domino's Stuffed Cheesy Bread",
+    "description": "Oven-baked bread stuffed with a blend of cheeses and seasoned with garlic and parsley, served with a dipping sauce.",
+    "fullContent": "<h2>The Side That Steals the Show</h2><p>Let's give the sides their due, because <strong>Stuffed Cheesy Bread</strong> might be the best thing at Domino's that isn't technically a pizza. Here's the magic: it's soft, oven-baked bread with a blend of cheeses baked right <em>inside</em>, then brushed with garlic-and-parsley seasoning and cut into shareable strips. That inside part is the whole point. Plain bread twists put cheese on top; this stuffs it in, so every single piece pulls apart in that gooey, stringy way that makes everyone at the table reach for one more. It comes with marinara for dipping by default, and you can swap for garlic or ranch.</p><p>I'll be honest — I've ordered pizza plenty of times mostly as an excuse to also get the Stuffed Cheesy Bread. It's that good. If you're a first-timer at Domino's and you only try one side, make it this one.</p><h2>The Varieties Worth Knowing</h2><p>The original is the classic, but Domino's gives you a few ways to dress it up, and each one changes the vibe.</p><table><thead><tr><th>Variety</th><th>What's Added</th><th>Good For</th></tr></thead><tbody><tr><td>Original</td><td>Just the cheese blend</td><td>Purists and picky eaters</td></tr><tr><td>Bacon &amp; Jalapeño</td><td>Smoky bacon, a little heat</td><td>Spice fans (contains pork)</td></tr><tr><td>Spinach &amp; Feta</td><td>Spinach, tangy feta</td><td>A slightly grown-up twist</td></tr></tbody></table><h2>How Much You Get, and What It Costs</h2><p>A single order comes cut into 8 pieces, which works as a shared appetizer for two to four people or a generous snack for one hungry person who isn't sharing (no judgment). On price, here's the good news: Stuffed Cheesy Bread frequently qualifies for the <a href=\"/posts/dominos-mix-and-match-deal\">$6.99 Each and Mix &amp; Match deals</a>, which is comfortably the cheapest way to add it to an order. Tacking it onto a pizza through a deal is one of those little moves that makes the whole meal feel bigger without the total jumping much. Peek at the <a href=\"/coupons\">current deals</a> before you order.</p><h2>Nutrition and Allergens</h2><p>Each piece runs roughly 140 to 180 calories depending on the variety, so it's a treat rather than a health food — but you knew that. It contains <strong>wheat and milk</strong>, and the bacon-jalapeño version adds pork. Good to know on the dips, too: the marinara is vegetarian-friendly, while ranch and garlic dips contain milk and egg. If you're sharing across a few people, one order stretches further than you'd expect, which helps on both calories and cost.</p><h2>What to Pair It With</h2><p>Stuffed Cheesy Bread is the classic wingman to a good pizza. It's the natural companion to a <a href=\"/menus-prices/pepperoni-pizza\">Pepperoni</a> or the loaded <a href=\"/menus-prices/extravaganzza-pizza\">ExtravaganZZa</a>. For a full family spread, add a <a href=\"/drinks\">2-liter of Coke</a> and run the whole order through Mix &amp; Match so the side basically pays for itself in savings. It also gives the non-pizza eater at the table something to reach for, which every family knows is worth its weight in gold.</p><h2>The Bottom Line</h2><p>Stuffed Cheesy Bread is proof that the best part of a Domino's order isn't always the pizza. Gooey, shareable, and cheap when you grab it inside a deal — it's an easy yes on almost any order. Prices here are examples, so let the official Domino's app confirm the real number at checkout. This is an independent, unofficial guide, but the recommendation is heartfelt: get the cheesy bread.</p>",
+    "price": "$7.99",
+    "currency": "USD",
+    "calories": "1140 (whole order)",
+    "rating": 4.8,
+    "reviewCount": 4680,
+    "image": "/stuffed-cheesy-bread.webp",
+    "imageAlt": "Domino's Stuffed Cheesy Bread pulled apart showing melted cheese",
+    "ingredients": [
+      "Signature bread dough",
+      "Cheese blend (mozzarella, cheddar)",
+      "Garlic seasoning",
+      "Parsley",
+      "Marinara dipping sauce"
+    ],
+    "allergens": [
+      { "name": "Wheat/Gluten", "present": true },
+      { "name": "Milk", "present": true },
+      { "name": "Soy", "present": true },
+      { "name": "Egg", "present": false, "note": "Present if ranch/garlic dip is added" },
+      { "name": "Tree Nuts", "present": false },
+      { "name": "Fish/Shellfish", "present": false }
+    ],
+    "sizes": [
+      { "size": "Original (8 pieces)", "price": "$7.99", "calories": "1140" },
+      { "size": "Bacon & Jalapeño (8 pieces)", "price": "$8.49", "calories": "1220" },
+      { "size": "Spinach & Feta (8 pieces)", "price": "$8.49", "calories": "1180" }
+    ],
+    "faqs": [
+      { "question": "How much is Stuffed Cheesy Bread at Domino's?", "answer": "The original is typically around $7.99, but it often qualifies for the $6.99 Each or Mix & Match deal. Verify the final price at checkout." },
+      { "question": "How many pieces come in an order?", "answer": "Each order of Stuffed Cheesy Bread is baked as a round and cut into 8 pieces." }
+    ],
+    "featured": true
+  },
+  {
+    "id": "boneless-chicken",
+    "slug": "boneless-chicken",
+    "category": "Chicken",
+    "title": "Domino's Boneless Chicken",
+    "description": "Lightly breaded, oven-baked all-white-meat boneless chicken, served plain or tossed in a signature sauce.",
+    "fullContent": "<h2>The Most Versatile Thing on the Menu</h2><p>Here's a little secret: <strong>Boneless Chicken</strong> might be the most flexible order at Domino's. It's lightly breaded, oven-baked, all-white-meat chicken that you can grab plain with a dip or tossed in a sauce. Want an appetizer? Done. A lighter main instead of pizza? Also done. A protein boost alongside a pie through a deal? That too. Not many items pull triple duty like this, and that's exactly why it's a smart thing to keep in your back pocket.</p><p>And to clear up a common mix-up — yes, boneless chicken is genuinely boneless. It's white-meat chicken with no bones, which makes it completely different from Domino's bone-in wings. No gnawing, no mess, just easy pieces you can dunk and go.</p><h2>Pick Your Sauce</h2><p>This is where boneless chicken gets fun, because the sauce completely changes the personality of the order.</p><table><thead><tr><th>Sauce</th><th>The Vibe</th></tr></thead><tbody><tr><td>Plain (with a dip)</td><td>Simple, kid-friendly, you control the flavor</td></tr><tr><td>Hot Buffalo</td><td>Classic tangy heat</td></tr><tr><td>Sweet BBQ</td><td>Sweet, smoky, crowd-pleasing</td></tr><tr><td>Garlic Parmesan</td><td>Savory and rich</td></tr><tr><td>Mango Habanero</td><td>Sweet up front, spicy on the finish</td></tr></tbody></table><p>My move for a mixed group? Order it plain and let everyone dip it their own way. For myself, it's Sweet BBQ every time, no debate.</p><h2>Portions and Smart Pricing</h2><p>Domino's serves Boneless Chicken in an 8-piece order and larger shareable counts. An 8-piece works nicely as a solo meal or a side for two. Here's the value angle that makes it a favorite of mine: it's one of the best <a href=\"/posts/dominos-mix-and-match-deal\">Mix &amp; Match and $6.99 Each</a> picks going, because it rounds out a pizza order with real protein for a low add-on cost. When a pizza alone won't quite satisfy the table, a deal-priced order of boneless chicken fixes it cheaply. Check the <a href=\"/coupons\">current deals</a> and stay in <a href=\"/dominos-rewards\">Rewards</a> while you're at it.</p><h2>Nutrition and Allergens</h2><p>Plain Boneless Chicken runs roughly 60 to 70 calories per piece before any sauce, which makes it one of the lighter ways to add protein to a Domino's order — order it plain and it's genuinely reasonable. The sauces add calories and sodium, and the Sweet BBQ and Mango Habanero are the sugariest of the bunch, so keep that in mind if you're watching intake. On allergens, it contains <strong>wheat, milk, soy and egg</strong> from the breading, so it isn't gluten-free despite being 'just chicken.'</p><h2>What to Pair It With</h2><p>Boneless chicken slots into almost any order. Pair it with a <a href=\"/menus-prices/pepperoni-pizza\">Pepperoni Pizza</a> and a <a href=\"/drinks\">drink</a> for the classic combo, or use it as the protein in a lighter meal alongside a thin-crust veggie pizza. Add <a href=\"/menus-prices/stuffed-cheesy-bread\">Stuffed Cheesy Bread</a> and you've built a proper shareable spread. For the full lineup of chicken and everything else, the <a href=\"/menus-prices\">menu and prices</a> page has it all.</p><h2>The Bottom Line</h2><p>Boneless Chicken is the quiet workhorse of the Domino's menu — flexible, deal-friendly, and lighter than most sides when you keep it plain. It's the easiest way to turn 'just a pizza' into a real meal without spending much. As always, prices are examples, so let the official Domino's app confirm the real total. This is an independent, unofficial guide, here to help you order well.</p>",
+    "price": "$8.99",
+    "currency": "USD",
+    "calories": "540 (8 pieces, plain)",
+    "rating": 4.4,
+    "reviewCount": 2890,
+    "image": "/boneless-chicken.webp",
+    "imageAlt": "Domino's Boneless Chicken pieces with dipping sauce",
+    "ingredients": [
+      "All-white-meat chicken",
+      "Light breading",
+      "Choice of sauce (Hot Buffalo, Sweet BBQ, Garlic Parmesan, Mango Habanero)"
+    ],
+    "allergens": [
+      { "name": "Wheat/Gluten", "present": true },
+      { "name": "Milk", "present": true },
+      { "name": "Soy", "present": true },
+      { "name": "Egg", "present": true },
+      { "name": "Tree Nuts", "present": false },
+      { "name": "Fish/Shellfish", "present": false }
+    ],
+    "sizes": [
+      { "size": "8 pieces (plain)", "price": "$8.99", "calories": "540" },
+      { "size": "8 pieces (sauced)", "price": "$8.99", "calories": "600-720" },
+      { "size": "16 pieces", "price": "$15.99", "calories": "1080+" }
+    ],
+    "faqs": [
+      { "question": "Is Domino's boneless chicken actually boneless?", "answer": "Yes — it is made from all-white-meat chicken with no bones, lightly breaded and oven-baked. It is different from Domino's bone-in wings." },
+      { "question": "Can I get boneless chicken in the $6.99 deal?", "answer": "Yes, Boneless Chicken is commonly an eligible item in both the $6.99 Each and Mix & Match deals. Verify eligibility and price at checkout." }
+    ]
+  },
+  {
+    "id": "drinks",
+    "slug": "drinks",
+    "category": "Drinks",
+    "title": "Domino's Drinks Menu & Prices",
+    "description": "Coca-Cola fountain products in 20 oz bottles and 2-liter bottles to round out any Domino's order.",
+    "fullContent": "<h2>Don't Overthink the Drinks (But Do Read This)</h2><p>The drinks are the easiest part of any Domino's order, but there's one small decision that quietly saves you money, and most people get it wrong. Domino's stocks a lineup of <strong>Coca-Cola beverages</strong> in two formats: individual 20 oz bottles and shareable 2-liter bottles. That's the whole choice, really. But because drinks are franchise-priced and vary more than almost anything else on the menu, picking the right size is where you either save a couple of bucks or hand them over for no reason.</p><h2>What's on Offer</h2><p>The core lineup covers the classics, though exact availability comes down to what your local store keeps in stock.</p><table><thead><tr><th>Drink</th><th>20 oz Calories (approx.)</th><th>Best For</th></tr></thead><tbody><tr><td>Coca-Cola</td><td>~240</td><td>The timeless pizza pairing</td></tr><tr><td>Diet Coke</td><td>~0</td><td>Classic taste, no sugar</td></tr><tr><td>Coke Zero Sugar</td><td>~0</td><td>Closest to regular, sugar-free</td></tr><tr><td>Sprite</td><td>~240</td><td>Crisp and citrusy</td></tr><tr><td>Fanta Orange</td><td>~240</td><td>Sweet, fun, kid-approved</td></tr><tr><td>Barq's Root Beer</td><td>~250</td><td>Something a little different</td></tr></tbody></table><h2>The One Rule: Get the 2-Liter</h2><p>Here's the whole money tip in one line. If you're ordering for two or more people, the 2-liter bottle is almost always cheaper per ounce than buying individual 20 oz bottles, and it's not even close. Six people, six bottles? That adds up fast and creates a pile of plastic. One 2-liter covers the same crowd for less and takes up one spot in the bag. It's the single easiest saving on the drinks menu, and sometimes drinks even qualify as an item in the <a href=\"/posts/dominos-mix-and-match-deal\">Mix &amp; Match deal</a>, so check the <a href=\"/coupons\">current offers</a> before you add one.</p><p>The 20 oz bottles have their place, of course — grab one when it's just you and you want your own cold drink without half a liter left over. Right size, right situation.</p><h2>Watching the Sugar</h2><p>Let's be real about it: a 20 oz regular Coca-Cola packs roughly 240 calories, which is a fair chunk to drink without noticing. If you're keeping an eye on sugar, Diet Coke and Coke Zero Sugar are effectively calorie-free, and Coke Zero in particular gets you close to the real thing. Sprite and Fanta land in the same ballpark as regular Coke on calories, so they're a treat rather than a freebie. No lectures here — just know what you're pouring so you can choose on purpose.</p><h2>What to Pair It With</h2><p>Honestly, any of these works with any pizza — that's the beauty of it. But the timeless move is a Coke next to a <a href=\"/menus-prices/pepperoni-pizza\">Pepperoni Pizza</a> and some <a href=\"/menus-prices/stuffed-cheesy-bread\">Stuffed Cheesy Bread</a>. For a family order, a 2-liter is the glue that ties the whole meal together for cheap. There's more on building a complete family spread in the <a href=\"/posts/best-dominos-pizzas-for-families\">family picks guide</a>, and the full lineup lives on the <a href=\"/menus-prices\">menu and prices</a> page.</p><h2>The Bottom Line</h2><p>Drinks are simple: pick your flavor, and get the 2-liter if you're feeding more than one person. That's the whole strategy. Prices vary by store more than most items, so these are examples only — let the official Domino's app confirm the real total at checkout. This is an independent, unofficial guide, and on drinks, the advice is short and sweet: go big on the bottle, save on the total.</p>",
+    "price": "$2.49",
+    "currency": "USD",
+    "calories": "0-240 per serving",
+    "rating": 4.3,
+    "reviewCount": 1120,
+    "image": "/drinks.webp",
+    "imageAlt": "Domino's Coca-Cola drinks including 20oz bottles and a 2-liter",
+    "ingredients": ["Coca-Cola fountain and bottled beverages"],
+    "allergens": [
+      { "name": "Wheat/Gluten", "present": false },
+      { "name": "Milk", "present": false },
+      { "name": "Soy", "present": false },
+      { "name": "Egg", "present": false },
+      { "name": "Tree Nuts", "present": false },
+      { "name": "Fish/Shellfish", "present": false }
+    ],
+    "sizes": [
+      { "size": "20 oz Bottle", "price": "$2.49", "calories": "0-240" },
+      { "size": "2-Liter Bottle", "price": "$3.49", "calories": "0-240 per serving" }
+    ],
+    "faqs": [
+      { "question": "What drinks does Domino's have?", "answer": "Domino's carries Coca-Cola products including Coca-Cola, Diet Coke, Coke Zero Sugar, Sprite, Fanta Orange and Barq's Root Beer, in 20 oz and 2-liter sizes. Availability varies by store." },
+      { "question": "Is a 2-liter cheaper than bottles?", "answer": "Almost always. Per ounce, a 2-liter bottle is the best value if you are ordering for more than one person." }
+    ]
+  }
+]

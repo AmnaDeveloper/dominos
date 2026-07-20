@@ -1,0 +1,377 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Domino's Menu Guide — Design System
+   Palette: Blue #006491 (primary) · Red #E31837 (accent)
+            Deep red #C8102E (CTA/link) · White #ffffff (bg)
+   Fonts:   Geist (sans) · Geist Mono · Poppins (papa)
+   ============================================================ */
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  --color-primary: #006491;
+  --color-accent: #e31837;
+  --color-cta: #c8102e;
+  --color-navy: #003f5c;
+  --color-light-blue: #e6f2f7;
+  --color-light-red: #fde8ec;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff; /* keep light for content readability + AdSense */
+    --foreground: #171717;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: #006491;
+  --color-accent: #e31837;
+  --color-cta: #c8102e;
+  --color-navy: #003f5c;
+  --color-light-blue: #e6f2f7;
+  --color-light-red: #fde8ec;
+
+  --font-sans: var(--font-geist-sans), system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+  --font-papa: var(--font-poppins), var(--font-geist-sans), sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-poppins), var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* ---------- Global type ---------- */
+p {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+h1 {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+h2 {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.section-mini-heading {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: #006491;
+}
+
+/* ---------- Nav ---------- */
+.nav-link-header {
+  position: relative;
+  transition: color 0.2s ease, border-color 0.2s ease;
+  border-bottom: 2px solid transparent;
+}
+.nav-link-header:hover {
+  color: #e31837;
+  border-bottom-color: #e31837;
+}
+
+/* ---------- Responsive heading clamps ---------- */
+.hero-main-heading {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 900;
+  line-height: 1.08;
+}
+.post-hero-title {
+  font-size: clamp(1.9rem, 4.5vw, 3rem);
+  font-weight: 900;
+  line-height: 1.1;
+}
+.post-article-title {
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  font-weight: 900;
+  line-height: 1.12;
+}
+.post-section-heading {
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 900;
+}
+.post-table-heading {
+  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  font-weight: 800;
+}
+.post-sidebar-heading {
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  font-weight: 800;
+}
+.post-faq-question {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-weight: 700;
+}
+
+/* ============================================================
+   .blog-content — rich text system for post/menu HTML
+   ============================================================ */
+.blog-content {
+  font-family: var(--font-poppins), sans-serif;
+  color: #171717;
+  line-height: 1.75;
+  font-size: 1.05rem;
+}
+
+.blog-content > * + * {
+  margin-top: 1.1rem;
+}
+
+.blog-content h2 {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #006491;
+  border-left: 8px solid #e31837;
+  padding-left: 0.85rem;
+  margin-top: 2.25rem;
+  margin-bottom: 1rem;
+  letter-spacing: -0.01em;
+}
+
+.blog-content h3 {
+  font-family: var(--font-poppins), sans-serif;
+  font-size: clamp(1.15rem, 2.4vw, 1.5rem);
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #c8102e;
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.blog-content h4 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #003f5c;
+  margin-top: 1.25rem;
+}
+
+.blog-content p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.blog-content strong,
+.blog-content b {
+  background: rgba(227, 24, 55, 0.12);
+  color: #003f5c;
+  padding: 0 0.15em;
+  border-radius: 3px;
+  font-weight: 700;
+}
+
+.blog-content a {
+  color: #c8102e;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s ease;
+}
+.blog-content a:hover {
+  color: #006491;
+}
+
+.blog-content ul,
+.blog-content ol {
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+.blog-content ul {
+  list-style: none;
+}
+.blog-content ul li {
+  position: relative;
+  padding-left: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.blog-content ul li::before {
+  content: "●";
+  color: #e31837;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 0.9em;
+}
+.blog-content ol {
+  list-style: decimal;
+}
+.blog-content ol li {
+  margin-bottom: 0.5rem;
+  padding-left: 0.25rem;
+}
+
+.blog-content blockquote {
+  border-left: 5px solid #006491;
+  background: #e6f2f7;
+  padding: 1rem 1.25rem;
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: #003f5c;
+}
+
+/* Tables — blue header, zebra rows, blue hover tint, bold blue first column */
+.blog-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  border: 1px solid #d5e6ee;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.blog-content thead {
+  background: #006491;
+}
+.blog-content thead th {
+  color: #ffffff; /* white on blue — WCAG AA pass */
+  font-weight: 800;
+  text-align: left;
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+.blog-content tbody td {
+  padding: 0.7rem 1rem;
+  border-top: 1px solid #e5eef3;
+}
+.blog-content tbody tr:nth-child(even) {
+  background: #f4f9fb;
+}
+.blog-content tbody tr:hover {
+  background: #e6f2f7;
+}
+.blog-content tbody td:first-child {
+  font-weight: 700;
+  color: #006491;
+}
+
+.blog-content img {
+  border-radius: 10px;
+  margin: 1.25rem 0;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------- Utility helpers ---------- */
+.container-max {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.price-disclaimer {
+  font-size: 0.8rem;
+  color: #64748b;
+  font-style: italic;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease both;
+}
+
+/* Accessible focus ring */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #006491;
+  outline-offset: 2px;
+}
+
+/* ============================================================
+   Mobile responsiveness — most traffic is mobile
+   ============================================================ */
+
+/* Never allow accidental horizontal scroll of the whole page.
+   overflow-x: clip (not hidden) so it doesn't break position: sticky sidebars. */
+html,
+body {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+/* Long words / URLs shouldn't blow out the layout */
+.blog-content p,
+.blog-content li,
+.blog-content a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+@media (max-width: 640px) {
+  /* Headings scale down on small screens */
+  h1 {
+    font-size: 30px;
+    line-height: 1.15;
+  }
+  .section-mini-heading {
+    font-size: 24px;
+  }
+
+  /* Article body tables become horizontally scrollable instead of overflowing */
+  .blog-content table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 8px;
+  }
+  .blog-content thead th,
+  .blog-content tbody td {
+    padding: 0.55rem 0.7rem;
+    font-size: 0.82rem;
+  }
+  .blog-content {
+    font-size: 1rem;
+  }
+}
+

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "seed-1",
+    "pagePath": "/menus-prices",
+    "name": "Jordan M.",
+    "comment": "Super helpful breakdown of the prices. Confirmed the large pepperoni was cheaper through Mix & Match at my local store.",
+    "createdAt": "2026-06-02T14:12:00.000Z"
+  },
+  {
+    "id": "seed-2",
+    "pagePath": "/coupons",
+    "name": "Alexis R.",
+    "comment": "The carryout tip saved me the delivery fee. Thanks for laying out how the deals actually stack.",
+    "createdAt": "2026-06-18T19:40:00.000Z"
+  },
+  {
+    "id": "seed-3",
+    "pagePath": "/drinks",
+    "name": "Sam P.",
+    "comment": "Good call on the 2-liter being better value than bottles for a group.",
+    "createdAt": "2026-07-01T00:05:00.000Z"
+  }
+]

@@ -1,0 +1,3 @@
+{
+  "_comment": "Optional prebuilt FAQPage JSON-LD keyed by post slug. When a slug is absent, the FAQJsonLd component falls back to generating schema from the post's faqs[] array. Populate high-value slugs here to override."
+}

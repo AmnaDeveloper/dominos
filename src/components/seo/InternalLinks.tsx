@@ -1,0 +1,46 @@
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
+
+interface LinkItem {
+  label: string;
+  href: string;
+  desc?: string;
+}
+
+const DEFAULT_LINKS: LinkItem[] = [
+  { label: "Menu with Prices", href: "/menus-prices", desc: "Every category with example 2026 prices" },
+  { label: "Coupons & Deals", href: "/coupons", desc: "Mix & Match, $6.99 Each and more" },
+  { label: "Domino's Rewards", href: "/dominos-rewards", desc: "Earn points toward a free pizza" },
+  { label: "Delivery Near Me", href: "/dominos-delivery-near-me", desc: "Times, fees and how to order" },
+  { label: "Pizza Sizes & Prices", href: "/posts/dominos-pizza-sizes-and-prices", desc: "Small to Extra Large compared" },
+  { label: "Save Money at Domino's", href: "/posts/how-to-save-money-at-dominos", desc: "The full money-saving playbook" },
+];
+
+export default function InternalLinks({
+  title = "Explore More Guides",
+  links = DEFAULT_LINKS,
+}: {
+  title?: string;
+  links?: LinkItem[];
+}) {
+  return (
+    <section className="my-12">
+      <h2 className="section-mini-heading mb-5">{title}</h2>
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {links.map((l) => (
+          <Link
+            key={l.href}
+            href={l.href}
+            className="group rounded-xl border border-slate-200 p-4 hover:border-[#006491] hover:shadow-sm transition"
+          >
+            <div className="flex items-center justify-between">
+              <span className="font-bold text-slate-900">{l.label}</span>
+              <ArrowRight size={16} className="text-slate-400 group-hover:text-[#C8102E]" />
+            </div>
+            {l.desc && <p className="text-sm text-slate-500 mt-1">{l.desc}</p>}
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
+}

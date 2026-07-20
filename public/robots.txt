@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+Disallow: /seo-tools
+
+User-agent: Mediapartners-Google
+Allow: /
+Allow: /ads.txt
+
+User-agent: AdsBot-Google
+Allow: /
+Allow: /ads.txt
+
+User-agent: Googlebot-Image
+Allow: /
+
+Sitemap: https://dominos-menu-guide.us/sitemap.xml
