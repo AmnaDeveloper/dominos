@@ -6,8 +6,8 @@
  * next-sitemap.config.js which are static files.
  */
 
-export const SITE_URL = "https://dominos-menu-guide.us";
-export const SITE_DOMAIN = "dominos-menu-guide.us";
+export const SITE_URL = "https://dominos-menu.us";
+export const SITE_DOMAIN = "dominos-menu.us";
 
 export const SITE_NAME = "Domino's Menu Guide";
 export const SITE_TAGLINE = "Unofficial Domino's Menu & Deals Guide";

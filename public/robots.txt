@@ -16,4 +16,4 @@ Allow: /ads.txt
 User-agent: Googlebot-Image
 Allow: /
 
-Sitemap: https://dominos-menu-guide.us/sitemap.xml
+Sitemap: https://dominos-menu.us/sitemap.xml
