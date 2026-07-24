@@ -181,6 +181,37 @@ export default async function LocationPage({
                 </div>
               </>
             )}
+
+            {rich.resourceLinks && (
+              <>
+                <h2 className="section-mini-heading mt-10 mb-4">Helpful {loc.city} Ordering Links</h2>
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {rich.resourceLinks.map((resource) => (
+                    resource.external ? (
+                      <a
+                        key={resource.href}
+                        href={resource.href}
+                        target="_blank"
+                        rel="nofollow noopener"
+                        className="rounded-xl border border-slate-200 p-4 hover:border-[#006491] hover:shadow-sm transition"
+                      >
+                        <span className="font-bold text-slate-900">{resource.label}</span>
+                        <span className="block text-sm text-slate-600 mt-1">{resource.description}</span>
+                      </a>
+                    ) : (
+                      <Link
+                        key={resource.href}
+                        href={resource.href}
+                        className="rounded-xl border border-slate-200 p-4 hover:border-[#006491] hover:shadow-sm transition"
+                      >
+                        <span className="font-bold text-slate-900">{resource.label}</span>
+                        <span className="block text-sm text-slate-600 mt-1">{resource.description}</span>
+                      </Link>
+                    )
+                  ))}
+                </div>
+              </>
+            )}
           </>
         )}
 

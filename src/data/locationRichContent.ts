@@ -22,6 +22,13 @@ export interface NeighborhoodSection {
   body: string;
 }
 
+export interface LocationResourceLink {
+  label: string;
+  href: string;
+  description: string;
+  external?: boolean;
+}
+
 export interface RichLocationData {
   slug: string;
   heroSubtitle: string;
@@ -30,6 +37,7 @@ export interface RichLocationData {
   editorialSections?: NeighborhoodSection[];
   neighborhoods: NeighborhoodSection[];
   orderingTips?: NeighborhoodSection[];
+  resourceLinks?: LocationResourceLink[];
   additionalLocations: string[];
   pizzaPrices: PricingRow[];
   sidePrices: PricingRow[];
@@ -248,6 +256,120 @@ export const locationRichContent: Record<string, RichLocationData> = {
       "Katy",
       "Sugar Land",
       "Cypress",
+    ],
+    pizzaPrices: standardPizzaPrices2026,
+    sidePrices: standardSidePrices2026,
+  },
+  "phoenix-az": {
+    slug: "phoenix-az",
+    heroSubtitle: "Phoenix Domino's menu prices, delivery-zone checks, carryout savings and neighborhood ordering tips for 2026.",
+    stats: [
+      { label: "Best first check", value: "ZIP + address" },
+      { label: "Value angle", value: "Carryout" },
+      { label: "Plan for", value: "Heat" },
+    ],
+    intro:
+      "Phoenix is a wide, car-focused city, so a useful Domino's guide has to focus on delivery zones, pickup convenience and final checkout cost rather than pretending every neighborhood works the same way. This independent page helps Phoenix customers compare example menu prices, typical hours, carryout value and practical order timing before using Domino's official ordering tools. It does not publish a fixed local address, local phone number or guaranteed store hours because those details can change by store. For the accurate store assignment, current menu pricing, coupon participation and delivery eligibility, enter your exact Phoenix address on Domino's official locator.",
+    editorialSections: [
+      {
+        heading: "Why Phoenix orders depend heavily on distance",
+        body:
+          "Phoenix neighborhoods are spread across long arterial roads, freeway corridors and large residential areas. Two addresses can be in the same city but still route to different Domino's stores or different service options. That matters for delivery fees, estimated time, coupon availability and whether carryout is realistic. Before building a large cart, check the exact address in the official app. This is especially important for edge-of-zone homes, new apartment complexes and addresses near city-border areas.",
+      },
+      {
+        heading: "How heat changes the ordering decision",
+        body:
+          "Extreme heat can make pickup less appealing during some parts of the day, but it can also make fast handoff more important for delivery. If you order delivery, be ready near the entrance, answer unknown calls during the delivery window and give simple instructions. If you choose carryout, time the pickup so food does not sit in a hot car. For both options, items like classic pizzas, breads and chicken are usually more dependable than overly complicated pies during longer travel windows.",
+      },
+      {
+        heading: "How to use this page without relying on stale local data",
+        body:
+          "Local SEO pages can become risky when they copy old store addresses or claim exact hours that no longer apply. This Phoenix page is written to avoid that problem. It explains how to compare delivery and carryout, what to watch for in different parts of the city and which internal menu guides can help you choose an order. Exact store details should come from Domino's directly, while this guide gives the context a customer needs before checkout.",
+      },
+    ],
+    neighborhoods: [
+      {
+        heading: "Downtown Phoenix, Roosevelt Row & Midtown",
+        body:
+          "Central Phoenix orders often involve apartments, offices, hotels, hospitals and event traffic. For delivery, add the building name, entrance instructions, floor number or lobby note. If you are ordering around a concert, Suns game, convention or weekend nightlife, order earlier than usual. Carryout can work well when the store is close, but parking and building access can make delivery more convenient for groups.",
+      },
+      {
+        heading: "Arcadia, Biltmore & Camelback Corridor",
+        body:
+          "These areas mix homes, apartments, offices and shopping traffic, so final order value depends on the exact route. If pickup is only a few minutes away, carryout coupons may beat delivery after fees and tip. If traffic is heavy or the order is for a family night, delivery may still be worth the extra cost. Check coupon participation in the app before assuming a national deal applies to the assigned store.",
+      },
+      {
+        heading: "North Phoenix, Deer Valley & Desert Ridge",
+        body:
+          "North Phoenix can involve longer distances between subdivisions, apartments and shopping centers. Delivery zones may feel less obvious than in a dense downtown area, so exact address entry matters. If the app gives a longer delivery estimate, choose menu items that travel well and avoid over-customizing every pizza. For carryout, check the route and pickup time before ordering so the food is not waiting too long.",
+      },
+      {
+        heading: "Ahwatukee, South Mountain & Laveen",
+        body:
+          "South Phoenix-area orders can be affected by mountain corridors, freeway access and neighborhood boundaries. A nearby road does not always mean a nearby delivery route. If delivery does not show for an address, carryout may still be available from the assigned store. For family orders, compare bundles and multi-item deals instead of choosing only one large specialty pizza.",
+      },
+      {
+        heading: "Maryvale, Glendale edge & West Phoenix",
+        body:
+          "West Phoenix orders often depend on apartment access, busy intersections and store assignment. Delivery instructions should be clear and short: building number, gate process, entrance and safe meeting point. For the best value, compare the final delivered total with a carryout coupon. If multiple people are sharing the order, choose a simple mix of cheese, pepperoni, specialty pizza and sides so the order works for more tastes.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "For cheapest Phoenix orders",
+        body:
+          "Start with the carryout section of the official app, then compare your delivered total after tax, delivery charge and tip. Phoenix is spread out, so a low menu price can become less attractive if delivery adds too much. If the store is close and pickup is easy, carryout is often the value play. If pickup means a long drive in heat or traffic, delivery may be the practical choice.",
+      },
+      {
+        heading: "For apartments and gated communities",
+        body:
+          "Give the driver the safest useful instructions: complex name, building number, gate process, entrance side and whether to meet at the lobby. Do not publish private access details publicly, and do not assume the driver knows the property layout. A short, clear note can reduce phone calls and help food arrive warmer.",
+      },
+      {
+        heading: "For families and watch parties",
+        body:
+          "Phoenix group orders usually work better when they include variety. Pair a cheese or pepperoni pizza with one specialty pizza, a bread side, chicken or dessert. This makes the order easier for kids and adults to share. If budget matters, compare medium-pizza deals against large pizzas because the best value can change by coupon and store participation.",
+      },
+      {
+        heading: "For late-night or weather-sensitive orders",
+        body:
+          "Do not rely on a generic closing time. Store hours can vary by location, weekday, staffing and demand. Before planning a late order, enter the exact address and check whether delivery or carryout is currently available. During dust storms, heavy rain or extreme heat advisories, order earlier and keep handoff instructions simple.",
+      },
+    ],
+    resourceLinks: [
+      {
+        label: "Official Domino's Phoenix locator",
+        href: "https://pizza.dominos.com/arizona/phoenix",
+        description: "Use this official city page to verify current Phoenix store options, delivery eligibility and ordering details.",
+        external: true,
+      },
+      {
+        label: "Domino's menu prices guide",
+        href: "/menus-prices",
+        description: "Compare example pizza, side, chicken, bread and drink prices before checking your local Phoenix store.",
+      },
+      {
+        label: "Domino's coupons and deals",
+        href: "/coupons",
+        description: "Review carryout, delivery and mix-and-match deal guidance before building a cart.",
+      },
+      {
+        label: "Domino's delivery near me guide",
+        href: "/dominos-delivery-near-me",
+        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+      },
+    ],
+    additionalLocations: [
+      "Downtown Phoenix",
+      "Roosevelt Row",
+      "Midtown",
+      "Arcadia",
+      "Biltmore",
+      "North Phoenix",
+      "Desert Ridge",
+      "Ahwatukee",
+      "Laveen",
+      "West Phoenix",
     ],
     pizzaPrices: standardPizzaPrices2026,
     sidePrices: standardSidePrices2026,
