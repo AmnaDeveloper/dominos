@@ -488,6 +488,120 @@ export const locationRichContent: Record<string, RichLocationData> = {
     pizzaPrices: standardPizzaPrices2026,
     sidePrices: standardSidePrices2026,
   },
+  "san-antonio-tx": {
+    slug: "san-antonio-tx",
+    heroSubtitle: "San Antonio Domino's menu prices, delivery-zone checks, carryout value tips and neighborhood ordering guidance for 2026.",
+    stats: [
+      { label: "Best first check", value: "Full address" },
+      { label: "Value angle", value: "Bundles" },
+      { label: "Plan for", value: "Sprawl" },
+    ],
+    intro:
+      "San Antonio is a large, spread-out city with neighborhoods, military communities, colleges, tourist areas and suburban edges that can order very differently. This independent guide helps San Antonio customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not list a fixed San Antonio store address, local phone number or guaranteed hours because those details can vary by assigned store and can change over time. For accurate store assignment, open hours, prices, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
+    editorialSections: [
+      {
+        heading: "Why San Antonio delivery depends on the exact address",
+        body:
+          "San Antonio covers a wide area, and delivery routes can be shaped by highways, loops, military-area access, gated communities, apartment complexes and suburban growth. A location that looks close on a map may not be the store assigned to your address. Before using any estimate from a city page, enter the full street address in Domino's official app. That check shows whether delivery, carryout or both are available and which offers apply to the assigned store.",
+      },
+      {
+        heading: "How city layout changes carryout versus delivery",
+        body:
+          "In some San Antonio neighborhoods, carryout is easy and can save money. In others, the pickup drive may cross busy corridors or take longer than expected, especially around Loop 410, Loop 1604, I-10, I-35 or event-heavy areas. The smart comparison is final delivered total versus pickup convenience. Include delivery charge, tip, taxes, travel time, parking and how quickly the food needs to reach the table.",
+      },
+      {
+        heading: "Why this page avoids fixed local contact details",
+        body:
+          "Publishing exact store addresses or local phone numbers on an unofficial page can create bad user experience if a store changes hours, relocates or adjusts delivery boundaries. This page is built for AdSense-safe helpful content: it explains ordering decisions, price comparison, delivery notes and neighborhood patterns without pretending to be Domino's official directory. Exact local details should always come from Domino's official locator.",
+      },
+    ],
+    neighborhoods: [
+      {
+        heading: "Downtown, River Walk & Pearl area",
+        body:
+          "Central San Antonio orders often involve hotels, offices, apartments, tourist traffic and event crowds. If you are ordering to a hotel or downtown building, include the property name, lobby instructions, room or meeting point guidance where allowed, and a reachable phone contact. During conventions, festivals or busy weekends, place orders earlier than normal and choose items that are simple to share.",
+      },
+      {
+        heading: "Alamo Heights, Terrell Hills & Broadway corridor",
+        body:
+          "These areas mix homes, apartments, schools and busy dining corridors. Carryout can be a strong value if the assigned store is nearby and pickup is convenient. For delivery, add clear instructions for gates, building entrances or side streets. If you are ordering for a family dinner, compare bundle-style deals before choosing only one specialty pizza because multi-item offers may work better for different tastes.",
+      },
+      {
+        heading: "Medical Center, UTSA & Northwest San Antonio",
+        body:
+          "Northwest San Antonio orders often include students, hospital staff, apartment residents and office groups. Delivery instructions matter because large complexes, medical buildings and campus-adjacent housing can be hard to navigate. For group meals, keep the order flexible with cheese, pepperoni, one specialty pizza, breads and chicken. Verify coupon participation before collecting money from a group.",
+      },
+      {
+        heading: "Stone Oak, La Cantera & Far North routes",
+        body:
+          "Far North areas can involve longer drives, gated communities, subdivisions and shopping traffic. The assigned store and delivery estimate can change based on the exact address, so do not assume one citywide hour or delivery time applies. If the app shows a long delivery window, carryout may be more predictable, especially for simple weeknight meals or larger family orders.",
+      },
+      {
+        heading: "Southside, Brooks & Lackland-area ordering",
+        body:
+          "South and West San Antonio orders can be shaped by residential routes, base-area access, shift work and family-sized orders. Always verify delivery eligibility in the official app, especially near controlled-access areas or addresses that may be assigned to a different store. For value, compare carryout coupons with the delivered total after fees and tip before deciding.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "For cheapest San Antonio orders",
+        body:
+          "Start by checking carryout and bundle deals in the official app. Carryout often saves money when the store is close and pickup is simple. Delivery may be worth it when the order is larger, the route is long or parking is inconvenient. Always compare the final checkout total, not only the advertised pizza price.",
+      },
+      {
+        heading: "For apartments and gated communities",
+        body:
+          "San Antonio has many apartment complexes and gated neighborhoods. Add safe, practical instructions: complex name, building number, entrance side, gate process and visible meeting point. Clear notes help reduce calls and keep the handoff quick. Avoid posting private access details anywhere public.",
+      },
+      {
+        heading: "For families and watch parties",
+        body:
+          "A balanced group order usually works better than one heavily customized pizza. Choose one plain or pepperoni pizza, one specialty pizza, a bread side and chicken or dessert. This keeps the order flexible for kids and adults, and it often lines up better with coupons than ordering random items one by one.",
+      },
+      {
+        heading: "For late-night or event-day orders",
+        body:
+          "Store hours can vary by location, day of week, staffing and demand. Before planning a late order, enter your exact address and verify whether delivery or carryout is currently available. Around downtown events, Fiesta activities, sports nights or severe weather, order earlier and keep delivery instructions short and easy to follow.",
+      },
+    ],
+    resourceLinks: [
+      {
+        label: "Official Domino's San Antonio locator",
+        href: "https://pizza.dominos.com/texas/san-antonio",
+        description: "Use the official city page to verify San Antonio store assignment, delivery eligibility and current ordering details.",
+        external: true,
+      },
+      {
+        label: "Domino's menu prices guide",
+        href: "/menus-prices",
+        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+      },
+      {
+        label: "Domino's coupons and deals",
+        href: "/coupons",
+        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+      },
+      {
+        label: "Domino's delivery near me guide",
+        href: "/dominos-delivery-near-me",
+        description: "Learn how delivery zones, address checks, fees and timing usually work.",
+      },
+    ],
+    additionalLocations: [
+      "Downtown San Antonio",
+      "River Walk",
+      "Pearl District",
+      "Alamo Heights",
+      "Medical Center",
+      "UTSA area",
+      "Stone Oak",
+      "La Cantera",
+      "Southside",
+      "Lackland area",
+    ],
+    pizzaPrices: standardPizzaPrices2026,
+    sidePrices: standardSidePrices2026,
+  },
 };
 
 export function getRichLocation(slug: string): RichLocationData | undefined {
