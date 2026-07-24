@@ -602,6 +602,120 @@ export const locationRichContent: Record<string, RichLocationData> = {
     pizzaPrices: standardPizzaPrices2026,
     sidePrices: standardSidePrices2026,
   },
+  "san-diego-ca": {
+    slug: "san-diego-ca",
+    heroSubtitle: "San Diego Domino's menu prices, delivery-zone checks, carryout savings and neighborhood ordering tips for 2026.",
+    stats: [
+      { label: "Best first check", value: "Exact address" },
+      { label: "Value angle", value: "Pickup" },
+      { label: "Plan for", value: "Traffic" },
+    ],
+    intro:
+      "San Diego has beach neighborhoods, college areas, military communities, tourist zones and inland suburbs that can all affect a Domino's order differently. This independent guide helps San Diego customers compare example Domino's menu prices, carryout convenience, delivery timing, group-order value and address verification before using Domino's official ordering tools. It does not publish a fixed San Diego store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. For the accurate store assignment, current hours, local prices, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
+    editorialSections: [
+      {
+        heading: "Why San Diego orders need exact address checks",
+        body:
+          "San Diego neighborhoods can be separated by freeways, hills, canyons, beach traffic and military-area access. A store that seems close on a map may not be the delivery store assigned to your address. Before planning a large order, enter the full address in Domino's official app. That check will show whether delivery, carryout or both are available, which coupons apply and what the current estimated timing looks like.",
+      },
+      {
+        heading: "How beach traffic and events affect delivery",
+        body:
+          "Delivery can change around beach days, weekends, Padres games, concerts, campus move-in periods and summer tourism. If timing matters, order before the rush and choose items that travel reliably, such as classic pizzas, breads and chicken. For beach-area addresses, hotels or short-term rentals, clear handoff notes are especially important because drivers may need a gate code, lobby instruction, unit number or visible meeting point.",
+      },
+      {
+        heading: "Why this page avoids fixed store details",
+        body:
+          "Unofficial local pages become risky when they copy exact store addresses, phone numbers or hours that can become outdated. This page avoids that problem and focuses on durable ordering advice: how to compare delivery versus carryout, where instructions matter most, how to build a practical group order and which internal guides can help you compare menu prices and deals. Exact local store facts should always come from Domino's official locator.",
+      },
+    ],
+    neighborhoods: [
+      {
+        heading: "Downtown, Gaslamp & Little Italy",
+        body:
+          "Central San Diego orders often involve hotels, apartments, offices, convention traffic and nightlife. Delivery notes should include building names, front desk instructions, room or suite details where allowed, and a clear meeting point. For office lunches or hotel groups, place orders earlier than peak mealtimes and avoid over-customizing every pizza. A simple mix of pizzas, breads and chicken is usually easier to share.",
+      },
+      {
+        heading: "Pacific Beach, Mission Beach & Ocean Beach",
+        body:
+          "Beach neighborhoods can get busy around weekends, holidays, warm evenings and tourist seasons. Parking and pedestrian traffic can slow delivery handoffs even if the food is ready quickly. If you are at a rental, hotel or beach-adjacent building, add practical instructions and be ready to meet the driver where vehicles can safely stop. Carryout may be a good value if pickup is nearby and parking is manageable.",
+      },
+      {
+        heading: "La Jolla, UTC & University City",
+        body:
+          "This area mixes students, offices, apartments, shopping centers and medical buildings. Delivery can be straightforward with good instructions, but large complexes and campus-adjacent buildings may need specific notes. For group orders, compare coupons before finalizing sizes. A deal with multiple medium pizzas and sides can sometimes work better than one or two larger pizzas, depending on store participation.",
+      },
+      {
+        heading: "North Park, Hillcrest & Mission Valley",
+        body:
+          "These neighborhoods combine dense housing, restaurants, nightlife, office corridors and freeway access. Delivery timing may vary by evening demand and traffic. If you are close to the assigned store, carryout can reduce the final total by removing delivery charge and tip. If the order is for a group night, delivery may still be the better choice because it saves the pickup trip and keeps everyone in one place.",
+      },
+      {
+        heading: "Chula Vista, National City & East County routes",
+        body:
+          "San Diego-area orders outside the central neighborhoods can involve longer drives, different store assignments and more specific delivery boundaries. Enter the exact address before assuming a citywide estimate applies. If the address is near a zone edge, carryout may show more predictable timing. For family meals, use bundle-style offers and simple popular toppings to keep the order flexible.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "For cheapest San Diego orders",
+        body:
+          "Start by comparing carryout coupons against the final delivered total. Delivery can be convenient, but tax, delivery charge and tip can change the real price. Carryout is often the value play when pickup is nearby and parking is easy. Delivery may be worth it when traffic, beach parking or a larger group makes pickup inconvenient.",
+      },
+      {
+        heading: "For hotels, rentals and apartments",
+        body:
+          "Give short, useful delivery notes: property name, unit number, building entrance, lobby instructions and safe meeting point. If you are in a short-term rental or hotel, confirm whether food delivery can come to the door or needs to meet at the lobby. Being ready at the handoff point helps food arrive warmer.",
+      },
+      {
+        heading: "For students and group orders",
+        body:
+          "A balanced order usually works better than one heavily customized pizza. Choose a cheese or pepperoni pizza, one specialty pizza, a bread side, chicken or dessert. This structure handles different preferences and is easier to split. Check coupon participation before collecting money from roommates or a study group.",
+      },
+      {
+        heading: "For late-night and weekend timing",
+        body:
+          "Do not rely on a generic closing time. Store hours can vary by location, staffing, demand and day of week. Before a late order, enter the exact address and confirm whether delivery or carryout is currently available. On busy weekends or event nights, order earlier and keep delivery instructions simple.",
+      },
+    ],
+    resourceLinks: [
+      {
+        label: "Official Domino's San Diego locator",
+        href: "https://pizza.dominos.com/california/san-diego",
+        description: "Use the official city page to verify San Diego store assignment, delivery eligibility and current ordering details.",
+        external: true,
+      },
+      {
+        label: "Domino's menu prices guide",
+        href: "/menus-prices",
+        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+      },
+      {
+        label: "Domino's coupons and deals",
+        href: "/coupons",
+        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+      },
+      {
+        label: "Domino's delivery near me guide",
+        href: "/dominos-delivery-near-me",
+        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+      },
+    ],
+    additionalLocations: [
+      "Downtown San Diego",
+      "Gaslamp Quarter",
+      "Little Italy",
+      "Pacific Beach",
+      "Mission Beach",
+      "La Jolla",
+      "UTC",
+      "North Park",
+      "Hillcrest",
+      "Chula Vista",
+    ],
+    pizzaPrices: standardPizzaPrices2026,
+    sidePrices: standardSidePrices2026,
+  },
 };
 
 export function getRichLocation(slug: string): RichLocationData | undefined {
