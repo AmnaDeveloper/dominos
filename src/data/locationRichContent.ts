@@ -716,6 +716,120 @@ export const locationRichContent: Record<string, RichLocationData> = {
     pizzaPrices: standardPizzaPrices2026,
     sidePrices: standardSidePrices2026,
   },
+  "dallas-tx": {
+    slug: "dallas-tx",
+    heroSubtitle: "Dallas Domino's menu prices, delivery-zone checks, carryout savings and neighborhood ordering tips for 2026.",
+    stats: [
+      { label: "Best first check", value: "Exact address" },
+      { label: "Value angle", value: "Deals" },
+      { label: "Plan for", value: "DFW traffic" },
+    ],
+    intro:
+      "Dallas is a major DFW city with dense apartment districts, office towers, college areas, entertainment zones and suburban edges that can all affect a Domino's order differently. This independent guide helps Dallas customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Dallas store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. For accurate store assignment, current hours, local pricing, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
+    editorialSections: [
+      {
+        heading: "Why Dallas delivery depends on exact address entry",
+        body:
+          "Dallas has highways, tollways, apartment corridors, office districts and neighborhood boundaries that can affect which Domino's store serves an address. A store may look nearby on a map but still not be the delivery store assigned to your building or home. The most reliable first step is to enter your full address in Domino's official app. That check confirms delivery eligibility, carryout availability, estimated timing, store participation in coupons and the final checkout total.",
+      },
+      {
+        heading: "How DFW traffic changes the best order choice",
+        body:
+          "Traffic around Central Expressway, I-35E, I-30, LBJ Freeway, Dallas North Tollway and event areas can make delivery timing less predictable. Carryout can be the better value when pickup is close and parking is simple. Delivery can be worth the added fee when the order is larger, weather is bad or pickup crosses heavy traffic. Compare the full delivered total against the time and effort of pickup, not just the listed pizza price.",
+      },
+      {
+        heading: "Why this page avoids exact local store details",
+        body:
+          "Unofficial pages can become low quality if they publish stale addresses, phone numbers or store hours. Dallas store assignments, delivery boundaries and coupon participation can change by location. This page focuses on durable, user-helpful ordering advice: how to compare value, how to write delivery notes, how different neighborhoods affect timing and which internal menu guides help before checkout. Exact store facts should come from Domino's official locator.",
+      },
+    ],
+    neighborhoods: [
+      {
+        heading: "Downtown Dallas, Arts District & Deep Ellum",
+        body:
+          "Central Dallas orders often involve apartments, offices, hotels, events and nightlife. Delivery instructions should include the building name, lobby process, floor or suite details where allowed and a visible meeting point if curb access is difficult. Around concerts, sports nights or weekend crowds, order earlier than usual. For group orders, simple pizzas plus breads and chicken usually work better than several heavily customized pies.",
+      },
+      {
+        heading: "Uptown, Oak Lawn & Knox-Henderson",
+        body:
+          "These neighborhoods mix apartments, restaurants, offices and evening demand. Carryout can be a strong value when the assigned store is close, but parking and traffic can change that decision quickly. If delivery is easier, give short access notes for apartment towers, call boxes, gates or lobby desks. Compare carryout coupons against the delivered total after tax, delivery charge and tip.",
+      },
+      {
+        heading: "Bishop Arts, Oak Cliff & West Dallas",
+        body:
+          "Oak Cliff and West Dallas orders can vary by exact address, route and assigned store. Delivery eligibility should be checked in the official app before relying on citywide assumptions. If the app shows a longer estimate, choose menu items that travel well and keep the order straightforward. Families and watch parties often get better flexibility from a mix of pepperoni, cheese, one specialty pizza and sides.",
+      },
+      {
+        heading: "Lakewood, East Dallas & Lower Greenville",
+        body:
+          "East Dallas neighborhoods combine homes, apartments, nightlife and busy local roads. If pickup is nearby, carryout can save money and keep timing predictable. If delivery is selected, add instructions for duplexes, garage apartments, gated entries or hard-to-see house numbers. A clear handoff note can reduce driver calls and help food arrive warmer.",
+      },
+      {
+        heading: "North Dallas, Preston Hollow & Addison edge",
+        body:
+          "North Dallas routes can involve longer drives, office parks, apartments and suburban boundaries. Exact address entry matters because a nearby store may not serve every address across a major road or boundary. For office meals or family orders, verify coupon participation before collecting money from a group. Store-level deals and delivery availability can vary.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "For cheapest Dallas orders",
+        body:
+          "Start with carryout coupons, then compare the final delivered total. Carryout is often the value play when pickup is close and parking is easy. Delivery may be worth it when traffic, weather or group size makes pickup inconvenient. The best comparison includes tax, delivery fee, tip, travel time and coupon participation.",
+      },
+      {
+        heading: "For apartments and high-rises",
+        body:
+          "Dallas has many apartments, gated buildings and office towers. Add practical delivery notes: building name, entrance, callbox or concierge process, floor and safe meeting point. If your building has strict delivery rules, meet the driver where the property allows. Good notes are a quality signal for the user experience and help avoid cold food.",
+      },
+      {
+        heading: "For offices and group lunches",
+        body:
+          "For office orders, choose a mix that handles different preferences: cheese, pepperoni, one specialty pizza, breads, chicken or dessert. Order earlier than peak lunch time and confirm the deal before promising a per-person price. A national coupon may not apply exactly the same way at every assigned store.",
+      },
+      {
+        heading: "For late-night and event timing",
+        body:
+          "Do not assume every Dallas store follows the same closing time. Hours can vary by store, weekday, staffing and local demand. Before a late order, enter the exact address and verify whether delivery or carryout is currently available. Around concerts, games or storms, order earlier and keep instructions simple.",
+      },
+    ],
+    resourceLinks: [
+      {
+        label: "Official Domino's Dallas locator",
+        href: "https://pizza.dominos.com/texas/dallas",
+        description: "Use the official city page to verify Dallas store assignment, delivery eligibility and current ordering details.",
+        external: true,
+      },
+      {
+        label: "Domino's menu prices guide",
+        href: "/menus-prices",
+        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+      },
+      {
+        label: "Domino's coupons and deals",
+        href: "/coupons",
+        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+      },
+      {
+        label: "Domino's rewards guide",
+        href: "/dominos-rewards",
+        description: "Learn how rewards can fit into frequent orders and larger group meals.",
+      },
+    ],
+    additionalLocations: [
+      "Downtown Dallas",
+      "Deep Ellum",
+      "Uptown",
+      "Oak Lawn",
+      "Bishop Arts",
+      "Oak Cliff",
+      "Lakewood",
+      "Lower Greenville",
+      "North Dallas",
+      "Preston Hollow",
+    ],
+    pizzaPrices: standardPizzaPrices2026,
+    sidePrices: standardSidePrices2026,
+  },
 };
 
 export function getRichLocation(slug: string): RichLocationData | undefined {
