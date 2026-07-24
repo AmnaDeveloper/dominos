@@ -374,6 +374,120 @@ export const locationRichContent: Record<string, RichLocationData> = {
     pizzaPrices: standardPizzaPrices2026,
     sidePrices: standardSidePrices2026,
   },
+  "philadelphia-pa": {
+    slug: "philadelphia-pa",
+    heroSubtitle: "Philadelphia Domino's menu prices, delivery-area checks, carryout savings and neighborhood ordering tips for 2026.",
+    stats: [
+      { label: "Best first check", value: "Official locator" },
+      { label: "Value angle", value: "Carryout" },
+      { label: "Plan for", value: "Rowhomes" },
+    ],
+    intro:
+      "Philadelphia is dense, walkable in some neighborhoods and spread out in others, which makes Domino's ordering different from city to city and even block to block. This independent guide helps Philadelphia customers compare example menu prices, carryout value, delivery convenience, apartment or rowhome handoff details and group-order strategy before opening Domino's official ordering tools. It does not publish a fixed Philadelphia address, local phone number or guaranteed store hours because those details can change by store. Always confirm the exact assigned store, current hours, menu prices, coupon participation and delivery eligibility through Domino's official locator or app.",
+    editorialSections: [
+      {
+        heading: "Why Philadelphia orders need exact address verification",
+        body:
+          "Philadelphia has compact neighborhoods, narrow streets, rowhomes, apartment buildings, campus areas and busy commercial corridors. A store that looks close on a map may still have a specific delivery boundary, and another address only a short distance away may route differently. Before using this page for planning, enter your full address in Domino's official app. That address check is the only reliable way to see whether delivery is available, which store is assigned, what hours apply and which coupons can be used at checkout.",
+      },
+      {
+        heading: "How parking and building access affect delivery",
+        body:
+          "Delivery in Philadelphia can be slowed by limited parking, one-way streets, rowhome blocks, apartment buzzers, dorm entrances and high-demand nightlife areas. Clear instructions matter. If your building has a specific entrance, lobby, callbox or pickup spot, add it in the order notes. If the street is hard to stop on, meeting the driver at a visible entrance can protect food quality and reduce missed calls. The goal is a fast handoff, not just a fast kitchen time.",
+      },
+      {
+        heading: "How to use this guide safely for AdSense-quality content",
+        body:
+          "This page avoids stale local store data and focuses on helpful ordering decisions that remain useful over time. Exact store addresses, local phone routing and hours belong on Domino's official locator because stores can adjust service areas, pause delivery, change hours or relocate. This guide is built to help readers decide between carryout and delivery, compare the real checkout total and plan better orders for families, students, workers and groups.",
+      },
+    ],
+    neighborhoods: [
+      {
+        heading: "Center City, Rittenhouse & Old City",
+        body:
+          "Central Philadelphia orders often involve offices, hotels, apartments, nightlife and event traffic. Delivery notes should include the building name, floor, suite number, front desk process or lobby meeting point. If you are ordering for a hotel, office or group before an event, place the order earlier than peak time and choose items that are easy to share. Carryout can be a strong value when the assigned store is close, but parking and building access may make delivery more practical.",
+      },
+      {
+        heading: "University City, Drexel & Penn area",
+        body:
+          "Campus-area orders can be useful for students, roommates and late study nights, but exact delivery instructions are important. Dorms, campus buildings and apartments may have controlled entrances or specific food-delivery drop-off points. For groups, avoid building one complicated pizza for everyone. A better order usually mixes cheese, pepperoni, one specialty pizza, bread, chicken or dessert so different people can share without too many topping conflicts.",
+      },
+      {
+        heading: "South Philly, Passyunk & Italian Market area",
+        body:
+          "South Philadelphia has tight blocks, rowhomes, busy food corridors and heavy weekend demand. If delivery is available, keep handoff instructions short and practical. If carryout is nearby, compare it against delivery after fees and tip because pickup can be the best value on smaller orders. For family meals, check multi-item deals before ordering only one or two large pizzas; the better coupon can vary by store participation.",
+      },
+      {
+        heading: "Fishtown, Northern Liberties & Kensington",
+        body:
+          "These neighborhoods can see busy evening demand from apartments, bars and residential blocks. Delivery estimates may stretch during weekends or bad weather. If timing matters, order before the rush and avoid overly customized pizzas that slow down group decisions. Carryout works well when the official app shows a close store and a clear pickup time. Always compare the final total rather than only the listed menu price.",
+      },
+      {
+        heading: "Northeast Philadelphia, Germantown & West Philly routes",
+        body:
+          "Farther neighborhood routes can involve longer drives, different store assignments and delivery boundaries that are not obvious from a citywide page. Enter the exact address before assuming delivery is available. If the address is near the edge of a zone, carryout may show more predictable timing. For larger households or watch parties, choose simple popular items and use coupons to keep the per-person cost easier to understand.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "For cheapest Philadelphia orders",
+        body:
+          "Check carryout coupons first, then compare the delivered total after tax, delivery charge and tip. In dense neighborhoods, carryout can be the cheapest option if pickup is close and easy. In areas where parking is difficult or the weather is rough, delivery may still be worth the added cost. The strongest value decision comes from comparing the final checkout total, not only the advertised pizza price.",
+      },
+      {
+        heading: "For rowhomes and apartments",
+        body:
+          "Give clear but safe delivery notes: entrance side, apartment number, buzzer instructions, lobby desk or visible meeting point. If your street has limited stopping space, meeting outside can make the handoff faster. Avoid relying on the driver to guess between front, side and rear entrances. Better notes help keep the food warmer and reduce missed-call delays.",
+      },
+      {
+        heading: "For students and late-night groups",
+        body:
+          "Verify current hours in the official app before planning a late order. Campus demand and weekend demand can affect timing. For groups, split the order into flexible items: one plain pizza, one pepperoni pizza, one specialty pizza and a side or dessert. That structure is easier to share than one large custom pizza and usually works better with coupons.",
+      },
+      {
+        heading: "For offices, hotels and events",
+        body:
+          "Add the company name, hotel name, front desk instructions, floor or suite number and best contact method. If food is needed at a specific time, order early and avoid last-minute coupon decisions. For office lunches, confirm store participation before promising a budget to the group. Prices and deals can vary by assigned store.",
+      },
+    ],
+    resourceLinks: [
+      {
+        label: "Official Domino's Philadelphia locator",
+        href: "https://pizza.dominos.com/pennsylvania/philadelphia",
+        description: "Use the official city page to verify Philadelphia delivery eligibility, assigned store details and current ordering options.",
+        external: true,
+      },
+      {
+        label: "Domino's menu prices guide",
+        href: "/menus-prices",
+        description: "Compare example pizza, chicken, bread, dessert and drink prices before checking your local store.",
+      },
+      {
+        label: "Domino's coupons and deals",
+        href: "/coupons",
+        description: "Review carryout, delivery and mix-and-match deal guidance before choosing a final cart.",
+      },
+      {
+        label: "Domino's hours guide",
+        href: "/hours",
+        description: "Understand typical hours, late-night ordering and why each store should be verified.",
+      },
+    ],
+    additionalLocations: [
+      "Center City",
+      "Rittenhouse",
+      "Old City",
+      "University City",
+      "South Philly",
+      "Passyunk",
+      "Fishtown",
+      "Northern Liberties",
+      "Northeast Philadelphia",
+      "West Philly",
+    ],
+    pizzaPrices: standardPizzaPrices2026,
+    sidePrices: standardSidePrices2026,
+  },
 };
 
 export function getRichLocation(slug: string): RichLocationData | undefined {
