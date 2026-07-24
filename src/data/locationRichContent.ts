@@ -1172,6 +1172,120 @@ export const locationRichContent: Record<string, RichLocationData> = {
     pizzaPrices: standardPizzaPrices2026,
     sidePrices: standardSidePrices2026,
   },
+  "columbus-oh": {
+    slug: "columbus-oh",
+    heroSubtitle: "Columbus Domino's menu prices, delivery-zone checks, carryout savings and neighborhood ordering tips for 2026.",
+    stats: [
+      { label: "Best first check", value: "Exact address" },
+      { label: "Value angle", value: "Coupons" },
+      { label: "Plan for", value: "Campus" },
+    ],
+    intro:
+      "Columbus is a large college, government and business city with neighborhoods that order Domino's in different ways. Downtown offices, Ohio State student housing, suburban family areas and event corridors can all change whether carryout or delivery is the smarter choice. This independent guide helps Columbus customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Columbus store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. For accurate store assignment, current hours, local pricing, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
+    editorialSections: [
+      {
+        heading: "Why Columbus orders need exact address verification",
+        body:
+          "Columbus has campus housing, downtown offices, neighborhoods with similar street names, suburban edges and busy highway corridors. A store that looks close on a map may not be the delivery store assigned to your address. Before planning a large order, enter the full address in Domino's official app. That check confirms whether delivery, carryout or both are available, what coupons apply and what the estimated timing looks like.",
+      },
+      {
+        heading: "How campus and event demand affect timing",
+        body:
+          "Delivery timing can change quickly around Ohio State game days, student move-in periods, downtown events, concerts and bad weather. If timing matters, order before peak demand and choose items that travel reliably. For campus or apartment orders, clear handoff notes matter just as much as the store's prep time. A driver who can find the entrance quickly is more likely to complete a warm, smooth delivery.",
+      },
+      {
+        heading: "Why this page avoids exact local store details",
+        body:
+          "Unofficial pages can become low quality when they copy store addresses, phone numbers or hours that later change. This Columbus page avoids stale local claims and focuses on durable ordering guidance: how to compare carryout and delivery, what to include in delivery notes, how neighborhood context affects timing and which internal price and coupon guides can help before checkout. Exact store details should come from Domino's official locator.",
+      },
+    ],
+    neighborhoods: [
+      {
+        heading: "Downtown Columbus, Short North & Arena District",
+        body:
+          "Central Columbus orders often involve offices, apartments, hotels, concerts and sports traffic. Delivery notes should include the building name, lobby process, floor or suite details where allowed and a visible meeting point if curb access is difficult. For office lunches or event nights, order earlier than the rush and choose shareable items like cheese, pepperoni, specialty pizza, breads and chicken.",
+      },
+      {
+        heading: "Ohio State, University District & Clintonville",
+        body:
+          "Campus-area orders can work well for students, roommates and late study nights, but exact building access matters. Dorms, apartment buildings and older rental houses may need clear instructions. A balanced order usually works better than one complicated pizza: choose plain or pepperoni, one specialty pizza, bread or chicken, then compare coupons before splitting the cost.",
+      },
+      {
+        heading: "German Village, Brewery District & Merion Village",
+        body:
+          "These neighborhoods include older homes, apartments, narrow streets and busy evening demand. Carryout can be a strong value if the assigned store is close and pickup is convenient. For delivery, add short notes for side entrances, duplexes, gate access or hard-to-see house numbers. Compare the final delivered total against carryout coupons before deciding.",
+      },
+      {
+        heading: "Easton, Gahanna edge & Northeast Columbus",
+        body:
+          "Northeast Columbus orders can involve shopping traffic, office areas, apartments and suburban boundaries. Store assignment may change across major roads, so exact address entry matters. For work lunches or family orders, verify coupon participation before promising a group price. A simple mix of pizzas and sides is easier to manage than many special requests.",
+      },
+      {
+        heading: "Dublin edge, Hilliard edge & Grove City routes",
+        body:
+          "Columbus-area edges can feel close to the city while still routing to different stores or delivery zones. Enter the exact address before assuming a citywide estimate applies. If the app shows a longer delivery window, carryout may be more predictable. For family nights, bundle-style offers can be easier and cheaper than ordering several items separately.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "For cheapest Columbus orders",
+        body:
+          "Start with carryout coupons, then compare the final delivered total after tax, delivery charge and tip. Carryout is often the value play when pickup is nearby and parking is simple. Delivery may be worth it when weather, campus traffic, downtown events or group size makes pickup inconvenient. Always judge the deal by the final checkout total.",
+      },
+      {
+        heading: "For campus, apartments and offices",
+        body:
+          "Add clear delivery notes: building name, entrance, floor, suite, dorm desk, lobby or visible meeting point. Large campuses and apartment complexes can slow down a handoff if the driver has to guess. Short accurate notes are better than long instructions that bury the useful detail.",
+      },
+      {
+        heading: "For families and group orders",
+        body:
+          "A practical group order usually includes variety: one cheese or pepperoni pizza, one specialty pizza, bread, chicken or dessert. This keeps the order flexible for kids, adults, coworkers or roommates. Check coupon participation in the official app before collecting money or setting a per-person budget.",
+      },
+      {
+        heading: "For late-night and bad-weather orders",
+        body:
+          "Do not assume every Columbus store follows the same late-night schedule. Hours can vary by store, staffing, demand and day of week. Before a late order, enter the exact address and verify whether delivery or carryout is currently available. During snow, heavy rain or big event nights, order earlier and keep handoff instructions simple.",
+      },
+    ],
+    resourceLinks: [
+      {
+        label: "Official Domino's Columbus locator",
+        href: "https://pizza.dominos.com/ohio/columbus",
+        description: "Use the official city page to verify Columbus store assignment, delivery eligibility and current ordering details.",
+        external: true,
+      },
+      {
+        label: "Domino's menu prices guide",
+        href: "/menus-prices",
+        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+      },
+      {
+        label: "Domino's coupons and deals",
+        href: "/coupons",
+        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+      },
+      {
+        label: "Domino's hours guide",
+        href: "/hours",
+        description: "Understand typical hours, late-night ordering and why each store should be verified.",
+      },
+    ],
+    additionalLocations: [
+      "Downtown Columbus",
+      "Short North",
+      "Arena District",
+      "Ohio State",
+      "University District",
+      "Clintonville",
+      "German Village",
+      "Easton",
+      "Hilliard edge",
+      "Grove City routes",
+    ],
+    pizzaPrices: standardPizzaPrices2026,
+    sidePrices: standardSidePrices2026,
+  },
 };
 
 export function getRichLocation(slug: string): RichLocationData | undefined {
