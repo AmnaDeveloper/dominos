@@ -944,6 +944,120 @@ export const locationRichContent: Record<string, RichLocationData> = {
     pizzaPrices: standardPizzaPrices2026,
     sidePrices: standardSidePrices2026,
   },
+  "san-jose-ca": {
+    slug: "san-jose-ca",
+    heroSubtitle: "San Jose Domino's menu prices, delivery-zone checks, carryout savings and neighborhood ordering tips for 2026.",
+    stats: [
+      { label: "Best first check", value: "Exact address" },
+      { label: "Value angle", value: "Pickup" },
+      { label: "Plan for", value: "Commutes" },
+    ],
+    intro:
+      "San Jose is a large Silicon Valley city with downtown apartments, tech corridors, college housing, suburban neighborhoods and long commute routes that can all affect a Domino's order. This independent guide helps San Jose customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed San Jose store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. For accurate store assignment, current hours, local prices, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
+    editorialSections: [
+      {
+        heading: "Why San Jose delivery depends on your exact address",
+        body:
+          "San Jose neighborhoods can be divided by freeways, expressways, hills, business parks and city-border areas. A store that looks close on a map may not be the delivery store assigned to your address. Before planning a large order, enter the full street address in Domino's official app. That check confirms delivery eligibility, carryout availability, current timing, local coupon participation and the final checkout total.",
+      },
+      {
+        heading: "How Silicon Valley schedules affect ordering",
+        body:
+          "San Jose orders often happen around office lunches, late work nights, student schedules and commute-heavy evenings. Delivery timing can change around rush hour on 101, 280, 680, 880, 87 and nearby expressways. If pickup is close and parking is simple, carryout can be the better value. If the order is for a team, family or late work session, delivery may be worth the added fee.",
+      },
+      {
+        heading: "Why this page avoids exact local store details",
+        body:
+          "Unofficial pages can become low quality when they publish store addresses, phone numbers or hours that later change. This San Jose page avoids stale local claims and focuses on durable ordering guidance: delivery versus carryout, apartment and office handoff notes, neighborhood timing, group-order structure and internal guides for prices and deals. Exact store details should come from Domino's official locator.",
+      },
+    ],
+    neighborhoods: [
+      {
+        heading: "Downtown San Jose, SoFA & San Jose State",
+        body:
+          "Central San Jose orders often involve apartments, offices, hotels, events and student housing. Delivery notes should include building name, floor, unit, lobby process or a visible meeting point. Around SAP Center events, downtown nightlife or campus demand, order earlier than peak time. For groups, keep the order simple with cheese, pepperoni, one specialty pizza and sides rather than many custom pies.",
+      },
+      {
+        heading: "Willow Glen, Rose Garden & West San Jose",
+        body:
+          "These neighborhoods mix homes, apartments, schools and local business corridors. Carryout can be a strong value when the assigned store is nearby and pickup is easy. For delivery, add clear instructions for duplexes, side entrances, gated buildings or hard-to-see house numbers. Compare final delivery total against carryout coupons before deciding.",
+      },
+      {
+        heading: "North San Jose, Berryessa & Milpitas edge",
+        body:
+          "North San Jose orders can involve office parks, large apartments, transit corridors and longer drives. Store assignment may change across major roads or city-border areas, so exact address entry matters. For office meals, verify coupon participation before promising a per-person price. A balanced order with pizzas, breads and chicken is easier for teams than a cart full of special requests.",
+      },
+      {
+        heading: "Evergreen, East San Jose & Alum Rock",
+        body:
+          "East San Jose routes can vary by hillside areas, residential streets and assigned delivery zones. If the app shows a longer delivery estimate, choose menu items that travel well and keep the order straightforward. If carryout is close, pickup may give more predictable timing. For family meals, check bundle-style offers before ordering separate items one by one.",
+      },
+      {
+        heading: "Cambrian, Almaden & South San Jose",
+        body:
+          "South San Jose neighborhoods can involve longer drives, larger residential areas and specific delivery boundaries. Do not assume a citywide delivery estimate applies to every address. Enter the exact address first, then compare pickup versus delivery. For late dinners or weekend group orders, order earlier and keep handoff instructions short and practical.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "For cheapest San Jose orders",
+        body:
+          "Start with carryout coupons and compare the final delivered total after tax, delivery charge and tip. Pickup is often the value play when the store is close and parking is simple. Delivery may be better when commute traffic, larger orders or office schedules make pickup inconvenient. The real price is the final checkout total, not only the menu price.",
+      },
+      {
+        heading: "For apartments and office buildings",
+        body:
+          "Give clear delivery notes: complex or company name, building number, entrance, floor, suite, lobby desk or safe meeting point. Large apartment campuses and office parks can slow down the handoff if the driver has to guess. Short accurate notes help protect food quality and reduce missed-call delays.",
+      },
+      {
+        heading: "For teams and study groups",
+        body:
+          "A simple mix usually works best: one cheese or pepperoni pizza, one specialty pizza, bread, chicken or dessert. This gives variety without making the order hard to split. For office or student groups, confirm coupon participation in the app before collecting money or setting a per-person budget.",
+      },
+      {
+        heading: "For late-night and commute-hour orders",
+        body:
+          "Store hours and delivery availability can vary by location, staffing and day of week. Before a late order, enter the exact address and verify whether delivery or carryout is currently available. During commute-heavy windows or event nights, order earlier and choose items that hold up well during a longer trip.",
+      },
+    ],
+    resourceLinks: [
+      {
+        label: "Official Domino's San Jose locator",
+        href: "https://pizza.dominos.com/california/san-jose",
+        description: "Use the official city page to verify San Jose store assignment, delivery eligibility and current ordering details.",
+        external: true,
+      },
+      {
+        label: "Domino's menu prices guide",
+        href: "/menus-prices",
+        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+      },
+      {
+        label: "Domino's coupons and deals",
+        href: "/coupons",
+        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+      },
+      {
+        label: "Domino's hours guide",
+        href: "/hours",
+        description: "Understand typical hours, late-night ordering and why each store should be verified.",
+      },
+    ],
+    additionalLocations: [
+      "Downtown San Jose",
+      "San Jose State",
+      "Willow Glen",
+      "Rose Garden",
+      "West San Jose",
+      "North San Jose",
+      "Berryessa",
+      "Evergreen",
+      "Alum Rock",
+      "Almaden",
+    ],
+    pizzaPrices: standardPizzaPrices2026,
+    sidePrices: standardSidePrices2026,
+  },
 };
 
 export function getRichLocation(slug: string): RichLocationData | undefined {
