@@ -830,6 +830,120 @@ export const locationRichContent: Record<string, RichLocationData> = {
     pizzaPrices: standardPizzaPrices2026,
     sidePrices: standardSidePrices2026,
   },
+  "austin-tx": {
+    slug: "austin-tx",
+    heroSubtitle: "Austin Domino's menu prices, delivery-zone checks, carryout savings and neighborhood ordering tips for 2026.",
+    stats: [
+      { label: "Best first check", value: "Exact address" },
+      { label: "Value angle", value: "Carryout" },
+      { label: "Plan for", value: "Events" },
+    ],
+    intro:
+      "Austin is a fast-growing city with college housing, tech offices, music venues, downtown apartments and expanding suburban edges that can all change how a Domino's order works. This independent guide helps Austin customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Austin store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. For accurate store assignment, current hours, local pricing, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
+    editorialSections: [
+      {
+        heading: "Why Austin orders need exact address verification",
+        body:
+          "Austin delivery can vary sharply by neighborhood, apartment complex, campus area and suburban boundary. A store that looks close on a map may not be the delivery store assigned to your address, especially around major roads, new developments and edge-of-zone communities. Enter the full street address in Domino's official app before planning a large order. That check confirms delivery eligibility, carryout availability, estimated timing, local coupon participation and the final checkout total.",
+      },
+      {
+        heading: "How events and traffic affect ordering",
+        body:
+          "Austin traffic and event demand can change delivery timing around downtown, campus, Zilker, South Congress, The Domain and major festival weekends. If timing matters, order before the rush and choose items that are easy to share and travel well. Carryout can be the better value when the assigned store is nearby, but delivery may be worth it when parking, rain, event crowds or group size make pickup inconvenient.",
+      },
+      {
+        heading: "Why this page avoids fixed store details",
+        body:
+          "Unofficial local pages can become risky when they publish exact store addresses, local phone numbers or hours that later change. This Austin page focuses on helpful, durable ordering decisions: delivery versus carryout, apartment handoff notes, event timing, group-order structure and internal guides for prices and deals. Exact store details should come directly from Domino's official locator, while this guide gives context before checkout.",
+      },
+    ],
+    neighborhoods: [
+      {
+        heading: "Downtown Austin, Rainey Street & Sixth Street",
+        body:
+          "Central Austin orders often involve apartments, hotels, offices, nightlife and event traffic. Delivery instructions should include the building name, lobby process, floor or room details where allowed and a visible meeting point if curb access is limited. On busy weekends, SXSW-style event periods or big downtown nights, order earlier than normal and avoid over-customizing every pizza for a group.",
+      },
+      {
+        heading: "UT Austin, West Campus & Hyde Park",
+        body:
+          "Campus-area orders can work well for students, roommates, study groups and late dinners, but building access matters. Dorms, apartments and older houses may need precise handoff notes. A balanced group order is usually easier than one complicated pizza: choose cheese, pepperoni, one specialty pizza, bread or chicken, then compare coupons before splitting the cost.",
+      },
+      {
+        heading: "South Congress, Travis Heights & South Lamar",
+        body:
+          "South Austin neighborhoods mix apartments, homes, restaurants, music venues and busy evening traffic. Carryout can be a strong value if the assigned store is nearby and parking is manageable. Delivery is convenient for group nights, but add short instructions for gated entries, duplexes, garage apartments or hard-to-see unit numbers. Clear notes help reduce calls and keep food warmer.",
+      },
+      {
+        heading: "The Domain, North Austin & Tech Ridge",
+        body:
+          "North Austin orders often involve office parks, large apartments, shopping traffic and longer drives. Exact address entry is important because store assignment and delivery estimates can change across major roads. For office meals, verify coupon participation before promising a per-person price. A simple mix of popular pizzas and sides is easier to manage than many custom pies.",
+      },
+      {
+        heading: "East Austin, Mueller & Riverside",
+        body:
+          "East and Southeast Austin orders can vary by apartment density, event traffic, campus-adjacent housing and developing neighborhoods. If delivery time looks long, choose items that travel reliably and keep instructions simple. If pickup is close, carryout may provide a lower total after avoiding delivery charge and tip. Always compare the final checkout total rather than only the menu price.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "For cheapest Austin orders",
+        body:
+          "Start with carryout coupons and compare them against the delivered total after tax, delivery charge and tip. Carryout is often the value play when pickup is close and parking is easy. Delivery may be worth it when traffic, rain, events or group size make pickup inconvenient. The best deal is the one that wins at final checkout, not just the lowest advertised pizza price.",
+      },
+      {
+        heading: "For apartments, dorms and offices",
+        body:
+          "Add delivery notes that help the driver find the handoff point: building name, entrance, gate process, floor, suite, lobby or visible meeting spot. If your property has delivery restrictions, meet the driver where allowed. Short, accurate instructions are better than long notes that bury the important detail.",
+      },
+      {
+        heading: "For parties and game nights",
+        body:
+          "Austin group orders usually work best with variety. Choose one plain or pepperoni pizza, one specialty pizza, bread, chicken or dessert. This keeps the order flexible for different preferences and can work better with mix-and-match deals. Check coupon participation before collecting money from roommates, coworkers or friends.",
+      },
+      {
+        heading: "For late-night or festival weekends",
+        body:
+          "Do not assume every Austin store has the same closing time. Hours can vary by location, staffing, demand and day of week. Before a late order or festival-weekend order, enter the exact address and verify delivery or carryout availability in the official app. Order earlier when downtown, campus or event traffic is heavy.",
+      },
+    ],
+    resourceLinks: [
+      {
+        label: "Official Domino's Austin locator",
+        href: "https://pizza.dominos.com/texas/austin",
+        description: "Use the official city page to verify Austin store assignment, delivery eligibility and current ordering details.",
+        external: true,
+      },
+      {
+        label: "Domino's menu prices guide",
+        href: "/menus-prices",
+        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+      },
+      {
+        label: "Domino's coupons and deals",
+        href: "/coupons",
+        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+      },
+      {
+        label: "Domino's delivery near me guide",
+        href: "/dominos-delivery-near-me",
+        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+      },
+    ],
+    additionalLocations: [
+      "Downtown Austin",
+      "Rainey Street",
+      "Sixth Street",
+      "UT Austin",
+      "West Campus",
+      "South Congress",
+      "South Lamar",
+      "The Domain",
+      "North Austin",
+      "East Austin",
+    ],
+    pizzaPrices: standardPizzaPrices2026,
+    sidePrices: standardSidePrices2026,
+  },
 };
 
 export function getRichLocation(slug: string): RichLocationData | undefined {
