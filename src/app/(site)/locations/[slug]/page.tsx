@@ -27,9 +27,10 @@ export async function generateMetadata({
   const { slug } = await params;
   const loc = getLocationBySlug(slug);
   if (!loc) return {};
+  const rich = getRichLocation(slug);
   return generatePageSEO({
     title: `${loc.title.replace(/ —.*/, "")} (${getMonthYear()})`,
-    description: loc.description,
+    description: rich?.heroSubtitle ?? loc.description,
     path: `/locations/${slug}`,
     keywords: [`Domino's ${loc.city}`, `Domino's ${loc.city} delivery`, `Domino's ${loc.city} menu`],
   });
@@ -60,7 +61,7 @@ export default async function LocationPage({
     "@context": "https://schema.org",
     "@type": "WebPage",
     name: loc.title,
-    description: loc.description,
+    description: rich?.heroSubtitle ?? loc.description,
     url: absoluteUrl(`/locations/${slug}`),
   };
 

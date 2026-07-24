@@ -161,6 +161,97 @@ export const locationRichContent: Record<string, RichLocationData> = {
     pizzaPrices: standardPizzaPrices2026,
     sidePrices: standardSidePrices2026,
   },
+  "houston-tx": {
+    slug: "houston-tx",
+    heroSubtitle: "Houston Domino's menu prices, delivery-area checks, carryout value tips and neighborhood ordering guidance for 2026.",
+    stats: [
+      { label: "Best first check", value: "Exact address" },
+      { label: "Value angle", value: "Coupons" },
+      { label: "Plan for", value: "Distance" },
+    ],
+    intro:
+      "Houston is spread across a large metro area, so ordering Domino's here is less about one central store and more about matching your exact address to the right delivery zone. This page is an independent planning guide for Houston customers who want to compare example menu prices, carryout value, delivery convenience and group-order strategy before opening the official Domino's app. It does not list a fixed Houston address or local phone number because store assignments, hours, delivery boundaries and prices can change by location. Always confirm the final store, checkout total, hours and delivery eligibility through Domino's official locator.",
+    editorialSections: [
+      {
+        heading: "Why Houston delivery zones need an exact address",
+        body:
+          "Houston neighborhoods can feel close on a map but still fall into different delivery zones because of highways, bayous, traffic patterns and franchise boundaries. A restaurant near one side of town may not deliver across another major road or into a different suburb. The safest way to avoid wrong information is to enter your full street address in the official Domino's app before comparing prices or planning a large order. That address check will show whether delivery, carryout or both are available from the assigned store.",
+      },
+      {
+        heading: "How Houston traffic changes the best ordering choice",
+        body:
+          "Delivery timing in Houston can shift quickly around rush hour, rain, road work, sporting events and long cross-town drives. If the app shows a nearby carryout option, pickup can be better for hot food and lower final cost. If pickup requires a long drive, paid delivery may be worth it. The useful comparison is not just pizza price; it is pizza price plus delivery charge, tip, taxes, travel time and how quickly the food needs to arrive.",
+      },
+      {
+        heading: "Why this guide avoids unverified addresses and phone numbers",
+        body:
+          "Local food pages can become low quality when they publish stale store addresses, old hours or phone numbers that no longer route correctly. Houston has many moving parts, including new developments, changing traffic corridors and stores with different delivery settings. For AdSense and user trust, this page gives practical ordering guidance without pretending to be an official directory. Use Domino's official locator for exact store details, then use this guide to think through value, timing and order planning.",
+      },
+    ],
+    neighborhoods: [
+      {
+        heading: "Downtown, Midtown & EaDo",
+        body:
+          "Central Houston orders often involve apartments, offices, hotels, event venues and limited curb access. For delivery, include the building name, entrance, floor, suite number or lobby instructions. If you are ordering around a game, concert or nightlife rush, place the order earlier than normal. For office lunches, a mix of pizzas, breads, chicken and desserts usually works better than one heavily customized pizza because teams have different preferences.",
+      },
+      {
+        heading: "Montrose, Heights & Washington Corridor",
+        body:
+          "These areas combine dense housing, restaurants, bars and busy evening traffic. Carryout can be a strong value when the assigned store is close and parking is manageable. Delivery is convenient for group nights, but apartment and townhouse access notes matter. Add gate codes only where it is safe and allowed, and be ready to answer the phone if the driver needs clarification at the entrance.",
+      },
+      {
+        heading: "Galleria, Uptown & West Houston",
+        body:
+          "West Houston trips can be affected by shopping traffic, office parks, freeway congestion and large apartment complexes. If delivery time looks long, consider choosing menu items that travel well, such as classic pizzas, breads and chicken. For larger groups, check whether the store participates in the deal you plan to use before collecting money from everyone, because local participation can vary.",
+      },
+      {
+        heading: "Medical Center, Rice Village & Museum District",
+        body:
+          "Orders around the Medical Center and nearby campuses often need very clear handoff instructions. Hospitals, clinics, hotels and campus buildings may restrict driver access. If food must reach a group at a specific time, order earlier and choose a pickup point that is easy to find. Domino's can work well for shift meals and student orders, but exact delivery eligibility should be verified in the official app.",
+      },
+      {
+        heading: "Katy, Cypress, Sugar Land & Greater Houston suburbs",
+        body:
+          "Many Houston-area customers live outside the city core, where distances are longer and delivery boundaries can be more specific. A suburb may have several Domino's stores, but your address may still map to only one. Before assuming a coupon, hour or delivery estimate applies, run the exact address check. Carryout may show more predictable timing when delivery routes are stretched by distance or weather.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "For cheapest Houston orders",
+        body:
+          "Start with carryout coupons, then compare the final delivery total. Houston driving distances can make delivery feel attractive, but fees and tips can change the real price quickly. If you are already near the assigned store, carryout is often the better value. If pickup takes a long drive or parking is difficult, delivery may be worth the added cost.",
+      },
+      {
+        heading: "For rainy or hot-weather ordering",
+        body:
+          "Houston weather can affect delivery windows and food quality. During heavy rain, flooding risk or extreme heat, place orders earlier and keep instructions simple. Choose items that hold temperature well, and be ready at the door or lobby so the handoff is quick. If weather is severe, verify the app still shows delivery before planning around it.",
+      },
+      {
+        heading: "For apartments, gates and offices",
+        body:
+          "Houston has many gated communities, high-rise apartments, office parks and large medical buildings. Good delivery notes can prevent delays: include building number, gate process, front desk instructions and the safest meeting point. If the location is hard to navigate, meeting the driver at a visible entrance can be faster than asking them to search the property.",
+      },
+      {
+        heading: "For families and groups",
+        body:
+          "A balanced order is usually better than a single specialty pizza. Consider one cheese or pepperoni pizza, one specialty pizza, a bread side and chicken or dessert. This keeps the order flexible for kids, adults and picky eaters. For bigger groups, check coupons before choosing sizes because a deal with multiple medium pizzas can sometimes beat one or two large pizzas.",
+      },
+    ],
+    additionalLocations: [
+      "Downtown Houston",
+      "Midtown",
+      "EaDo",
+      "The Heights",
+      "Montrose",
+      "Galleria",
+      "Medical Center",
+      "Katy",
+      "Sugar Land",
+      "Cypress",
+    ],
+    pizzaPrices: standardPizzaPrices2026,
+    sidePrices: standardSidePrices2026,
+  },
 };
 
 export function getRichLocation(slug: string): RichLocationData | undefined {
