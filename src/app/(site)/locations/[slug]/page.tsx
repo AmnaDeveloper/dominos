@@ -13,7 +13,7 @@ import { absoluteUrl } from "@/lib/site-config";
 import { getMonthYear } from "@/lib/utils/date";
 import type { FAQ } from "@/data/types";
 
-export const revalidate = 86400;
+export const revalidate = 0;
 
 export function generateStaticParams() {
   return getLocationSlugs().map((slug) => ({ slug }));
