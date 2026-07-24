@@ -111,6 +111,20 @@ export default async function LocationPage({
           {rich?.intro ?? `This unofficial guide covers Domino's in ${loc.city}, ${loc.state} — example menu prices, typical hours and delivery information. Domino's stores are individually franchised, so always verify exact prices, hours and delivery zones on the official Domino's locator.`}
         </p>
 
+        {rich?.editorialSections && (
+          <section className="mb-8">
+            <h2 className="section-mini-heading mb-4">{loc.city} Ordering Guide</h2>
+            <div className="space-y-5">
+              {rich.editorialSections.map((section) => (
+                <div key={section.heading}>
+                  <h3 className="font-bold text-slate-900">{section.heading}</h3>
+                  <p className="text-sm text-slate-600 mt-1">{section.body}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* Weekly hours */}
         <h2 className="section-mini-heading mb-4">Typical Weekly Hours</h2>
         <div className="blog-content max-w-xl">
@@ -152,6 +166,20 @@ export default async function LocationPage({
               <p className="text-sm font-semibold" style={{ color: "#006491" }}>Popular areas:</p>
               <p className="text-sm text-slate-600 mt-1">{rich.additionalLocations.join(" · ")}</p>
             </div>
+
+            {rich.orderingTips && (
+              <>
+                <h2 className="section-mini-heading mt-10 mb-4">Practical Ordering Tips for {loc.city}</h2>
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {rich.orderingTips.map((tip) => (
+                    <div key={tip.heading} className="rounded-xl border border-slate-200 p-4">
+                      <h3 className="font-bold text-slate-900">{tip.heading}</h3>
+                      <p className="text-sm text-slate-600 mt-1">{tip.body}</p>
+                    </div>
+                  ))}
+                </div>
+              </>
+            )}
           </>
         )}
 
