@@ -1058,6 +1058,120 @@ export const locationRichContent: Record<string, RichLocationData> = {
     pizzaPrices: standardPizzaPrices2026,
     sidePrices: standardSidePrices2026,
   },
+  "jacksonville-fl": {
+    slug: "jacksonville-fl",
+    heroSubtitle: "Jacksonville Domino's menu prices, delivery-zone checks, carryout savings and neighborhood ordering tips for 2026.",
+    stats: [
+      { label: "Best first check", value: "Exact address" },
+      { label: "Value angle", value: "Carryout" },
+      { label: "Plan for", value: "Distance" },
+    ],
+    intro:
+      "Jacksonville covers a very large land area, so ordering Domino's here is usually about matching your exact address to the right store rather than relying on a single citywide assumption. This independent guide helps Jacksonville customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Jacksonville store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. For accurate store assignment, current hours, local pricing, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
+    editorialSections: [
+      {
+        heading: "Why Jacksonville delivery zones need exact address checks",
+        body:
+          "Jacksonville neighborhoods can be separated by bridges, rivers, highways, beaches, military-area routes and long suburban drives. A store that looks close on a map may not be the store assigned to your address. Before planning a large order, enter the full street address in Domino's official app. That check confirms delivery eligibility, carryout availability, estimated timing, local coupon participation and the final checkout total.",
+      },
+      {
+        heading: "How distance changes carryout versus delivery",
+        body:
+          "Because Jacksonville is so spread out, the best ordering choice can change quickly from one neighborhood to another. Carryout may be the best value when the assigned store is nearby and pickup is easy. Delivery may be worth the added fee when the route is long, weather is rough or the order is for a larger group. Compare delivery charge, tip, taxes, travel time and pickup convenience before choosing.",
+      },
+      {
+        heading: "Why this page avoids exact local store details",
+        body:
+          "Unofficial local pages can become low quality when they publish exact addresses, phone numbers or hours that later change. This Jacksonville page avoids stale store claims and focuses on useful ordering context: delivery-zone checks, neighborhood timing, apartment or hotel handoff notes, carryout value and internal guides for prices and deals. Exact store facts should come directly from Domino's official locator.",
+      },
+    ],
+    neighborhoods: [
+      {
+        heading: "Downtown, Brooklyn & Riverside",
+        body:
+          "Central Jacksonville orders often involve apartments, offices, hotels, events and riverfront traffic. Delivery notes should include the building name, entrance, floor or lobby instructions where allowed. If you are ordering for an office lunch or downtown group, place the order before the rush and choose simple shareable items like cheese, pepperoni, one specialty pizza, breads and chicken.",
+      },
+      {
+        heading: "San Marco, Mandarin & Southside",
+        body:
+          "South Jacksonville areas can include busy roads, residential communities, shopping corridors and longer pickup drives. Carryout can be a strong value when the assigned store is close, but delivery may be easier for family nights or larger orders. For gated communities or apartment complexes, add short practical instructions so the handoff is quick and clear.",
+      },
+      {
+        heading: "Beaches, Atlantic Beach & Jacksonville Beach",
+        body:
+          "Beach-area ordering can be affected by weekend traffic, tourism, parking and weather. If delivery is available, give clear instructions for hotels, condos, rentals or buildings with limited access. If pickup is nearby and parking is manageable, carryout may protect value and timing. During busy beach weekends, order earlier than normal and keep the order simple.",
+      },
+      {
+        heading: "Arlington, Regency & Northside",
+        body:
+          "These areas can involve different routes, bridges, apartment clusters and store assignments. Enter the exact address before assuming delivery is available. If the app shows a longer estimate, choose menu items that travel reliably and avoid too many custom changes. For family meals, compare bundle-style offers before ordering separate items one by one.",
+      },
+      {
+        heading: "Orange Park edge, Baymeadows & Westside routes",
+        body:
+          "Jacksonville-area edges can be tricky because city, suburb and delivery-zone boundaries do not always match what customers expect. Your address may route to a specific store even if another one appears nearby. For the best experience, verify the address first, then compare carryout and delivery totals. If the route is long, order earlier and be ready at the handoff point.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "For cheapest Jacksonville orders",
+        body:
+          "Start with carryout coupons and compare them against the final delivered total after tax, delivery charge and tip. Carryout is often the value play when pickup is close and easy. Delivery may be worth it when distance, weather, beach traffic or group size makes pickup inconvenient. The real comparison is the final checkout total.",
+      },
+      {
+        heading: "For apartments, hotels and gated communities",
+        body:
+          "Give clear delivery notes: property name, building number, gate process, front desk instruction, floor or visible meeting point. Jacksonville has many apartment communities, hotels and gated areas where a driver may need exact handoff details. Short accurate notes help reduce calls and keep food warmer.",
+      },
+      {
+        heading: "For families and game nights",
+        body:
+          "A balanced order usually works better than one heavily customized pizza. Choose cheese or pepperoni, one specialty pizza, bread, chicken or dessert. This keeps the order flexible for kids and adults and often works better with coupons. Check deal participation before collecting money from a group.",
+      },
+      {
+        heading: "For storms, heat and late-night orders",
+        body:
+          "Store hours and delivery availability can vary by location, staffing, weather and day of week. Before a late order or stormy evening order, enter the exact address and verify whether delivery or carryout is currently available. If weather is bad, order earlier and keep handoff instructions simple.",
+      },
+    ],
+    resourceLinks: [
+      {
+        label: "Official Domino's Jacksonville locator",
+        href: "https://pizza.dominos.com/florida/jacksonville",
+        description: "Use the official city page to verify Jacksonville store assignment, delivery eligibility and current ordering details.",
+        external: true,
+      },
+      {
+        label: "Domino's menu prices guide",
+        href: "/menus-prices",
+        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+      },
+      {
+        label: "Domino's coupons and deals",
+        href: "/coupons",
+        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+      },
+      {
+        label: "Domino's delivery near me guide",
+        href: "/dominos-delivery-near-me",
+        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+      },
+    ],
+    additionalLocations: [
+      "Downtown Jacksonville",
+      "Riverside",
+      "San Marco",
+      "Mandarin",
+      "Southside",
+      "Jacksonville Beach",
+      "Atlantic Beach",
+      "Arlington",
+      "Northside",
+      "Baymeadows",
+    ],
+    pizzaPrices: standardPizzaPrices2026,
+    sidePrices: standardSidePrices2026,
+  },
 };
 
 export function getRichLocation(slug: string): RichLocationData | undefined {
