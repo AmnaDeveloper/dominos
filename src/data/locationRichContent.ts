@@ -1514,6 +1514,120 @@ export const locationRichContent: Record<string, RichLocationData> = {
     pizzaPrices: standardPizzaPrices2026,
     sidePrices: standardSidePrices2026,
   },
+  "seattle-wa": {
+    slug: "seattle-wa",
+    heroSubtitle: "Seattle Domino's menu prices, delivery-zone checks, carryout savings and neighborhood ordering tips for 2026.",
+    stats: [
+      { label: "Best first check", value: "Exact address" },
+      { label: "Value angle", value: "Carryout" },
+      { label: "Plan for", value: "Traffic" },
+    ],
+    intro:
+      "Seattle is a dense, hill-heavy city with apartments, tech offices, campus housing, ferry and bridge traffic, and neighborhoods where delivery timing can change quickly. This independent guide helps Seattle customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Seattle store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. For accurate store assignment, current hours, local pricing, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
+    editorialSections: [
+      {
+        heading: "Why Seattle orders need exact address verification",
+        body:
+          "Seattle delivery can be affected by hills, bridges, water, dense apartment buildings, one-way streets and neighborhood boundaries. A store that looks close on a map may not be the delivery store assigned to your address. Before planning a large order, enter the full street address in Domino's official app. That check confirms delivery eligibility, carryout availability, estimated timing, local coupon participation and the final checkout total.",
+      },
+      {
+        heading: "How traffic, weather and building access affect timing",
+        body:
+          "Delivery timing in Seattle can shift around rain, commute hours, events, campus demand and routes through downtown, South Lake Union, Capitol Hill, the U District or West Seattle. If timing matters, order before peak demand and use clear handoff notes. Apartment and office access can slow a delivery if the driver has to guess at the entrance, callbox, lobby or loading area.",
+      },
+      {
+        heading: "Why this page avoids fixed store details",
+        body:
+          "Unofficial local pages become weak when they publish exact store addresses, phone numbers or hours that later change. This Seattle page avoids stale local claims and focuses on durable ordering advice: delivery versus carryout, apartment and office handoff notes, neighborhood timing, group-order structure and internal guides for prices and deals. Exact store details should come from Domino's official locator.",
+      },
+    ],
+    neighborhoods: [
+      {
+        heading: "Downtown, Belltown & South Lake Union",
+        body:
+          "Central Seattle orders often involve apartments, hotels, offices, events and limited curb access. Delivery notes should include the building name, lobby process, floor or suite details where allowed and a visible meeting point if street parking is difficult. For office lunches or hotel groups, order earlier than peak time and choose simple shareable items such as cheese, pepperoni, specialty pizza, breads and chicken.",
+      },
+      {
+        heading: "Capitol Hill, First Hill & Central District",
+        body:
+          "These neighborhoods combine dense housing, hospitals, nightlife, older buildings and busy evening demand. Carryout can be a strong value when the assigned store is close, but hills and parking can change that decision. For delivery, add short notes for building entrances, callboxes, side doors or hard-to-find units. Compare the delivered total against carryout coupons before deciding.",
+      },
+      {
+        heading: "University District, Wallingford & Fremont",
+        body:
+          "Campus and North Seattle orders can work well for students, roommates, late study nights and small group meals, but exact address entry matters. Dorms, apartments and shared houses may need clear handoff instructions. A balanced order with one plain pizza, one pepperoni, one specialty pizza and sides is usually easier for groups than several highly customized pies.",
+      },
+      {
+        heading: "Ballard, Queen Anne & Magnolia",
+        body:
+          "Northwest Seattle routes can involve hills, bridges, water-adjacent roads and neighborhood traffic. Store assignment may not match what looks closest on a map, so use the official app first. If delivery time looks long, carryout may be more predictable when pickup is convenient. For family meals, check bundle-style offers before ordering several separate items.",
+      },
+      {
+        heading: "West Seattle, Beacon Hill & Rainier Valley",
+        body:
+          "South and West Seattle orders can be shaped by bridge routes, hills, apartment clusters and neighborhood boundaries. Enter the exact address before assuming a citywide estimate applies. If ordering to an apartment, workplace or hotel, include a clear handoff point. For late dinners or larger orders, choose simple popular items that travel well.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "For cheapest Seattle orders",
+        body:
+          "Start with carryout coupons, then compare the final delivered total after tax, delivery charge and tip. Carryout is often the value play when pickup is close and parking is simple. Delivery may be worth it when rain, traffic, hills or group size makes pickup inconvenient. Always judge the deal by the final checkout total.",
+      },
+      {
+        heading: "For apartments, offices and hotels",
+        body:
+          "Add clear delivery notes: building name, entrance, floor, suite, lobby desk, callbox process or safe meeting point. Seattle has many apartment and office buildings where a driver may need exact handoff details. Short accurate notes help reduce calls and keep food warmer.",
+      },
+      {
+        heading: "For students and group orders",
+        body:
+          "A practical group order usually includes variety: one cheese or pepperoni pizza, one specialty pizza, bread, chicken or dessert. This keeps the order flexible for students, coworkers, roommates or families. Check coupon participation in the official app before collecting money or setting a per-person budget.",
+      },
+      {
+        heading: "For late-night and rainy-day orders",
+        body:
+          "Store hours and delivery availability can vary by location, staffing, demand and day of week. Before a late order, enter the exact address and verify whether delivery or carryout is currently available. During heavy rain or event nights, order earlier and keep handoff instructions simple.",
+      },
+    ],
+    resourceLinks: [
+      {
+        label: "Official Domino's Seattle locator",
+        href: "https://pizza.dominos.com/washington/seattle",
+        description: "Use the official city page to verify Seattle store assignment, delivery eligibility and current ordering details.",
+        external: true,
+      },
+      {
+        label: "Domino's menu prices guide",
+        href: "/menus-prices",
+        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+      },
+      {
+        label: "Domino's coupons and deals",
+        href: "/coupons",
+        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+      },
+      {
+        label: "Domino's delivery near me guide",
+        href: "/dominos-delivery-near-me",
+        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+      },
+    ],
+    additionalLocations: [
+      "Downtown Seattle",
+      "Belltown",
+      "South Lake Union",
+      "Capitol Hill",
+      "First Hill",
+      "University District",
+      "Fremont",
+      "Ballard",
+      "Queen Anne",
+      "West Seattle",
+    ],
+    pizzaPrices: standardPizzaPrices2026,
+    sidePrices: standardSidePrices2026,
+  },
 };
 
 export function getRichLocation(slug: string): RichLocationData | undefined {
