@@ -1286,6 +1286,120 @@ export const locationRichContent: Record<string, RichLocationData> = {
     pizzaPrices: standardPizzaPrices2026,
     sidePrices: standardSidePrices2026,
   },
+  "charlotte-nc": {
+    slug: "charlotte-nc",
+    heroSubtitle: "Charlotte Domino's menu prices, delivery-zone checks, carryout savings and neighborhood ordering tips for 2026.",
+    stats: [
+      { label: "Best first check", value: "Exact address" },
+      { label: "Value angle", value: "Carryout" },
+      { label: "Plan for", value: "Growth" },
+    ],
+    intro:
+      "Charlotte is a fast-growing city with Uptown offices, apartment-heavy neighborhoods, university housing, family suburbs and event districts that can all affect a Domino's order differently. This independent guide helps Charlotte customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Charlotte store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. For accurate store assignment, current hours, local pricing, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
+    editorialSections: [
+      {
+        heading: "Why Charlotte orders need exact address verification",
+        body:
+          "Charlotte neighborhoods can change quickly from dense apartments to suburban streets, office corridors and edge-of-city developments. A store that looks close on a map may not be the store assigned to your address. Before planning a large order, enter the full street address in Domino's official app. That check confirms delivery eligibility, carryout availability, current timing, local coupon participation and the final checkout total.",
+      },
+      {
+        heading: "How growth and traffic affect delivery timing",
+        body:
+          "Charlotte traffic can shift around Uptown, I-77, I-85, Independence Boulevard, South End, Ballantyne and university-area routes. New apartments and busy retail districts can also make handoffs slower if delivery notes are unclear. Carryout can be the better value when pickup is close and parking is simple. Delivery may be worth the added fee when weather, traffic or a larger group makes pickup inconvenient.",
+      },
+      {
+        heading: "Why this page avoids fixed store details",
+        body:
+          "Unofficial local pages become weak when they publish exact store addresses, phone numbers or hours that later change. This Charlotte page avoids stale local claims and focuses on durable ordering advice: delivery versus carryout, apartment and office handoff notes, neighborhood timing, group-order structure and internal guides for prices and deals. Exact store details should come from Domino's official locator.",
+      },
+    ],
+    neighborhoods: [
+      {
+        heading: "Uptown, South End & Dilworth",
+        body:
+          "Central Charlotte orders often involve apartments, offices, hotels, events and busy nightlife. Delivery notes should include the building name, lobby process, floor or suite details where allowed and a visible meeting point if curb access is difficult. Around Panthers, Hornets, concert or weekend traffic, order earlier than usual and choose shareable items that do not depend on complicated custom toppings.",
+      },
+      {
+        heading: "NoDa, Plaza Midwood & Elizabeth",
+        body:
+          "These neighborhoods mix apartments, older homes, restaurants and evening demand. Carryout can be a strong value when the assigned store is close and parking is manageable. For delivery, add short notes for side entrances, duplexes, gates or hard-to-see house numbers. Compare the final delivered total against carryout coupons before deciding.",
+      },
+      {
+        heading: "University City, UNC Charlotte & Northlake",
+        body:
+          "University-area orders can work well for students, roommates, staff and late study nights, but exact address entry matters. Dorms, apartment complexes and campus-adjacent buildings may need specific handoff instructions. For group meals, keep the order flexible with cheese, pepperoni, one specialty pizza, breads and chicken instead of many custom pizzas.",
+      },
+      {
+        heading: "Ballantyne, SouthPark & Matthews edge",
+        body:
+          "South Charlotte routes can involve office parks, shopping traffic, subdivisions and different store assignments. A nearby store may not serve every address across a major road or boundary. For family meals or office lunches, verify coupon participation before setting a budget. If delivery time looks long, carryout may be more predictable when pickup is convenient.",
+      },
+      {
+        heading: "West Charlotte, Steele Creek & airport-area routes",
+        body:
+          "West and southwest Charlotte orders can be shaped by airport traffic, apartment growth, warehouse shifts and suburban routes. Enter the exact address before assuming delivery is available. If ordering to a hotel, workplace or apartment community, include a clear handoff point. For late dinners or group orders, choose simple popular items that travel well.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "For cheapest Charlotte orders",
+        body:
+          "Start with carryout coupons, then compare the final delivered total after tax, delivery charge and tip. Carryout is often the value play when pickup is close and parking is simple. Delivery may be worth it when Uptown traffic, rain, event crowds or group size makes pickup inconvenient. Judge the deal by the final checkout total.",
+      },
+      {
+        heading: "For apartments, hotels and offices",
+        body:
+          "Add clear delivery notes: building name, entrance, floor, suite, concierge desk, gate process or safe meeting point. Charlotte has many newer apartment communities and office buildings where a driver may need exact handoff details. Short accurate notes help reduce calls and keep food warmer.",
+      },
+      {
+        heading: "For families and group meals",
+        body:
+          "A practical group order usually includes variety: one cheese or pepperoni pizza, one specialty pizza, bread, chicken or dessert. This keeps the order flexible for kids, adults, coworkers or roommates. Check coupon participation in the official app before collecting money or setting a per-person budget.",
+      },
+      {
+        heading: "For late-night and event-day orders",
+        body:
+          "Store hours and delivery availability can vary by location, staffing, demand and day of week. Before a late order, enter the exact address and verify whether delivery or carryout is currently available. Around Uptown events or severe weather, order earlier and keep handoff instructions simple.",
+      },
+    ],
+    resourceLinks: [
+      {
+        label: "Official Domino's Charlotte locator",
+        href: "https://pizza.dominos.com/north-carolina/charlotte",
+        description: "Use the official city page to verify Charlotte store assignment, delivery eligibility and current ordering details.",
+        external: true,
+      },
+      {
+        label: "Domino's menu prices guide",
+        href: "/menus-prices",
+        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+      },
+      {
+        label: "Domino's coupons and deals",
+        href: "/coupons",
+        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+      },
+      {
+        label: "Domino's delivery near me guide",
+        href: "/dominos-delivery-near-me",
+        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+      },
+    ],
+    additionalLocations: [
+      "Uptown Charlotte",
+      "South End",
+      "Dilworth",
+      "NoDa",
+      "Plaza Midwood",
+      "University City",
+      "Northlake",
+      "Ballantyne",
+      "SouthPark",
+      "Steele Creek",
+    ],
+    pizzaPrices: standardPizzaPrices2026,
+    sidePrices: standardSidePrices2026,
+  },
 };
 
 export function getRichLocation(slug: string): RichLocationData | undefined {
