@@ -1400,6 +1400,120 @@ export const locationRichContent: Record<string, RichLocationData> = {
     pizzaPrices: standardPizzaPrices2026,
     sidePrices: standardSidePrices2026,
   },
+  "indianapolis-in": {
+    slug: "indianapolis-in",
+    heroSubtitle: "Indianapolis Domino's menu prices, delivery-zone checks, carryout savings and neighborhood ordering tips for 2026.",
+    stats: [
+      { label: "Best first check", value: "Exact address" },
+      { label: "Value angle", value: "Deals" },
+      { label: "Plan for", value: "Events" },
+    ],
+    intro:
+      "Indianapolis is a wide metro city with downtown event traffic, college housing, family neighborhoods, hospitals, office areas and suburban edges that can all affect a Domino's order differently. This independent guide helps Indianapolis customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Indianapolis store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. For accurate store assignment, current hours, local pricing, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
+    editorialSections: [
+      {
+        heading: "Why Indianapolis orders need exact address verification",
+        body:
+          "Indianapolis neighborhoods and suburbs can route to different stores depending on delivery boundaries, highways, apartment clusters and edge-of-city locations. A store that looks close on a map may not be the store assigned to your address. Before planning a large order, enter the full street address in Domino's official app. That check confirms delivery eligibility, carryout availability, current timing, local coupon participation and the final checkout total.",
+      },
+      {
+        heading: "How events and weather affect delivery timing",
+        body:
+          "Delivery timing can shift around downtown events, Colts and Pacers games, concerts, campus demand, snow, rain and rush-hour traffic. If timing matters, order before peak demand and choose items that travel reliably. For apartment, hotel or office orders, clear handoff notes can matter as much as kitchen speed. A driver who can find the entrance quickly is more likely to complete a warm, smooth delivery.",
+      },
+      {
+        heading: "Why this page avoids fixed store details",
+        body:
+          "Unofficial local pages become weak when they publish exact store addresses, phone numbers or hours that later change. This Indianapolis page avoids stale local claims and focuses on durable ordering advice: carryout versus delivery, apartment and hotel handoff notes, neighborhood timing, group-order structure and internal guides for prices and deals. Exact store details should come from Domino's official locator.",
+      },
+    ],
+    neighborhoods: [
+      {
+        heading: "Downtown Indianapolis, Wholesale District & Mass Ave",
+        body:
+          "Central Indianapolis orders often involve apartments, hotels, offices, nightlife and event traffic. Delivery notes should include the building name, lobby process, floor or room details where allowed and a visible meeting point if curb access is difficult. Around games, conventions or concerts, order earlier than usual and choose shareable items such as pepperoni, cheese, specialty pizza, breads and chicken.",
+      },
+      {
+        heading: "Broad Ripple, Butler-Tarkington & Meridian-Kessler",
+        body:
+          "These neighborhoods combine homes, student housing, apartments, restaurants and evening demand. Carryout can be a strong value when the assigned store is close and pickup is simple. For delivery, add short notes for side entrances, duplexes, gate access or hard-to-see house numbers. Compare the final delivered total against carryout coupons before deciding.",
+      },
+      {
+        heading: "IUPUI, Near Westside & Medical District",
+        body:
+          "Campus and hospital-area orders often need careful handoff details. Buildings may have front desks, limited entrances, parking rules or specific delivery meeting points. If food is needed at a certain time, order earlier and keep the cart flexible. A balanced order with classic pizzas, bread and chicken is usually easier for students, staff or group meals than several highly customized pizzas.",
+      },
+      {
+        heading: "Castleton, Keystone & Northside routes",
+        body:
+          "Northside orders can involve shopping traffic, office corridors, apartments and suburban boundaries. Exact address entry matters because delivery zones may change across major roads. For office lunches or family orders, verify coupon participation before setting a budget. If delivery time looks long, carryout may be more predictable when pickup is convenient.",
+      },
+      {
+        heading: "Greenwood edge, Speedway & Lawrence-area ordering",
+        body:
+          "Indianapolis-area edges can feel close to the city while still routing to different stores or delivery zones. Enter the exact address before assuming a citywide estimate applies. Speedway event traffic, suburban routes and apartment access can all change timing. For larger orders, choose simple popular items and verify final checkout cost before collecting money from a group.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "For cheapest Indianapolis orders",
+        body:
+          "Start with carryout coupons, then compare the final delivered total after tax, delivery charge and tip. Carryout is often the value play when pickup is nearby and parking is easy. Delivery may be worth it when weather, downtown events, campus demand or group size makes pickup inconvenient. Always judge the deal by the final checkout total.",
+      },
+      {
+        heading: "For apartments, hotels and offices",
+        body:
+          "Add clear delivery notes: building name, entrance, floor, room or suite, lobby desk, gate process or safe meeting point. Indianapolis has many apartment communities, hotels and office buildings where a driver may need exact handoff details. Short accurate notes help reduce calls and keep food warmer.",
+      },
+      {
+        heading: "For families and group orders",
+        body:
+          "A practical group order usually includes variety: one cheese or pepperoni pizza, one specialty pizza, bread, chicken or dessert. This keeps the order flexible for kids, adults, coworkers or roommates. Check coupon participation in the official app before collecting money or setting a per-person budget.",
+      },
+      {
+        heading: "For late-night and event-day orders",
+        body:
+          "Store hours and delivery availability can vary by location, staffing, demand and day of week. Before a late order, enter the exact address and verify whether delivery or carryout is currently available. Around downtown events, races, games or severe weather, order earlier and keep handoff instructions simple.",
+      },
+    ],
+    resourceLinks: [
+      {
+        label: "Official Domino's Indianapolis locator",
+        href: "https://pizza.dominos.com/indiana/indianapolis",
+        description: "Use the official city page to verify Indianapolis store assignment, delivery eligibility and current ordering details.",
+        external: true,
+      },
+      {
+        label: "Domino's menu prices guide",
+        href: "/menus-prices",
+        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+      },
+      {
+        label: "Domino's coupons and deals",
+        href: "/coupons",
+        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+      },
+      {
+        label: "Domino's hours guide",
+        href: "/hours",
+        description: "Understand typical hours, late-night ordering and why each store should be verified.",
+      },
+    ],
+    additionalLocations: [
+      "Downtown Indianapolis",
+      "Mass Ave",
+      "Wholesale District",
+      "Broad Ripple",
+      "Butler-Tarkington",
+      "IUPUI",
+      "Medical District",
+      "Castleton",
+      "Keystone",
+      "Speedway",
+    ],
+    pizzaPrices: standardPizzaPrices2026,
+    sidePrices: standardSidePrices2026,
+  },
 };
 
 export function getRichLocation(slug: string): RichLocationData | undefined {
