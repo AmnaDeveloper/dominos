@@ -1742,6 +1742,120 @@ export const locationRichContent: Record<string, RichLocationData> = {
     pizzaPrices: standardPizzaPrices2026,
     sidePrices: standardSidePrices2026,
   },
+  "miami-fl": {
+    slug: "miami-fl",
+    heroSubtitle: "Miami Domino's menu prices, delivery-zone checks, carryout savings and neighborhood ordering tips for 2026.",
+    stats: [
+      { label: "Best first check", value: "Exact address" },
+      { label: "Value angle", value: "Coupons" },
+      { label: "Plan for", value: "Traffic" },
+    ],
+    intro:
+      "Miami Domino's orders can vary by neighborhood, exact address, traffic, apartment access, hotel location and whether the assigned store is currently offering delivery or carryout. This independent guide helps Miami customers compare example Domino's menu prices, coupon value, delivery convenience, carryout savings and group-order planning before using Domino's official ordering tools. It does not publish one fixed Miami address, local phone number or guaranteed schedule because Miami-Dade coverage is split across many stores and local details can change. For accurate store assignment, current hours, local prices, coupon participation, delivery eligibility and final checkout totals, enter your full address on Domino's official locator or app.",
+    editorialSections: [
+      {
+        heading: "Why Miami delivery depends on the exact address",
+        body:
+          "Miami is not one simple delivery zone. Store assignment can change between Downtown, Brickell, Little Havana, Coral Gables, Coconut Grove, Kendall, Doral, North Miami and beach-area addresses. A store that appears nearby may not be the store assigned to your address. Always start by entering the full delivery address in Domino's official app, then compare the available delivery and carryout options shown at checkout.",
+      },
+      {
+        heading: "Traffic, weather and building access matter",
+        body:
+          "Miami orders can be affected by rain, event traffic, bridges, tourist areas, school schedules, late-night demand and dense apartment or hotel buildings. Delivery can take longer when the driver needs to navigate a gate, lobby, valet area, elevator, callbox or unclear pickup point. If timing matters, order early, keep the order simple and add short handoff notes that make the entrance easy to find.",
+      },
+      {
+        heading: "Why this guide avoids stale store claims",
+        body:
+          "Unofficial location pages become risky when they copy exact store addresses, phone numbers or operating hours that later change. This Miami guide focuses on durable information that helps users make better choices without pretending to be an official store page: how to verify delivery zones, when carryout may save money, how to structure group orders and which internal guides can help compare prices and coupons.",
+      },
+    ],
+    neighborhoods: [
+      {
+        heading: "Downtown Miami, Brickell & Edgewater",
+        body:
+          "Central Miami orders often involve condos, offices, hotels, elevators, valet entrances and busy evening traffic. Delivery notes should include the building name, lobby or front-desk process, tower name if relevant and a simple meeting point if curb access is limited. For office lunches or hotel groups, choose shareable items and place the order before the rush rather than waiting until everyone is already hungry.",
+      },
+      {
+        heading: "Little Havana, Coral Way & Coconut Grove",
+        body:
+          "These areas can mix older homes, apartments, restaurants, nightlife and busy surface streets. Carryout can be a good value when pickup is nearby and parking is manageable. Delivery may be more convenient during rain or late evenings. Check the final delivered total after tax, delivery charge and tip before deciding whether a carryout coupon is actually the better deal.",
+      },
+      {
+        heading: "Coral Gables, South Miami & University areas",
+        body:
+          "Student housing, offices, family homes and campus-adjacent apartments can create different order needs. For study groups, office meals or family dinners, a balanced order usually works better than many customized pizzas. Start with one cheese or pepperoni pizza, add one specialty pizza, then add bread, chicken or dessert if the coupon structure makes sense.",
+      },
+      {
+        heading: "Kendall, Westchester & southwest Miami",
+        body:
+          "Southwest Miami can be spread across large residential areas, shopping centers and busy corridors. Exact address entry is important because delivery zones can shift street by street. If the assigned delivery estimate looks long, check whether carryout is practical. For family orders, compare bundle-style deals against separate pizzas and sides before checkout.",
+      },
+      {
+        heading: "Doral, Miami Springs & airport-area hotels",
+        body:
+          "Airport-area and business-travel orders often involve hotels, offices, warehouses and roads with heavy traffic at certain times. If ordering to a hotel, include the hotel name and lobby process. If ordering to a workplace, include the suite, loading area or approved meeting point. Use the official locator to confirm that the address is inside an active delivery zone.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "For the lowest Miami total",
+        body:
+          "Check carryout coupons first, then compare the final delivery price after taxes, delivery charge and tip. Carryout often wins when the store is close and pickup is simple. Delivery can still be the better choice during rain, downtown traffic, hotel stays, late nights or large group orders. Use the final checkout total as the real comparison point.",
+      },
+      {
+        heading: "For condos, apartments and gated communities",
+        body:
+          "Miami delivery notes should be short and precise: building name, tower, gate process, callbox, lobby desk, floor, unit guidance where allowed or a public meeting spot. Avoid long paragraphs that are hard to scan. Clear access details help reduce missed calls and make the order easier for the assigned store and driver.",
+      },
+      {
+        heading: "For tourists, hotels and beach trips",
+        body:
+          "If ordering from a hotel or temporary address, do not rely on your home-store assumptions. Enter the hotel address in the official app, verify delivery availability and check whether the front desk allows food handoff. Beach, event and nightlife areas can have unusual timing, so order earlier if the meal is tied to a schedule.",
+      },
+      {
+        heading: "For groups and family meals",
+        body:
+          "A strong Miami group order usually combines simple crowd-pleasers with one or two specialty items. Plain cheese, pepperoni, a specialty pizza, bread, chicken and dessert cover most preferences without making the order hard to split. Before collecting money from a group, confirm coupon participation and the final local total in the official checkout flow.",
+      },
+    ],
+    resourceLinks: [
+      {
+        label: "Official Domino's Miami locator",
+        href: "https://pizza.dominos.com/florida/miami",
+        description: "Use the official city page to verify Miami store assignment, delivery eligibility and current ordering details.",
+        external: true,
+      },
+      {
+        label: "Domino's menu prices guide",
+        href: "/menus-prices",
+        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned Miami store.",
+      },
+      {
+        label: "Domino's coupons and deals",
+        href: "/coupons",
+        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+      },
+      {
+        label: "Domino's delivery near me guide",
+        href: "/dominos-delivery-near-me",
+        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+      },
+    ],
+    additionalLocations: [
+      "Downtown Miami",
+      "Brickell",
+      "Edgewater",
+      "Little Havana",
+      "Coral Gables",
+      "Coconut Grove",
+      "South Miami",
+      "Kendall",
+      "Doral",
+      "North Miami",
+    ],
+    pizzaPrices: standardPizzaPrices2026,
+    sidePrices: standardSidePrices2026,
+  },
 };
 
 export function getRichLocation(slug: string): RichLocationData | undefined {
