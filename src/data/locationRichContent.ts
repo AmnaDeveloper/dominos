@@ -1628,6 +1628,120 @@ export const locationRichContent: Record<string, RichLocationData> = {
     pizzaPrices: standardPizzaPrices2026,
     sidePrices: standardSidePrices2026,
   },
+  "denver-co": {
+    slug: "denver-co",
+    heroSubtitle: "Denver Domino's menu prices, delivery-zone checks, carryout value and neighborhood ordering tips for 2026.",
+    stats: [
+      { label: "Best first check", value: "Exact address" },
+      { label: "Value angle", value: "Carryout deals" },
+      { label: "Plan for", value: "Weather" },
+    ],
+    intro:
+      "Denver is a spread-out city with downtown apartments, campus housing, airport-area neighborhoods, mountain-weather swings and traffic patterns that can change quickly across the metro. This independent guide helps Denver customers compare example Domino's menu prices, delivery convenience, carryout savings, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Denver store address, local phone number or guaranteed hours because assigned stores, local coupons, delivery boundaries and availability can change by address and date. For accurate store assignment, current hours, local prices, coupon participation and final checkout totals, enter your exact address on Domino's official locator or app.",
+    editorialSections: [
+      {
+        heading: "Why Denver orders should start with the official locator",
+        body:
+          "Denver has many neighborhoods that look close together on a map but may be assigned to different Domino's stores. Delivery boundaries can depend on streets, highways, store capacity and local operating rules. Before comparing coupons or planning a group meal, enter the exact street address in Domino's official app. That check confirms whether delivery is available, whether carryout is open, which store handles the order and what the final local price will be.",
+      },
+      {
+        heading: "How weather and traffic affect delivery timing",
+        body:
+          "Denver weather can move fast, especially during snow, heavy rain, wind or temperature swings. Timing can also shift around downtown traffic, game days, concerts, campus demand, airport-area travel and evening commute periods. If a meal has a firm deadline, place the order earlier than normal and keep the delivery handoff simple. Clear instructions for apartments, offices and hotels help reduce calls and delays.",
+      },
+      {
+        heading: "Why this page avoids fixed Denver store details",
+        body:
+          "Unofficial local pages can become low-quality when they copy addresses, phone numbers or hours that may later change. This Denver guide avoids stale contact claims and focuses on durable decision-making: delivery versus carryout, coupon comparison, neighborhood timing, group-order structure and internal guides for prices and deals. Exact store details should always come from Domino's official locator or checkout flow.",
+      },
+    ],
+    neighborhoods: [
+      {
+        heading: "Downtown, LoDo & Capitol Hill",
+        body:
+          "Central Denver orders often involve apartments, hotels, offices, nightlife and event traffic. Delivery notes should include the building name, lobby process, suite or floor details where allowed and a clear meeting point if curb access is difficult. For office lunches, hotel groups or late-night orders, choose popular items that divide easily: cheese, pepperoni, specialty pizza, bread, chicken and dessert.",
+      },
+      {
+        heading: "Cherry Creek, Congress Park & City Park",
+        body:
+          "These neighborhoods can mix homes, apartments, retail corridors and busy dinner demand. Carryout may be the better value when pickup is convenient, but delivery can be worth it during bad weather or when parking is tight. Before ordering, compare the delivered total after fees and tip against carryout offers in the official app. Store-specific coupon participation can change the best choice.",
+      },
+      {
+        heading: "Highlands, Sunnyside & Berkeley",
+        body:
+          "Northwest Denver orders may involve residential streets, apartments, restaurant traffic and changing route times. Exact address entry matters because the nearest-looking store is not always the assigned store. For family meals or roommate orders, use bundle-style deals when available and keep customizations moderate so the order stays simple, shareable and easier to check at pickup or delivery.",
+      },
+      {
+        heading: "University, Washington Park & South Denver",
+        body:
+          "Student housing, shared homes, parks and busy evening demand can affect timing around South Denver. If ordering for a study group, team meal or apartment gathering, set a realistic arrival window and select a mix of plain and specialty pizzas. If pickup is nearby, carryout coupons may stretch the budget farther than delivery once charges and tip are included.",
+      },
+      {
+        heading: "Stapleton/Central Park, Green Valley Ranch & airport-area neighborhoods",
+        body:
+          "Northeast Denver and airport-area orders can be shaped by distance, newer subdivisions, hotel clusters and traffic to or from DIA. Delivery zones should never be assumed from the city name alone. Enter the full address first, then decide whether delivery or carryout is more practical. For hotels, include the hotel name and lobby instructions in the order notes.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "For the lowest Denver total",
+        body:
+          "Start by checking carryout coupons, then compare the final delivered total after tax, delivery charge and tip. Carryout is often the strongest value when the assigned store is close and pickup is easy. Delivery may still be worth it during snow, bad weather, downtown traffic or large group orders. The best deal is the final checkout total, not only the menu price.",
+      },
+      {
+        heading: "For apartments, hotels and offices",
+        body:
+          "Denver has many buildings where delivery can slow down if the entrance or handoff point is unclear. Add short notes with the building name, lobby desk, callbox process, suite or floor, parking instruction or meeting point. Avoid long confusing directions; the goal is to make the handoff obvious without sharing unnecessary private details.",
+      },
+      {
+        heading: "For game days and event nights",
+        body:
+          "Broncos, Nuggets, Avalanche, Rockies, concerts and downtown events can change order demand and traffic. If pizza is part of an event plan, order earlier than the peak rush and choose broadly popular items. For groups, one cheese or pepperoni pizza, one specialty pizza and two side choices usually works better than many highly customized pizzas.",
+      },
+      {
+        heading: "For late-night or weather-sensitive orders",
+        body:
+          "Store hours, delivery availability and estimated timing can vary by Denver address and day. Before relying on a late-night order, check the official app with the exact address. During snow or heavy demand, keep expectations flexible, answer calls from the driver and choose a delivery handoff that is safe and easy to find.",
+      },
+    ],
+    resourceLinks: [
+      {
+        label: "Official Domino's Denver locator",
+        href: "https://pizza.dominos.com/colorado/denver",
+        description: "Use the official city page to verify Denver store assignment, delivery eligibility and current ordering details.",
+        external: true,
+      },
+      {
+        label: "Domino's menu prices guide",
+        href: "/menus-prices",
+        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned Denver store.",
+      },
+      {
+        label: "Domino's coupons and deals",
+        href: "/coupons",
+        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+      },
+      {
+        label: "Domino's delivery near me guide",
+        href: "/dominos-delivery-near-me",
+        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+      },
+    ],
+    additionalLocations: [
+      "Downtown Denver",
+      "LoDo",
+      "Capitol Hill",
+      "Cherry Creek",
+      "City Park",
+      "Highlands",
+      "Sunnyside",
+      "University",
+      "Washington Park",
+      "Green Valley Ranch",
+    ],
+    pizzaPrices: standardPizzaPrices2026,
+    sidePrices: standardSidePrices2026,
+  },
 };
 
 export function getRichLocation(slug: string): RichLocationData | undefined {
