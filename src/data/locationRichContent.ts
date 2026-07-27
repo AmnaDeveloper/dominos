@@ -1970,6 +1970,120 @@ export const locationRichContent: Record<string, RichLocationData> = {
     pizzaPrices: standardPizzaPrices2026,
     sidePrices: standardSidePrices2026,
   },
+  "boston-ma": {
+    slug: "boston-ma",
+    heroSubtitle: "Boston Domino's menu prices, delivery-zone checks, carryout value and neighborhood ordering tips for 2026.",
+    stats: [
+      { label: "Best first check", value: "Exact address" },
+      { label: "Value angle", value: "Carryout" },
+      { label: "Plan for", value: "Buildings" },
+    ],
+    intro:
+      "Boston Domino's ordering can change by exact address, assigned store, campus demand, apartment access, traffic, weather and whether local coupons are available at checkout. This independent guide helps Boston customers compare example Domino's menu prices, delivery convenience, carryout savings, coupon value and group-order planning before using Domino's official ordering tools. It does not publish one fixed Boston store address, local phone number or guaranteed schedule because store assignment, delivery boundaries, hours and local offers can change. For accurate store assignment, current hours, local pricing, coupon participation, delivery eligibility and final checkout totals, enter the full address on Domino's official locator or app.",
+    editorialSections: [
+      {
+        heading: "Why Boston orders should start with exact address entry",
+        body:
+          "Boston has compact neighborhoods, older street patterns, student housing, hospital areas, apartment buildings and nearby suburbs that can make delivery assignment less obvious than it looks on a map. A store that appears close may not be the store assigned to your address. Enter the exact street address in Domino's official app before comparing coupons or planning a group order, then use the checkout screen for the current delivery and carryout options.",
+      },
+      {
+        heading: "How buildings, campuses and weather affect timing",
+        body:
+          "Boston delivery timing can shift around rain, snow, cold weather, rush hour, game nights, campus demand and hospital or office traffic. Apartment buildings, dorms, hotels and office towers can also slow delivery if the handoff point is unclear. If the order has a deadline, place it earlier, choose items that travel well and add short building notes so the assigned store and driver have enough information.",
+      },
+      {
+        heading: "Why this page avoids fixed store claims",
+        body:
+          "Unofficial Boston pages become weak when they copy store addresses, phone numbers and hours that may later change. This guide avoids stale local claims and focuses on durable ordering help: how to verify delivery zones, when carryout may be cheaper, how to plan a campus or office meal, and which internal guides help compare example prices and coupons. Exact store details should always come from Domino's official locator.",
+      },
+    ],
+    neighborhoods: [
+      {
+        heading: "Back Bay, Beacon Hill & Downtown Boston",
+        body:
+          "Central Boston orders often involve apartments, hotels, offices, older buildings, limited curb access and busy streets. Delivery notes should include the building name, lobby process, floor or suite where allowed and a clear meeting point if the entrance is hard to identify. For office lunches or hotel stays, order before peak demand and choose shareable items that are easy to split.",
+      },
+      {
+        heading: "Fenway, Kenmore & Longwood Medical Area",
+        body:
+          "Fenway and Longwood orders can be shaped by students, hospitals, events, game traffic and large building complexes. Exact handoff instructions matter here. If ordering to a dorm, clinic, hospital area or office building, include a clear public meeting point or front-desk process. For groups, keep the order balanced with a plain pizza, a specialty pizza and simple sides.",
+      },
+      {
+        heading: "Allston, Brighton & Boston University areas",
+        body:
+          "Student-heavy neighborhoods can see high demand during evenings, weekends, move-in periods and late study nights. Carryout can be the value play when pickup is close, but delivery may be easier for larger roommate orders or bad weather. Confirm the final total in the official app before collecting money from a group or setting a per-person budget.",
+      },
+      {
+        heading: "South Boston, Seaport & Dorchester",
+        body:
+          "These areas can mix apartments, waterfront buildings, offices, residential streets and changing traffic patterns. Delivery zones should not be assumed from the city name alone. Enter the full address first, verify the assigned store and compare delivery against carryout. For apartment buildings, short precise notes are more useful than long directions.",
+      },
+      {
+        heading: "East Boston, Charlestown & nearby transit areas",
+        body:
+          "East Boston and transit-adjacent orders may involve tunnels, airport-area timing, apartment access and neighborhood-specific delivery boundaries. A citywide estimate may not apply to every address. If ordering to a hotel, workplace or shared building, include the building name and pickup point. If timing is tight, consider carryout only after checking distance and pickup availability.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "For the lowest Boston total",
+        body:
+          "Start by checking carryout coupons, then compare the final delivery price after tax, delivery charge and tip. Carryout often wins when the assigned store is close and pickup is simple. Delivery may still be worth it during snow, rain, late nights, campus rushes, hotel stays or office meals. Always judge the deal by the final checkout total.",
+      },
+      {
+        heading: "For apartments, dorms and offices",
+        body:
+          "Use short delivery notes with the building name, entrance, lobby desk, floor, suite, dorm desk or public meeting point. Boston has many buildings where the front door, side entrance or delivery area may not be obvious. Clear handoff details reduce missed calls and help keep the order moving without adding risky or unnecessary personal information.",
+      },
+      {
+        heading: "For students and group meals",
+        body:
+          "A practical student or office order should be easy to split and easy to verify. Start with cheese or pepperoni, add one specialty pizza, then include bread, chicken or dessert if the coupon structure supports it. Avoid too many custom combinations when several people are sharing the bill, because customizations can raise the total quickly.",
+      },
+      {
+        heading: "For game days, concerts and late orders",
+        body:
+          "Fenway events, TD Garden nights, concerts, college schedules and late-night demand can affect store workload and route timing. Place orders earlier when the meal is tied to a plan, and verify hours in the official app before relying on late availability. If delivery is available, keep the handoff simple and answer calls from the driver quickly.",
+      },
+    ],
+    resourceLinks: [
+      {
+        label: "Official Domino's Boston locator",
+        href: "https://pizza.dominos.com/massachusetts/boston",
+        description: "Use the official city page to verify Boston store assignment, delivery eligibility and current ordering details.",
+        external: true,
+      },
+      {
+        label: "Domino's menu prices guide",
+        href: "/menus-prices",
+        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned Boston store.",
+      },
+      {
+        label: "Domino's coupons and deals",
+        href: "/coupons",
+        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+      },
+      {
+        label: "Domino's delivery near me guide",
+        href: "/dominos-delivery-near-me",
+        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+      },
+    ],
+    additionalLocations: [
+      "Downtown Boston",
+      "Back Bay",
+      "Beacon Hill",
+      "Fenway",
+      "Kenmore",
+      "Longwood",
+      "Allston",
+      "Brighton",
+      "South Boston",
+      "East Boston",
+    ],
+    pizzaPrices: standardPizzaPrices2026,
+    sidePrices: standardSidePrices2026,
+  },
 };
 
 export function getRichLocation(slug: string): RichLocationData | undefined {
