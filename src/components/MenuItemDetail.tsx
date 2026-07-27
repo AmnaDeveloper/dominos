@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Star, Check, X } from "lucide-react";
+import { Check, X } from "lucide-react";
 import type { MenuItem } from "@/data/types";
 import FaqAccordion from "@/components/FaqAccordion";
 import PageComments from "@/components/PageComments";
@@ -27,9 +27,6 @@ export default function MenuItemDetail({
             <h1 className="post-hero-title mt-3">{item.title}</h1>
             <p className="mt-3 text-white/85">{item.description}</p>
             <div className="mt-4 flex items-center gap-4 text-sm">
-              <span className="inline-flex items-center gap-1">
-                <Star size={15} fill="#E31837" color="#E31837" /> {item.rating} ({item.reviewCount.toLocaleString()} reviews)
-              </span>
               <span>From {item.price} · {item.calories} cal</span>
             </div>
           </div>

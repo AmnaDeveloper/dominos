@@ -5,7 +5,6 @@ import FAQJsonLd from "@/components/FAQJsonLd";
 import InternalLinks from "@/components/seo/InternalLinks";
 import LastUpdated from "@/components/LastUpdated";
 import { generatePageSEO } from "@/lib/seo-config";
-import { SOCIAL_LINKS } from "@/lib/site-config";
 import type { FAQ } from "@/data/types";
 
 export const revalidate = 86400;
@@ -58,13 +57,13 @@ export default function ContactPage() {
           </div>
           <div className="rounded-xl border border-slate-200 p-5">
             <h3 className="font-bold flex items-center gap-2 text-slate-900">
-              <Mail size={18} style={{ color: "#C8102E" }} /> Follow Us
+              <Mail size={18} style={{ color: "#C8102E" }} /> Before You Send
             </h3>
-            <ul className="text-sm mt-2 space-y-1">
-              <li><a href={SOCIAL_LINKS.facebook} target="_blank" rel="nofollow noopener" className="underline" style={{ color: "#C8102E" }}>Facebook</a></li>
-              <li><a href={SOCIAL_LINKS.instagram} target="_blank" rel="nofollow noopener" className="underline" style={{ color: "#C8102E" }}>Instagram</a></li>
-              <li><a href={SOCIAL_LINKS.twitter} target="_blank" rel="nofollow noopener" className="underline" style={{ color: "#C8102E" }}>Twitter/X</a></li>
-            </ul>
+            <p className="text-sm text-slate-700 mt-2">
+              We can review corrections, reader tips and site feedback. For
+              live orders, refunds, store complaints or delivery issues, use
+              Domino&apos;s official app or customer support channels.
+            </p>
           </div>
         </aside>
       </div>

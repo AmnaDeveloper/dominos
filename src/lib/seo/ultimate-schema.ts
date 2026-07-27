@@ -1,6 +1,6 @@
-import { SITE_URL, SITE_NAME, SOCIAL_LINKS, absoluteUrl } from "@/lib/site-config";
+import { SITE_URL, SITE_NAME, absoluteUrl } from "@/lib/site-config";
 
-/** Full @graph for high-value pages (Organization + WebSite + Restaurant). */
+/** Full @graph for high-value informational pages. */
 export function ultimateSchema() {
   return {
     "@context": "https://schema.org",
@@ -11,7 +11,8 @@ export function ultimateSchema() {
         name: SITE_NAME,
         url: SITE_URL,
         logo: absoluteUrl("/favicon.png"),
-        sameAs: Object.values(SOCIAL_LINKS),
+        description:
+          "Independent, unofficial informational guide to Domino's menu prices, coupons, delivery and ordering tips.",
       },
       {
         "@type": "WebSite",
@@ -21,13 +22,12 @@ export function ultimateSchema() {
         publisher: { "@id": `${SITE_URL}/#organization` },
       },
       {
-        "@type": "Restaurant",
-        "@id": `${SITE_URL}/#restaurant`,
-        name: "Domino's Pizza",
-        servesCuisine: ["Pizza", "Italian-American", "Fast Food"],
-        priceRange: "$$",
-        hasMenu: absoluteUrl("/menus-prices"),
-        acceptsReservations: false,
+        "@type": "WebPage",
+        "@id": `${SITE_URL}/#about-this-site`,
+        url: SITE_URL,
+        name: "Domino's Menu Guide",
+        isPartOf: { "@id": `${SITE_URL}/#website` },
+        about: ["Domino's menu prices", "Domino's coupons", "Domino's delivery"],
       },
     ],
   };

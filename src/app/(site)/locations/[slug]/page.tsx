@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { MapPin, Phone, Clock } from "lucide-react";
+import { Clock, MapPin, SearchCheck } from "lucide-react";
 import FaqAccordion from "@/components/FaqAccordion";
 import InternalLinks from "@/components/seo/InternalLinks";
 import LastUpdated from "@/components/LastUpdated";
@@ -99,8 +99,8 @@ export default async function LocationPage({
             <div><p className="font-bold text-sm !bg-transparent">Area</p><p className="text-sm text-slate-600">{loc.address}</p></div>
           </div>
           <div className="rounded-xl border border-slate-200 p-4 flex items-start gap-3">
-            <Phone size={18} style={{ color: "#C8102E" }} />
-            <div><p className="font-bold text-sm !bg-transparent">Phone</p><p className="text-sm text-slate-600">{loc.phone} (display only)</p></div>
+            <SearchCheck size={18} style={{ color: "#C8102E" }} />
+            <div><p className="font-bold text-sm !bg-transparent">Verify first</p><p className="text-sm text-slate-600">Use the official locator for store details</p></div>
           </div>
           <div className="rounded-xl border border-slate-200 p-4 flex items-start gap-3">
             <Clock size={18} style={{ color: "#C8102E" }} />

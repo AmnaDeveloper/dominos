@@ -1,5 +1,4 @@
 import type { Location, LocationHours } from "./types";
-import { DISPLAY_PHONE } from "@/lib/site-config";
 
 // --- Weekly hour presets ---
 // Standard: 10:00–00:00 Sun–Thu, 10:00–01:00 Fri–Sat
@@ -56,7 +55,6 @@ export const locations: Location[] = RAW.map((r) => ({
   title: `Domino's ${r.city}, ${r.state} — Menu, Prices, Hours & Delivery`,
   description: `Unofficial guide to Domino's in ${r.city}, ${r.state}: example menu prices, store hours, delivery info and ordering tips. Verify details on the official Domino's locator.`,
   address: r.address,
-  phone: DISPLAY_PHONE,
   hours: r.hoursType === "ext" ? ext : std,
 }));
 

@@ -11,7 +11,6 @@ import {
   ADSENSE_PUB_ID,
   GA4_ID,
   GOOGLE_SITE_VERIFICATION,
-  SOCIAL_LINKS,
   absoluteUrl,
 } from "@/lib/site-config";
 
@@ -37,6 +36,10 @@ const poppins = Poppins({
 // Local font stub kept intentionally (see reference). Swap for a real
 // next/font/local declaration if a licensed brand font is added later.
 const papaSans = { variable: "" };
+
+const hasRealAdSenseId = /^ca-pub-\d+$/.test(ADSENSE_PUB_ID);
+const hasRealGa4Id = /^G-[A-Z0-9]+$/.test(GA4_ID);
+const hasRealGoogleVerification = Boolean(GOOGLE_SITE_VERIFICATION);
 
 export const viewport: Viewport = {
   themeColor: "#C8102E",
@@ -81,7 +84,7 @@ export const metadata: Metadata = {
     icon: "/favicon1.jpeg",
     apple: "/favicon1.jpeg",
   },
-  verification: { google: GOOGLE_SITE_VERIFICATION },
+  ...(hasRealGoogleVerification ? { verification: { google: GOOGLE_SITE_VERIFICATION } } : {}),
   openGraph: {
     type: "website",
     siteName: SITE_NAME,
@@ -111,12 +114,8 @@ const jsonLdGraph = {
         width: 512,
         height: 512,
       },
-      sameAs: [
-        SOCIAL_LINKS.facebook,
-        SOCIAL_LINKS.twitter,
-        SOCIAL_LINKS.instagram,
-        SOCIAL_LINKS.youtube,
-      ],
+      description:
+        "Independent, unofficial informational guide to Domino's menu prices, coupons, delivery and ordering tips.",
     },
     {
       "@type": "WebSite",
@@ -134,38 +133,18 @@ const jsonLdGraph = {
       },
     },
     {
-      "@type": "Restaurant",
-      "@id": `${SITE_URL}/#restaurant`,
-      name: "Domino's Pizza",
-      description:
-        "Domino's Pizza menu, prices, deals and ordering information (unofficial guide).",
-      servesCuisine: ["Pizza", "Italian-American", "Fast Food"],
-      priceRange: "$$",
+      "@type": "WebPage",
+      "@id": `${SITE_URL}/#about-this-site`,
       url: SITE_URL,
-      hasMenu: absoluteUrl("/menus-prices"),
-      acceptsReservations: false,
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: "30 Frank Lloyd Wright Dr",
-        addressLocality: "Ann Arbor",
-        addressRegion: "MI",
-        postalCode: "48105",
-        addressCountry: "US",
-      },
-      geo: {
-        "@type": "GeoCoordinates",
-        latitude: 42.2853,
-        longitude: -83.7412,
-      },
-      openingHoursSpecification: {
-        "@type": "OpeningHoursSpecification",
-        dayOfWeek: [
-          "Monday", "Tuesday", "Wednesday", "Thursday",
-          "Friday", "Saturday", "Sunday",
-        ],
-        opens: "10:00",
-        closes: "01:00",
-      },
+      name: SITE_TITLE_DEFAULT,
+      description: SITE_DESCRIPTION,
+      isPartOf: { "@id": `${SITE_URL}/#website` },
+      about: [
+        "Domino's menu prices",
+        "Domino's coupons",
+        "Domino's delivery",
+        "Pizza ordering guides",
+      ],
     },
   ],
 };
@@ -183,8 +162,7 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
 
-        {/* Google AdSense */}
-        <meta name="google-adsense-account" content={ADSENSE_PUB_ID} />
+        {hasRealAdSenseId ? <meta name="google-adsense-account" content={ADSENSE_PUB_ID} /> : null}
 
         {/* Global structured data */}
         <script
@@ -205,29 +183,33 @@ export default function RootLayout({
         <AutoDateUpdater />
         {children}
 
-        {/* AdSense loader (placeholder pub id) */}
-        <Script
-          id="adsbygoogle-init"
-          async
-          strategy="lazyOnload"
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_PUB_ID}`}
-          crossOrigin="anonymous"
-        />
+        {hasRealAdSenseId ? (
+          <Script
+            id="adsbygoogle-init"
+            async
+            strategy="lazyOnload"
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_PUB_ID}`}
+            crossOrigin="anonymous"
+          />
+        ) : null}
 
-        {/* Google Analytics 4 (placeholder id) */}
-        <Script
-          id="ga4-src"
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`}
-          strategy="lazyOnload"
-        />
-        <Script id="ga4-init" strategy="lazyOnload">
-          {`
+        {hasRealGa4Id ? (
+          <>
+            <Script
+              id="ga4-src"
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`}
+              strategy="lazyOnload"
+            />
+            <Script id="ga4-init" strategy="lazyOnload">
+              {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', '${GA4_ID}', { anonymize_ip: true });
           `}
-        </Script>
+            </Script>
+          </>
+        ) : null}
       </body>
     </html>
   );

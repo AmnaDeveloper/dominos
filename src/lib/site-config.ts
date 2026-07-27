@@ -16,9 +16,6 @@ export const SITE_TITLE_DEFAULT =
 export const SITE_DESCRIPTION =
   "Unofficial guide to the Domino's menu with example prices, coupons, deals, rewards, nutrition and ordering tips for 2026. Independent — always verify final prices at official checkout.";
 
-// Display-only phone. Always direct users to the official app/site to order.
-export const DISPLAY_PHONE = "1-800-DOMINOS";
-
 // --- Brand palette (Domino's-inspired, on-brand blue + red) ---
 export const COLORS = {
   primary: "#006491", // Domino's Blue — headers, hero bg, table headers
@@ -30,20 +27,14 @@ export const COLORS = {
   navy: "#003F5C", // deep text
 } as const;
 
-// --- Third-party IDs (placeholders — swap when provisioned) ---
-export const GA4_ID = "G-XXXXXXX";
-export const ADSENSE_PUB_ID = "ca-pub-XXXXXXXXXXXXXXXX";
-export const ADSENSE_ADS_TXT_ID = "pub-XXXXXXXXXXXXXXXX";
-export const GOOGLE_SITE_VERIFICATION = "google-site-verification-placeholder";
-export const CLARITY_ID = "XXXXXXXXXX";
-
-// --- Social links (external, rel="nofollow noopener") ---
-export const SOCIAL_LINKS = {
-  facebook: "https://www.facebook.com/Dominos",
-  twitter: "https://twitter.com/dominos",
-  instagram: "https://www.instagram.com/dominos",
-  youtube: "https://www.youtube.com/dominos",
-} as const;
+// --- Third-party IDs ---
+// Keep empty until real IDs are issued. Placeholder IDs should not be rendered
+// during AdSense review because they make the site look unfinished.
+export const GA4_ID = "";
+export const ADSENSE_PUB_ID = "";
+export const ADSENSE_ADS_TXT_ID = "";
+export const GOOGLE_SITE_VERIFICATION = "";
+export const CLARITY_ID = "";
 
 export const NOT_AFFILIATED_DISCLAIMER =
   "This is an independent, unofficial informational guide. It is not affiliated with, endorsed by, or sponsored by Domino's Pizza LLC. All trademarks belong to their respective owners. Prices shown are examples and may vary by location — always verify final prices at official checkout.";

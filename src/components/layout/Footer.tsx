@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { Facebook, Twitter, Instagram, Youtube } from "lucide-react";
-import { SITE_DOMAIN, SOCIAL_LINKS, NOT_AFFILIATED_DISCLAIMER } from "@/lib/site-config";
+import { SITE_DOMAIN, NOT_AFFILIATED_DISCLAIMER } from "@/lib/site-config";
 
 const COLS = [
   {
@@ -69,20 +68,9 @@ export default function Footer() {
 
       <div style={{ backgroundColor: "#C8102E" }} className="text-white">
         <div className="container-max py-5 flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
-            <a href={SOCIAL_LINKS.facebook} target="_blank" rel="nofollow noopener" aria-label="Facebook" className="hover:opacity-80">
-              <Facebook size={18} />
-            </a>
-            <a href={SOCIAL_LINKS.twitter} target="_blank" rel="nofollow noopener" aria-label="Twitter/X" className="hover:opacity-80">
-              <Twitter size={18} />
-            </a>
-            <a href={SOCIAL_LINKS.instagram} target="_blank" rel="nofollow noopener" aria-label="Instagram" className="hover:opacity-80">
-              <Instagram size={18} />
-            </a>
-            <a href={SOCIAL_LINKS.youtube} target="_blank" rel="nofollow noopener" aria-label="YouTube" className="hover:opacity-80">
-              <Youtube size={18} />
-            </a>
-          </div>
+          <p className="text-xs text-white/90 text-center md:text-left">
+            Independent informational guide. We do not take orders or represent Domino&apos;s Pizza LLC.
+          </p>
           <p className="text-xs text-white/90 text-center md:text-right">
             © {year} {SITE_DOMAIN}
           </p>

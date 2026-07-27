@@ -92,6 +92,5 @@ export interface Location {
   title: string;
   description: string;
   address: string;
-  phone: string;
   hours: LocationHours[];
 }

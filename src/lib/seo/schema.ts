@@ -7,13 +7,17 @@ const stripHtml = (html: string) =>
 export function generateRestaurantSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": "Restaurant",
-    name: "Domino's Pizza",
-    servesCuisine: ["Pizza", "Italian-American", "Fast Food"],
-    priceRange: "$$",
+    "@type": "WebPage",
+    name: "Domino's Menu Guide",
+    description:
+      "Independent, unofficial guide to Domino's menu prices, coupons, delivery and ordering tips.",
     url: SITE_URL,
-    hasMenu: absoluteUrl("/menus-prices"),
-    acceptsReservations: false,
+    isPartOf: {
+      "@type": "WebSite",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+    about: ["Domino's menu prices", "Domino's coupons", "Domino's delivery"],
   };
 }
 
@@ -54,11 +58,6 @@ export function generateProductSchema(item: {
     name: item.title,
     description: item.description,
     image: absoluteUrl(item.image),
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: item.rating,
-      reviewCount: item.reviewCount,
-    },
     offers: {
       "@type": "AggregateOffer",
       priceCurrency: "USD",
