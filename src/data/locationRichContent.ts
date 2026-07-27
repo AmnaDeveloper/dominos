@@ -1856,6 +1856,120 @@ export const locationRichContent: Record<string, RichLocationData> = {
     pizzaPrices: standardPizzaPrices2026,
     sidePrices: standardSidePrices2026,
   },
+  "atlanta-ga": {
+    slug: "atlanta-ga",
+    heroSubtitle: "Atlanta Domino's menu prices, delivery-zone checks, carryout savings and neighborhood ordering tips for 2026.",
+    stats: [
+      { label: "Best first check", value: "Exact address" },
+      { label: "Value angle", value: "Carryout" },
+      { label: "Plan for", value: "Traffic" },
+    ],
+    intro:
+      "Atlanta Domino's ordering depends heavily on the exact address, assigned store, traffic, apartment access, event timing and whether local coupons are available at checkout. This independent guide helps Atlanta customers compare example Domino's menu prices, delivery convenience, carryout savings, coupon value and group-order planning before using Domino's official ordering tools. It does not publish a single fixed Atlanta store address, local phone number or guaranteed hours because metro Atlanta has many stores and local details can change. For accurate store assignment, current hours, local pricing, coupon participation, delivery eligibility and final checkout totals, enter the full address on Domino's official locator or app.",
+    editorialSections: [
+      {
+        heading: "Why Atlanta orders need exact address verification",
+        body:
+          "Atlanta delivery zones can shift around interstates, neighborhood boundaries, store capacity and local operating rules. A store that looks closest on a map may not be the store assigned to a specific apartment, office, house or hotel. Before planning dinner, enter the exact address in Domino's official app. That check confirms whether delivery is available, whether carryout is open, which store handles the order and which coupons apply locally.",
+      },
+      {
+        heading: "How traffic and events affect timing",
+        body:
+          "Atlanta traffic can change quickly around I-75, I-85, I-20, the Downtown Connector, stadium events, concerts, airport travel, school schedules and evening rush periods. Delivery timing may also shift when a driver has to navigate gated apartments, high-rise lobbies, hotel desks or large office campuses. If timing matters, order earlier than peak demand and add clear handoff notes so the driver does not have to guess.",
+      },
+      {
+        heading: "Why this page avoids copied store details",
+        body:
+          "Unofficial local pages become weak when they copy store addresses, phone numbers and hours that can become stale. This Atlanta guide focuses on durable ordering advice instead: how to verify delivery zones, when carryout may be cheaper, how to plan a group order, what to check before relying on a coupon and which internal guides help compare prices and deals. Exact store details should come from Domino's official locator.",
+      },
+    ],
+    neighborhoods: [
+      {
+        heading: "Downtown, Midtown & Old Fourth Ward",
+        body:
+          "Central Atlanta orders often involve apartments, hotels, offices, student housing, nightlife and event traffic. Delivery notes should include the building name, lobby process, floor or suite where allowed and a clear pickup point if curb access is limited. For office lunches, hotel stays or game-day groups, place the order earlier and choose shareable items such as cheese, pepperoni, specialty pizza, bread, chicken and dessert.",
+      },
+      {
+        heading: "Buckhead, Brookhaven & Lindbergh",
+        body:
+          "North Atlanta orders can be shaped by condos, busy retail corridors, offices, apartments and evening traffic. Carryout may save money when pickup is easy, but delivery can be more practical if parking, rain or traffic makes driving inconvenient. Compare the final delivered total against carryout coupons in the official checkout flow before choosing the option that looks cheaper at first glance.",
+      },
+      {
+        heading: "Virginia-Highland, Inman Park & Decatur area",
+        body:
+          "These neighborhoods can include older homes, apartments, restaurants, narrow streets and busy weekend demand. Exact address entry matters because a nearby-looking store may not be the assigned store. For family meals or roommate orders, keep the order balanced with one plain pizza, one specialty pizza and a side or dessert so the meal works for more people without becoming hard to split.",
+      },
+      {
+        heading: "West Midtown, Atlantic Station & Georgia Tech area",
+        body:
+          "Campus and office-adjacent orders often need predictable timing and simple group choices. If ordering for students, coworkers or an apartment gathering, avoid too many custom pizzas and use coupons that fit the group size. Delivery instructions should include the residence hall, office tower, lobby, loading zone or approved meeting point where applicable.",
+      },
+      {
+        heading: "South Atlanta, East Point & airport-area neighborhoods",
+        body:
+          "Airport-area and southside orders may involve hotels, travel schedules, apartment gates and traffic near major roads. Do not assume a citywide delivery estimate applies to every address. Enter the full address first, verify the assigned store and decide whether delivery or carryout is better. For hotel orders, include the hotel name and front-desk or lobby instructions.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "For the lowest Atlanta total",
+        body:
+          "Start with carryout coupons, then compare the delivered checkout total after tax, delivery charge and tip. Carryout often gives the best value when the assigned store is close and pickup is simple. Delivery may still be worth it during rain, traffic, airport stays, office meals or larger group orders. The final checkout total is the number that matters most.",
+      },
+      {
+        heading: "For apartments, hotels and office buildings",
+        body:
+          "Use short, practical delivery notes: building name, gate code process if allowed, lobby desk, floor, suite, loading area or meeting point. Atlanta has many apartment complexes and office buildings where unclear access can slow delivery. Clear notes reduce missed calls and help the assigned store complete the order more smoothly.",
+      },
+      {
+        heading: "For game days and concert nights",
+        body:
+          "Mercedes-Benz Stadium, State Farm Arena, Truist Park traffic, concerts and downtown events can affect demand and route timing across the city. If pizza is part of a watch party or event plan, order before the peak rush. Pick simple crowd-pleasers and confirm the coupon in the official app before setting a group budget.",
+      },
+      {
+        heading: "For late-night orders",
+        body:
+          "Late-night availability can vary by store, staffing, day of week and address. Before assuming a store is open, enter the exact address in Domino's official ordering flow. If delivery is available, keep handoff instructions simple and answer driver calls quickly. If carryout is available, check the pickup time before leaving.",
+      },
+    ],
+    resourceLinks: [
+      {
+        label: "Official Domino's Atlanta locator",
+        href: "https://pizza.dominos.com/georgia/atlanta",
+        description: "Use the official city page to verify Atlanta store assignment, delivery eligibility and current ordering details.",
+        external: true,
+      },
+      {
+        label: "Domino's menu prices guide",
+        href: "/menus-prices",
+        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned Atlanta store.",
+      },
+      {
+        label: "Domino's coupons and deals",
+        href: "/coupons",
+        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+      },
+      {
+        label: "Domino's delivery near me guide",
+        href: "/dominos-delivery-near-me",
+        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+      },
+    ],
+    additionalLocations: [
+      "Downtown Atlanta",
+      "Midtown",
+      "Old Fourth Ward",
+      "Buckhead",
+      "Brookhaven",
+      "Virginia-Highland",
+      "Inman Park",
+      "West Midtown",
+      "Atlantic Station",
+      "East Point",
+    ],
+    pizzaPrices: standardPizzaPrices2026,
+    sidePrices: standardSidePrices2026,
+  },
 };
 
 export function getRichLocation(slug: string): RichLocationData | undefined {
