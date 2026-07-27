@@ -23,7 +23,7 @@ export default function PrivacyPage() {
         <p>This Privacy Policy explains what information the Domino&apos;s Menu Guide (&quot;we&quot;) collects and how we use it. We are an independent, unofficial informational website.</p>
 
         <h2>2. Information We Collect</h2>
-        <p>We collect limited information automatically, such as your IP address, browser type, pages visited and referring URLs, through analytics and advertising tools. If you submit a comment or contact form, we collect the information you provide.</p>
+        <p>We collect limited information automatically, such as your IP address, browser type, pages visited and referring URLs, through analytics and advertising tools when those tools are enabled. If you submit the contact form, we collect the information you provide so we can review and respond to your message.</p>
 
         <h2>3. Cookies</h2>
         <p>We use cookies and similar technologies for essential site function, analytics, and advertising. You can control cookies through your browser settings. See our <a href="/cookies">Cookie Policy</a> for details.</p>
@@ -43,7 +43,7 @@ export default function PrivacyPage() {
         <p>We use collected information to operate and improve the site, serve relevant advertising, respond to inquiries, and maintain security. We do not sell your personal information.</p>
 
         <h2>7. Your Choices</h2>
-        <p>You can disable cookies in your browser, opt out of personalized ads via the links above, and request removal of comments you submitted by contacting us.</p>
+        <p>You can disable cookies in your browser, opt out of personalized ads via the links above, and contact us with privacy questions or correction requests.</p>
 
         <h2>8. Contact & Updates</h2>
         <p>We may update this policy periodically. Questions can be sent via our <a href="/contact">contact page</a>.</p>
