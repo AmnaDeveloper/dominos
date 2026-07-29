@@ -52,7 +52,7 @@ const nextConfig: NextConfig = {
         headers: [
           { key: "Content-Type", value: "text/plain; charset=utf-8" },
           { key: "Access-Control-Allow-Origin", value: "*" },
-          { key: "Cache-Control", value: "public, max-age=86400, must-revalidate" },
+          { key: "Cache-Control", value: "no-cache, max-age=0, must-revalidate" },
         ],
       },
       {
