@@ -1,1 +1,1 @@
-# Add your real AdSense publisher line only after Google approves/provisions it.
+google.com, pub-7176456641838512, DIRECT, f08c47fec0942fa0
