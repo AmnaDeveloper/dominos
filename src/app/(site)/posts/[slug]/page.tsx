@@ -22,6 +22,7 @@ const CUSTOM_TITLES: Record<string, (m: string, d: string) => string> = {
   "how-to-save-money-at-dominos": (m) => `How to Save Money at Domino's (${m})`,
   "dominos-calories-nutrition-guide": (m) => `Domino's Calories Per Slice & Nutrition (${m})`,
   "dominos-parmesan-stuffed-crust": (m) => `Domino's Parmesan Stuffed Crust: Price & Calories (${m})`,
+  "dominos-sides-menu-prices": (m) => `Domino's Sides Menu with Prices (${m})`,
 };
 
 export async function generateMetadata({
