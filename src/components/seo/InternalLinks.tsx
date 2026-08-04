@@ -14,6 +14,8 @@ const DEFAULT_LINKS: LinkItem[] = [
   { label: "Delivery Near Me", href: "/dominos-delivery-near-me", desc: "Times, fees and how to order" },
   { label: "Pizza Sizes & Prices", href: "/posts/dominos-pizza-sizes-and-prices", desc: "Small to Extra Large compared" },
   { label: "Save Money at Domino's", href: "/posts/how-to-save-money-at-dominos", desc: "The full money-saving playbook" },
+  { label: "Calories & Nutrition", href: "/posts/dominos-calories-nutrition-guide", desc: "Calories per slice, size and side" },
+  { label: "Crust Types Explained", href: "/posts/dominos-crust-types-explained", desc: "Hand Tossed, Pan, Thin and more" },
 ];
 
 export default function InternalLinks({
