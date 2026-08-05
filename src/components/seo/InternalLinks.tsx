@@ -18,6 +18,7 @@ const DEFAULT_LINKS: LinkItem[] = [
   { label: "Crust Types Explained", href: "/posts/dominos-crust-types-explained", desc: "Hand Tossed, Pan, Thin and more" },
   { label: "Parmesan Stuffed Crust", href: "/posts/dominos-parmesan-stuffed-crust", desc: "Price, sizes, calories and verdict" },
   { label: "Sides Menu with Prices", href: "/posts/dominos-sides-menu-prices", desc: "Pasta, sandwiches, tots and desserts" },
+  { label: "Specialty Pizzas", href: "/posts/dominos-specialty-pizzas", desc: "All 13 recipes, prices and calories" },
 ];
 
 export default function InternalLinks({
