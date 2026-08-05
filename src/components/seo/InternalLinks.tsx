@@ -20,6 +20,7 @@ const DEFAULT_LINKS: LinkItem[] = [
   { label: "Sides Menu with Prices", href: "/posts/dominos-sides-menu-prices", desc: "Pasta, sandwiches, tots and desserts" },
   { label: "Specialty Pizzas", href: "/posts/dominos-specialty-pizzas", desc: "All 13 recipes, prices and calories" },
   { label: "Toppings List & Prices", href: "/posts/dominos-toppings-list-prices", desc: "Every meat, veggie, cheese and sauce" },
+  { label: "Vegetarian & Vegan", href: "/posts/dominos-vegetarian-vegan-options", desc: "What you can actually order" },
 ];
 
 export default function InternalLinks({
