@@ -43,19 +43,23 @@ export function generateMenuSchema(
 }
 
 /**
- * Product schema for a menu item page.
+ * Schema for a menu item page.
  *
- * NOTE: `aggregateRating` is deliberately omitted, and Search Console will
- * report "Missing field aggregateRating" as a non-critical warning. Do not
- * "fix" it by emitting the `rating` / `reviewCount` values on MenuItem —
- * those are placeholder numbers, they are not shown anywhere on the page,
- * and this site collects no reviews at all (see src/app/api/comments/route.ts,
- * which is disabled). Google requires aggregateRating to come from genuine
- * reviews that are visible on the page; publishing invented ones risks a
- * "spammy structured markup" manual action, which is far worse than the
- * warning. Add it only if real, displayed review data ever exists.
+ * Deliberately NOT `Product`. Product is a commerce type: Google expects
+ * `review` and `aggregateRating` on it, and both were reported as issues in
+ * Search Console. Neither can be supplied honestly — this site sells nothing,
+ * collects no reviews (src/app/api/comments/route.ts is disabled), and the
+ * `rating` / `reviewCount` fields on MenuItem are unused placeholders that
+ * appear nowhere on the page. Emitting invented review data to clear the
+ * warnings risks a "spammy structured markup" manual action.
+ *
+ * `MenuItem` describes exactly what these pages are — an item on a restaurant
+ * menu — so the Product-snippet expectations no longer apply and both issues
+ * resolve for real. `availability` is also gone: this is an independent guide,
+ * not a store, so it cannot claim anything is in stock. Prices stay as an
+ * AggregateOffer range because the pages genuinely document a price range.
  */
-export function generateProductSchema(item: {
+export function generateMenuItemSchema(item: {
   title: string;
   description: string;
   image: string;
@@ -65,18 +69,17 @@ export function generateProductSchema(item: {
   const prices = item.sizes.map((s) => parseFloat(s.price.replace(/[^0-9.]/g, ""))).filter(Boolean);
   return {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "MenuItem",
     name: item.title,
     description: item.description,
     image: absoluteUrl(item.image),
+    url: absoluteUrl(`/menus-prices/${item.slug}`),
     offers: {
       "@type": "AggregateOffer",
       priceCurrency: "USD",
       lowPrice: Math.min(...prices).toFixed(2),
       highPrice: Math.max(...prices).toFixed(2),
       offerCount: item.sizes.length,
-      availability: "https://schema.org/InStock",
-      url: absoluteUrl(`/menus-prices/${item.slug}`),
     },
   };
 }
