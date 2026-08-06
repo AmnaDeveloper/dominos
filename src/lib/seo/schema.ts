@@ -42,12 +42,23 @@ export function generateMenuSchema(
   };
 }
 
+/**
+ * Product schema for a menu item page.
+ *
+ * NOTE: `aggregateRating` is deliberately omitted, and Search Console will
+ * report "Missing field aggregateRating" as a non-critical warning. Do not
+ * "fix" it by emitting the `rating` / `reviewCount` values on MenuItem —
+ * those are placeholder numbers, they are not shown anywhere on the page,
+ * and this site collects no reviews at all (see src/app/api/comments/route.ts,
+ * which is disabled). Google requires aggregateRating to come from genuine
+ * reviews that are visible on the page; publishing invented ones risks a
+ * "spammy structured markup" manual action, which is far worse than the
+ * warning. Add it only if real, displayed review data ever exists.
+ */
 export function generateProductSchema(item: {
   title: string;
   description: string;
   image: string;
-  rating: number;
-  reviewCount: number;
   sizes: { size: string; price: string }[];
   slug: string;
 }) {
