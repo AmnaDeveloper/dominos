@@ -134,17 +134,91 @@ export const locationRichContent: Record<string, RichLocationData> = {
   },
   "los-angeles-ca": {
     slug: "los-angeles-ca",
-    heroSubtitle: "Menu prices, hours, delivery zones and ordering tips for Domino's across Los Angeles.",
+    heroSubtitle:
+      "How ordering Domino's actually works across Los Angeles — sprawl, traffic, gated buildings, and why carryout makes more sense here than almost anywhere.",
     stats: [
       { label: "Best first check", value: "Exact address" },
       { label: "Value angle", value: "Carryout" },
-      { label: "Plan for", value: "LA traffic" },
+      { label: "Plan for", value: "Distance, not queue" },
     ],
     intro:
-      "Domino's blankets Los Angeles County, from Downtown and Hollywood to the San Fernando Valley and the South Bay. With so many stores, most addresses fall inside a delivery zone, though traffic can affect delivery times. This is an unofficial guide — confirm prices and store details on the official Domino's app.",
+      "Los Angeles is a driving city, and that single fact changes the whole calculation. In dense cities the question is how long the kitchen takes; here it is how far the driver has to go and what the traffic is doing when they set off. LA County covers an enormous area, delivery zones are drawn tightly around individual stores, and two addresses in the same neighbourhood can be assigned to different ones. This is an unofficial guide — check your exact address and store hours on Domino's official locator.",
+    editorialSections: [
+      {
+        heading: "Distance is the variable here, not the queue",
+        body: "In a dense city the bottleneck is the kitchen — lots of orders in a small radius. In Los Angeles it is the drive. A store six miles away in light traffic and the same store at 6pm on a weekday are completely different propositions, and the pizza is sitting in a bag for all of it. If you live at the edge of a delivery zone, that is where the difference between a good and a disappointing order usually comes from.",
+      },
+      {
+        heading: "Carryout is the obvious play in a car city",
+        body: "Almost everyone here already has a car and already drives for everything else. That makes skipping the delivery fee and the tip easier to justify than in cities where pickup means a bus. It also solves the distance problem entirely: a ten-minute drive each way gets you a pizza that has not spent twenty-five minutes in a warming bag. The catch is parking, which varies enormously by neighbourhood — easy in the Valley, less so in Hollywood or Santa Monica on a Friday night.",
+      },
+      {
+        heading: "Gates, complexes and callboxes",
+        body: "Large apartment complexes, gated communities and callbox entries are extremely common across LA, and they are the most frequent cause of a delivery going wrong. A gate code left out of the notes means a driver standing outside with your order, sometimes with no phone signal. Put the gate code, building number and unit in the delivery instructions rather than assuming a call will sort it out.",
+      },
+      {
+        heading: "Where Domino's fits in LA's pizza scene",
+        body: "Los Angeles has a serious independent pizza culture, from long-standing neighbourhood shops to the newer wood-fired places. Domino's is not competing with those on the same terms and it is worth being straight about that. What it does offer is predictable pricing, deals that independents do not run, coverage in parts of the county where the good independents simply are not, and a reliable answer at 10pm on a Tuesday.",
+      },
+    ],
     neighborhoods: [
-      { heading: "Central LA & Hollywood", body: "High store density keeps delivery times reasonable. Carryout is the cheapest option if you're nearby." },
-      { heading: "The Valley & South Bay", body: "Broad coverage with many stores keeping extended hours for late-night orders." },
+      {
+        heading: "Downtown, Hollywood & Central LA",
+        body: "The densest part of the county, so store coverage is good and drives are short. This is also where parking is hardest, which flips the usual LA logic — here delivery often wins over carryout, especially in the evening.",
+      },
+      {
+        heading: "The San Fernando Valley",
+        body: "Broad coverage with plenty of stores and generally easier parking, which makes carryout genuinely practical. Distances between neighbourhoods are longer, so checking which store your address is assigned to matters more than it does closer in.",
+      },
+      {
+        heading: "Westside & Santa Monica",
+        body: "Traffic on the way to the coast is the main variable, and it is worst exactly when most people order. Evening deliveries here are more affected by congestion than by kitchen volume, so ordering earlier makes more difference than it does elsewhere in the county.",
+      },
+      {
+        heading: "South Bay & East LA",
+        body: "Coverage is good but stores are spread further apart, so delivery zones are the thing to verify first. If you are near a zone boundary, carryout is often both faster and noticeably cheaper than waiting on a long drive.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "Put the gate code in the notes",
+        body: "The most common LA delivery failure is a driver stuck at a gate. Gate code, building, unit — in the instructions, not in a phone call you might miss.",
+      },
+      {
+        heading: "Order before the evening crush",
+        body: "Traffic and order volume peak together. Placing an order at 6pm instead of 7:30pm changes the drive as much as the kitchen wait.",
+      },
+      {
+        heading: "Check the store distance before choosing delivery",
+        body: "The app shows which store you are assigned to. If it is close, carryout is quick and cheap. If it is far, that distance is going into your delivery time whether you like it or not.",
+      },
+      {
+        heading: "Pick food that survives the drive",
+        body: "Longer drives are harder on some items than others. Pizza and bread hold up; Loaded Tots and lava cakes are much better on carryout because crispness and molten centres do not survive a warming bag.",
+      },
+    ],
+    resourceLinks: [
+      {
+        label: "Official Domino's store finder — Los Angeles",
+        href: "https://pizza.dominos.com/california/los-angeles",
+        description: "Exact stores, current hours and whether your address is in a delivery zone.",
+        external: true,
+      },
+      {
+        label: "Carryout deals guide",
+        href: "/posts/dominos-carryout-deals-guide",
+        description: "What skipping the fee and the tip is actually worth on a typical order.",
+      },
+      {
+        label: "Sides menu with prices",
+        href: "/posts/dominos-sides-menu-prices",
+        description: "Which sides travel well and which ones are worth a pickup trip.",
+      },
+      {
+        label: "Current coupons",
+        href: "/coupons",
+        description: "Deals rotate — check what your store is running before you pay.",
+      },
     ],
     additionalLocations: ["Downtown LA", "Hollywood", "Santa Monica", "Long Beach", "Pasadena"],
     pizzaPrices: standardPizzaPrices2026,
@@ -167,14 +241,19 @@ export const locationRichContent: Record<string, RichLocationData> = {
           "Chicago orders are shaped by neighborhood density, apartment access, event traffic and weather. A delivery that is simple on a quiet Tuesday can become slower near game time, during a lakefront event or after heavy snow. That is why the safest ordering habit is to compare the final checkout total, not only the menu price. The app can show whether your address is eligible for delivery, whether carryout is available, which coupons your local store participates in and whether a delivery minimum applies.",
       },
       {
-        heading: "Why this page avoids exact store addresses",
+        heading: "Chicago pizza is tavern-style, and that matters here",
         body:
-          "Exact Domino's addresses, phone numbers and hours should come from Domino's directly because stores can relocate, change hours, pause delivery, update phone routing or adjust service areas. Publishing stale local contact details can confuse users and create low-quality information. Instead, this guide focuses on evergreen Chicago ordering decisions: when carryout saves money, what types of orders travel well, how to handle high-rise delivery notes and how to avoid surprises at checkout.",
+          "Deep-dish gets the tourist attention, but the pizza Chicagoans actually eat most is tavern-style: very thin, crisp, and cut into squares rather than wedges. That is worth knowing when you order Domino's here, because Crunchy Thin is the crust that lands closest to it — thin, crisp and party-cut into squares. If you have only ever had Hand Tossed and you want something that feels more like a Chicago order, that is the swap to make, and it costs nothing.",
       },
       {
-        heading: "Best use case for this Chicago guide",
+        heading: "Winter changes the order, not just the wait",
         body:
-          "Use this page before you request indexing or compare city pages for quality. A strong local food page should help the reader make a better decision even if they already know the brand. For Chicago, that means explaining neighborhood ordering patterns, delivery-versus-carryout tradeoffs, likely fee considerations, and practical situations such as office lunch, student orders, family dinners and late-night food. The final order should still be placed through Domino's official channels.",
+          "Snow and ice slow deliveries in a way that is obvious, but the less obvious part is what it does to the food. A longer drive in cold weather is hardest on the things that depend on temperature and texture — Loaded Tots lose their crispness, lava cakes set, and a thin crust arrives softer than it left. In deep winter, either order items that travel well or pick up, and tip generously if a driver has come out in it.",
+      },
+      {
+        heading: "High-rises and game days",
+        body:
+          "Two Chicago-specific frictions. Downtown and near-north towers usually mean a lobby handoff rather than a door knock, so put your unit and any desk instructions in the notes. And event traffic is real: Wrigleyville around a Cubs game, the West Loop near a United Center event, or the South Loop on a Soldier Field day will slow deliveries in those pockets for hours, not minutes. Order well before first pitch or kickoff, or pick up.",
       },
     ],
     neighborhoods: [
