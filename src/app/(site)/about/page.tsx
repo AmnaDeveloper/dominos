@@ -4,7 +4,7 @@ import FAQJsonLd from "@/components/FAQJsonLd";
 import InternalLinks from "@/components/seo/InternalLinks";
 import LastUpdated from "@/components/LastUpdated";
 import { generatePageSEO } from "@/lib/seo-config";
-import { authors } from "@/data/authors";
+import { authors, PRIMARY_AUTHOR_ID } from "@/data/authors";
 import { NOT_AFFILIATED_DISCLAIMER } from "@/lib/site-config";
 import type { FAQ } from "@/data/types";
 
@@ -26,7 +26,7 @@ const faqs: FAQ[] = [
   { question: "Can I suggest a correction?", answer: "Yes — use our contact page. We welcome corrections and reader tips." },
 ];
 
-const editors = [authors["editorial-team"], authors["priya-nair"], authors["marcus-bell"]];
+const editor = authors[PRIMARY_AUTHOR_ID];
 
 export default function AboutPage() {
   return (
@@ -37,8 +37,8 @@ export default function AboutPage() {
           <LastUpdated />
           <h1 className="post-hero-title mt-3">About Us</h1>
           <p className="mt-3 max-w-2xl text-white/85">
-            We&apos;re an independent team documenting the Domino&apos;s menu,
-            prices, coupons and deals so you can order smarter.
+            An independent, unofficial guide to the Domino&apos;s menu, prices, coupons
+            and deals — written by one person, not by Domino&apos;s.
           </p>
         </div>
       </div>
@@ -52,16 +52,15 @@ export default function AboutPage() {
           always directing you to official channels for live prices and orders.
         </p>
 
-        <h2 className="section-mini-heading mt-10 mb-5">Meet the Editors</h2>
-        <div className="grid gap-5 sm:grid-cols-3">
-          {editors.map((a) => (
-            <div key={a.id} className="rounded-xl border border-slate-200 p-5">
-              <div className="h-12 w-12 rounded-full flex items-center justify-center text-white font-black mb-3" style={{ backgroundColor: "#006491" }}>{a.avatarInitials}</div>
-              <h3 className="font-bold text-slate-900">{a.name}</h3>
-              <p className="text-xs uppercase" style={{ color: "#C8102E" }}>{a.role}</p>
-              <p className="text-sm text-slate-600 mt-2">{a.bio}</p>
-            </div>
-          ))}
+        <h2 className="section-mini-heading mt-10 mb-5">Who Runs This Site</h2>
+        <div className="rounded-xl border border-slate-200 p-5 max-w-3xl flex gap-4 items-start">
+          <div className="shrink-0 h-14 w-14 rounded-full flex items-center justify-center text-white font-black" style={{ backgroundColor: "#006491" }} aria-hidden>{editor.avatarInitials}</div>
+          <div>
+            <h3 className="font-bold text-slate-900">{editor.name}</h3>
+            <p className="text-xs uppercase" style={{ color: "#C8102E" }}>{editor.role}</p>
+            <p className="text-sm text-slate-600 mt-2 leading-relaxed">{editor.bio}</p>
+            <Link href="/team" className="inline-block text-sm font-bold underline mt-3" style={{ color: "#C8102E" }}>How this site is researched</Link>
+          </div>
         </div>
 
         <h2 className="section-mini-heading mt-10 mb-4">Editorial Standards</h2>

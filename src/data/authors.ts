@@ -3,45 +3,40 @@ export interface Author {
   name: string;
   role: string;
   bio: string;
+  /** What this person actually does on the site — not claimed credentials. */
   specialties: string[];
   avatarInitials: string;
 }
 
+/**
+ * One author, because one person runs this site.
+ *
+ * This file previously held four invented editors — Priya Nair, Marcus Bell,
+ * Dana Lopez and an "Editorial Team" — each with a role, a specialism and a
+ * biography describing experience that nobody had. None of them existed. The
+ * /team page even carried a FAQ answering "Are authors real people?" with
+ * "Yes — our editors write under their own bylines", which was not true.
+ *
+ * Invented bylines are a straightforward misrepresentation to readers, and a
+ * site that fabricates its own staff has no standing to ask anyone to trust its
+ * prices. Replaced with the real person responsible for the site. Nothing here
+ * claims industry experience, insider access or store visits, because there
+ * aren't any.
+ */
 export const authors: Record<string, Author> = {
-  "editorial-team": {
-    id: "editorial-team",
-    name: "The Editorial Team",
-    role: "Menu Guide Editorial Team",
-    bio: "Our editorial team researches and cross-checks Domino's menu items, example prices and deals against publicly posted information, updating guides monthly. We only publish original writing and clearly label every price as an example to verify at checkout.",
+  "amna-sadam": {
+    id: "amna-sadam",
+    name: "Amna Sadam",
+    role: "Editor",
+    bio:
+      "I run this guide. I track Domino's publicly available menu, prices and deals, cross-check what I publish against official sources, and keep the pages updated. This is an independent, unofficial guide with no connection to Domino's — I don't run a store and I have no insider information. Prices here are examples to verify at checkout, and where I can't verify something I don't publish it, which is why you won't find store addresses or opening hours on this site.",
     specialties: ["Menu research", "Price tracking", "Editorial standards"],
-    avatarInitials: "ET",
-  },
-  "priya-nair": {
-    id: "priya-nair",
-    name: "Priya Nair",
-    role: "Deals & Coupons Editor",
-    bio: "Priya has spent years tracking fast-food promotions and loyalty programs. She focuses on translating confusing deal fine print into plain-English guidance so readers can find the cheapest legitimate way to order.",
-    specialties: ["Coupons & deals", "Loyalty programs", "Value analysis"],
-    avatarInitials: "PN",
-  },
-  "marcus-bell": {
-    id: "marcus-bell",
-    name: "Marcus Bell",
-    role: "Ordering & Delivery Editor",
-    bio: "Marcus covers the logistics of ordering — delivery zones, fees, tracking and store hours. He tests ordering flows and documents how the process actually works so readers know what to expect.",
-    specialties: ["Delivery & carryout", "Ordering tech", "Store hours"],
-    avatarInitials: "MB",
-  },
-  "dana-lopez": {
-    id: "dana-lopez",
-    name: "Dana Lopez",
-    role: "Nutrition & Menu Editor",
-    bio: "Dana breaks down calories, allergens and ingredient information across the menu, helping readers make informed choices without the marketing spin.",
-    specialties: ["Nutrition", "Allergens", "Ingredient sourcing"],
-    avatarInitials: "DL",
+    avatarInitials: "AS",
   },
 };
 
+export const PRIMARY_AUTHOR_ID = "amna-sadam";
+
 export function getAuthor(id: string): Author {
-  return authors[id] ?? authors["editorial-team"];
+  return authors[id] ?? authors[PRIMARY_AUTHOR_ID];
 }

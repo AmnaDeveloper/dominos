@@ -8,6 +8,7 @@ import AuthorBio from "@/components/AuthorBio";
 import LastUpdated from "@/components/LastUpdated";
 import Breadcrumbs from "@/components/Breadcrumbs";
 import { completeMenu } from "@/data/complete-menu";
+import { PRIMARY_AUTHOR_ID } from "@/data/authors";
 
 export default function MenuItemDetail({
   item,
@@ -92,7 +93,7 @@ export default function MenuItemDetail({
           </div>
 
           <div className="mt-8">
-            <AuthorBio authorId="dana-lopez" />
+            <AuthorBio authorId={PRIMARY_AUTHOR_ID} />
           </div>
 
           <PageComments pagePath={pagePath} />

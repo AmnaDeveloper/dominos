@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     "Domino's nutrition",
   ],
   applicationName: SITE_NAME,
-  authors: [{ name: "Domino's Menu Guide Editorial Team" }],
+  authors: [{ name: "Amna Sadam" }],
   alternates: { canonical: "/" },
   robots: {
     index: true,
