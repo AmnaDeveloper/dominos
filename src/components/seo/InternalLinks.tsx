@@ -21,6 +21,7 @@ const DEFAULT_LINKS: LinkItem[] = [
   { label: "Specialty Pizzas", href: "/posts/dominos-specialty-pizzas", desc: "All 13 recipes, prices and calories" },
   { label: "Toppings List & Prices", href: "/posts/dominos-toppings-list-prices", desc: "Every meat, veggie, cheese and sauce" },
   { label: "Vegetarian & Vegan", href: "/posts/dominos-vegetarian-vegan-options", desc: "What you can actually order" },
+  { label: "Domino's vs Pizza Hut vs Papa John's", href: "/posts/dominos-vs-pizza-hut-vs-papa-johns", desc: "Which chain is actually cheaper" },
 ];
 
 export default function InternalLinks({
