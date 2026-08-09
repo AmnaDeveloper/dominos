@@ -52,7 +52,10 @@ export default function StoreLocatorClient() {
               <div className="flex items-center gap-2 font-bold text-slate-900">
                 <MapPin size={16} style={{ color: "#C8102E" }} /> {l.city}, {l.state}
               </div>
-              <p className="text-sm text-slate-500 mt-1">{l.address}</p>
+              <p className="text-sm text-slate-500 mt-1">
+                Prices, delivery and carryout tips for {l.city} — plus a link to Domino&apos;s
+                official finder for exact stores and hours.
+              </p>
             </Link>
           ))}
         </div>

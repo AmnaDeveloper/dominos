@@ -80,18 +80,16 @@ export interface Coupon {
   featured?: boolean;
 }
 
-export interface LocationHours {
-  day: string;
-  open: string;
-  close: string;
-}
-
 export interface Location {
   city: string;
   state: string;
   slug: string;
   title: string;
   description: string;
-  address: string;
-  hours: LocationHours[];
+  /**
+   * Domino's own store finder for this city. No `address` or `hours` fields:
+   * store details are franchise-specific and change, so this site links to the
+   * authoritative source rather than publishing a guess. See src/data/locations.ts.
+   */
+  locatorUrl: string;
 }

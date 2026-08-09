@@ -48,9 +48,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
     slug: "new-york-ny",
     heroSubtitle: "Menu prices, hours, delivery zones and ordering tips for Domino's across New York City.",
     stats: [
-      { label: "Stores in metro", value: "150+" },
-      { label: "Typical delivery", value: "25–40 min" },
-      { label: "Late-night", value: "Until 1 AM" },
+      { label: "Best first check", value: "Exact address" },
+      { label: "Value angle", value: "Carryout" },
+      { label: "Plan for", value: "Borough traffic" },
     ],
     intro:
       "Domino's is one of the most widely available pizza options in New York City, with locations across Manhattan, Brooklyn, Queens, the Bronx and Staten Island. Because NYC stores are busy and often keep late hours, delivery times can stretch on weekends. This unofficial guide covers example prices and ordering tips — always verify on the official Domino's locator.",
@@ -66,9 +66,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
     slug: "los-angeles-ca",
     heroSubtitle: "Menu prices, hours, delivery zones and ordering tips for Domino's across Los Angeles.",
     stats: [
-      { label: "Stores in metro", value: "120+" },
-      { label: "Typical delivery", value: "25–40 min" },
-      { label: "Late-night", value: "Until 1 AM" },
+      { label: "Best first check", value: "Exact address" },
+      { label: "Value angle", value: "Carryout" },
+      { label: "Plan for", value: "LA traffic" },
     ],
     intro:
       "Domino's blankets Los Angeles County, from Downtown and Hollywood to the San Fernando Valley and the South Bay. With so many stores, most addresses fall inside a delivery zone, though traffic can affect delivery times. This is an unofficial guide — confirm prices and store details on the official Domino's app.",

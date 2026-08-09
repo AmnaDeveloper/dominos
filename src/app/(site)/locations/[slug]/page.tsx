@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { Clock, MapPin, SearchCheck } from "lucide-react";
 import FaqAccordion from "@/components/FaqAccordion";
+import OfficialLocatorCta from "@/components/locations/OfficialLocatorCta";
 import InternalLinks from "@/components/seo/InternalLinks";
 import LastUpdated from "@/components/LastUpdated";
 import { getLocationBySlug, getLocationSlugs } from "@/data/locations";
@@ -36,12 +36,13 @@ export async function generateMetadata({
   });
 }
 
-function locationFaqs(city: string): FAQ[] {
+function locationFaqs(city: string, locatorUrl: string): FAQ[] {
   return [
-    { question: `Does Domino's deliver in ${city}?`, answer: `Yes, most addresses in ${city} fall within a Domino's delivery zone. Confirm your specific address on the official Domino's locator.` },
-    { question: `What are Domino's hours in ${city}?`, answer: `Many ${city} stores open around 10:00 AM and deliver late into the night. Hours vary by store — verify officially.` },
-    { question: `How much is Domino's in ${city}?`, answer: `Prices are franchise-set and similar to national example prices (large pizzas ~$11.99–$17.99). Verify at checkout.` },
-    { question: `Is carryout cheaper than delivery in ${city}?`, answer: `Yes — carryout avoids the delivery fee and often has exclusive deals.` },
+    { question: `Does Domino's deliver in ${city}?`, answer: `Domino's operates stores across ${city}, but delivery zones are set per store and not every address falls inside one. Enter your address on the official Domino's locator to get a definitive answer for where you live.` },
+    { question: `What are Domino's hours in ${city}?`, answer: `We don't publish hours for ${city}. Every Domino's is independently franchised and sets its own opening and closing times, which also change on holidays, so any schedule listed here would be a guess. The store's own page on ${locatorUrl} shows its current hours.` },
+    { question: `Why doesn't this page list ${city} store addresses?`, answer: `Because a wrong address is worse than no address — it sends someone to a store that has moved or closed. Store lists change, and we have no way to verify every location continuously, so we link to Domino's own finder instead of republishing details we can't stand behind.` },
+    { question: `How much is Domino's in ${city}?`, answer: `Domino's stores are individually franchised and set their own prices, so ${city} prices are broadly in line with national examples rather than fixed. Expect a large pizza somewhere around $11.99 to $17.99 before tax, and confirm the real total at checkout.` },
+    { question: `Is carryout cheaper than delivery in ${city}?`, answer: `Yes, and by more than most people expect. Carryout skips the delivery fee, which is typically $4 to $6, and removes the tip, and Domino's regularly runs carryout-only specials that delivery orders can't access.` },
   ];
 }
 
@@ -55,7 +56,7 @@ export default async function LocationPage({
   if (!loc) notFound();
 
   const rich = getRichLocation(slug);
-  const faqs = locationFaqs(loc.city);
+  const faqs = locationFaqs(loc.city, loc.locatorUrl);
   const faqSchema = generateFAQSchema(faqs);
   const webpage = {
     "@context": "https://schema.org",
@@ -92,21 +93,7 @@ export default async function LocationPage({
           </div>
         )}
 
-        {/* Contact card */}
-        <div className="grid gap-4 sm:grid-cols-3 mb-8">
-          <div className="rounded-xl border border-slate-200 p-4 flex items-start gap-3">
-            <MapPin size={18} style={{ color: "#C8102E" }} />
-            <div><p className="font-bold text-sm !bg-transparent">Area</p><p className="text-sm text-slate-600">{loc.address}</p></div>
-          </div>
-          <div className="rounded-xl border border-slate-200 p-4 flex items-start gap-3">
-            <SearchCheck size={18} style={{ color: "#C8102E" }} />
-            <div><p className="font-bold text-sm !bg-transparent">Verify first</p><p className="text-sm text-slate-600">Use the official locator for store details</p></div>
-          </div>
-          <div className="rounded-xl border border-slate-200 p-4 flex items-start gap-3">
-            <Clock size={18} style={{ color: "#C8102E" }} />
-            <div><p className="font-bold text-sm !bg-transparent">Typical hours</p><p className="text-sm text-slate-600">10:00 AM – late</p></div>
-          </div>
-        </div>
+        <OfficialLocatorCta city={loc.city} locatorUrl={loc.locatorUrl} />
 
         <p className="text-slate-700 mb-6">
           {rich?.intro ?? `This unofficial guide covers Domino's in ${loc.city}, ${loc.state} — example menu prices, typical hours and delivery information. Domino's stores are individually franchised, so always verify exact prices, hours and delivery zones on the official Domino's locator.`}
@@ -126,18 +113,9 @@ export default async function LocationPage({
           </section>
         )}
 
-        {/* Weekly hours */}
-        <h2 className="section-mini-heading mb-4">Typical Weekly Hours</h2>
-        <div className="blog-content max-w-xl">
-          <table>
-            <thead><tr><th>Day</th><th>Open</th><th>Close</th></tr></thead>
-            <tbody>
-              {loc.hours.map((h) => (
-                <tr key={h.day}><td>{h.day}</td><td>{h.open}</td><td>{h.close}</td></tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        {/* No weekly hours table here on purpose. It used to render two
+            hard-coded presets across all twenty cities, which presented a guess
+            as a schedule. Hours are set per franchise — the locator has them. */}
 
         {/* Price tables (rich) */}
         {rich && (
@@ -220,6 +198,12 @@ export default async function LocationPage({
         </div>
 
         <FaqAccordion faqs={faqs} title={`Domino's ${loc.city} FAQ`} />
+
+        {/* Repeated at the end: readers who scroll the whole page are the ones
+            most likely to be about to order. */}
+        <div className="mt-8">
+          <OfficialLocatorCta city={loc.city} locatorUrl={loc.locatorUrl} variant="compact" />
+        </div>
 
         <p className="text-sm">
           Explore more: <Link href="/menus-prices" className="font-semibold underline" style={{ color: "#C8102E" }}>Menu with Prices</Link>,{" "}
