@@ -55,8 +55,9 @@ export interface MenuItem {
   price: string;
   currency: string;
   calories: string;
-  rating: number;
-  reviewCount: number;
+  // No rating / reviewCount: this site collects no reviews, so there is no
+  // honest value to put here and nothing renders one. See the note on
+  // generateMenuItemSchema in src/lib/seo/schema.ts.
   image: string;
   imageAlt: string;
   ingredients: string[];

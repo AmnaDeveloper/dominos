@@ -9,8 +9,6 @@
     "price": "$12.99",
     "currency": "USD",
     "calories": "1980 (whole Large)",
-    "rating": 4.7,
-    "reviewCount": 5210,
     "image": "/pepperoni-pizza.webp",
     "imageAlt": "Domino's Pepperoni Pizza with crispy pepperoni on melted mozzarella",
     "ingredients": [
@@ -21,23 +19,69 @@
       "Oregano seasoning"
     ],
     "allergens": [
-      { "name": "Wheat/Gluten", "present": true, "note": "Choose Gluten Free crust to avoid (prepared in a shared kitchen)" },
-      { "name": "Milk", "present": true, "note": "From mozzarella cheese" },
-      { "name": "Soy", "present": true, "note": "May be present in dough conditioners" },
-      { "name": "Egg", "present": false },
-      { "name": "Tree Nuts", "present": false },
-      { "name": "Fish/Shellfish", "present": false }
+      {
+        "name": "Wheat/Gluten",
+        "present": true,
+        "note": "Choose Gluten Free crust to avoid (prepared in a shared kitchen)"
+      },
+      {
+        "name": "Milk",
+        "present": true,
+        "note": "From mozzarella cheese"
+      },
+      {
+        "name": "Soy",
+        "present": true,
+        "note": "May be present in dough conditioners"
+      },
+      {
+        "name": "Egg",
+        "present": false
+      },
+      {
+        "name": "Tree Nuts",
+        "present": false
+      },
+      {
+        "name": "Fish/Shellfish",
+        "present": false
+      }
     ],
     "sizes": [
-      { "size": "Small (10\") Hand Tossed", "price": "$8.99", "calories": "1140" },
-      { "size": "Medium (12\") Hand Tossed", "price": "$10.99", "calories": "1560" },
-      { "size": "Large (14\") Hand Tossed", "price": "$12.99", "calories": "1980" },
-      { "size": "X-Large (16\") Brooklyn", "price": "$15.99", "calories": "2400" }
+      {
+        "size": "Small (10\") Hand Tossed",
+        "price": "$8.99",
+        "calories": "1140"
+      },
+      {
+        "size": "Medium (12\") Hand Tossed",
+        "price": "$10.99",
+        "calories": "1560"
+      },
+      {
+        "size": "Large (14\") Hand Tossed",
+        "price": "$12.99",
+        "calories": "1980"
+      },
+      {
+        "size": "X-Large (16\") Brooklyn",
+        "price": "$15.99",
+        "calories": "2400"
+      }
     ],
     "faqs": [
-      { "question": "How much is a large pepperoni pizza at Domino's?", "answer": "A Large (14\") Hand Tossed Pepperoni is typically around $12.99 at carryout, but it is often cheaper through the Mix & Match or $6.99 Each deal. Prices vary by location — verify at official checkout." },
-      { "question": "How many slices are in a Domino's pepperoni pizza?", "answer": "A Small has 6 slices, a Medium 8 slices, and a Large 8 slices by default. You can ask for a Large to be cut into 10 or 12 squares at no charge." },
-      { "question": "Is the pepperoni pizza available on gluten-free crust?", "answer": "Yes, on the Small Gluten Free crust. Domino's notes it is prepared in a shared kitchen, so it is not suitable for those with severe gluten allergies or celiac disease." }
+      {
+        "question": "How much is a large pepperoni pizza at Domino's?",
+        "answer": "A Large (14\") Hand Tossed Pepperoni is typically around $12.99 at carryout, but it is often cheaper through the Mix & Match or $6.99 Each deal. Prices vary by location — verify at official checkout."
+      },
+      {
+        "question": "How many slices are in a Domino's pepperoni pizza?",
+        "answer": "A Small has 6 slices, a Medium 8 slices, and a Large 8 slices by default. You can ask for a Large to be cut into 10 or 12 squares at no charge."
+      },
+      {
+        "question": "Is the pepperoni pizza available on gluten-free crust?",
+        "answer": "Yes, on the Small Gluten Free crust. Domino's notes it is prepared in a shared kitchen, so it is not suitable for those with severe gluten allergies or celiac disease."
+      }
     ],
     "featured": true
   },
@@ -51,8 +95,6 @@
     "price": "$16.99",
     "currency": "USD",
     "calories": "2400 (whole Large)",
-    "rating": 4.6,
-    "reviewCount": 3120,
     "image": "/extravaganzza-pizza.webp",
     "imageAlt": "Domino's ExtravaganZZa loaded with meats and vegetables",
     "ingredients": [
@@ -69,21 +111,57 @@
       "Black olives"
     ],
     "allergens": [
-      { "name": "Wheat/Gluten", "present": true },
-      { "name": "Milk", "present": true },
-      { "name": "Soy", "present": true },
-      { "name": "Egg", "present": false },
-      { "name": "Tree Nuts", "present": false },
-      { "name": "Fish/Shellfish", "present": false }
+      {
+        "name": "Wheat/Gluten",
+        "present": true
+      },
+      {
+        "name": "Milk",
+        "present": true
+      },
+      {
+        "name": "Soy",
+        "present": true
+      },
+      {
+        "name": "Egg",
+        "present": false
+      },
+      {
+        "name": "Tree Nuts",
+        "present": false
+      },
+      {
+        "name": "Fish/Shellfish",
+        "present": false
+      }
     ],
     "sizes": [
-      { "size": "Small (10\") Hand Tossed", "price": "$12.99", "calories": "1440" },
-      { "size": "Medium (12\") Hand Tossed", "price": "$14.99", "calories": "1920" },
-      { "size": "Large (14\") Hand Tossed", "price": "$16.99", "calories": "2400" }
+      {
+        "size": "Small (10\") Hand Tossed",
+        "price": "$12.99",
+        "calories": "1440"
+      },
+      {
+        "size": "Medium (12\") Hand Tossed",
+        "price": "$14.99",
+        "calories": "1920"
+      },
+      {
+        "size": "Large (14\") Hand Tossed",
+        "price": "$16.99",
+        "calories": "2400"
+      }
     ],
     "faqs": [
-      { "question": "What comes on the ExtravaganZZa pizza?", "answer": "Pepperoni, ham, Italian sausage, seasoned beef, onions, green peppers, mushrooms, black olives and extra mozzarella on Domino's signature sauce and crust." },
-      { "question": "Is the ExtravaganZZa part of the Mix & Match deal?", "answer": "Yes. Specialty pizzas including the ExtravaganZZa typically qualify for the Mix & Match per-item deal price, which is usually cheaper than menu price. Verify at checkout." }
+      {
+        "question": "What comes on the ExtravaganZZa pizza?",
+        "answer": "Pepperoni, ham, Italian sausage, seasoned beef, onions, green peppers, mushrooms, black olives and extra mozzarella on Domino's signature sauce and crust."
+      },
+      {
+        "question": "Is the ExtravaganZZa part of the Mix & Match deal?",
+        "answer": "Yes. Specialty pizzas including the ExtravaganZZa typically qualify for the Mix & Match per-item deal price, which is usually cheaper than menu price. Verify at checkout."
+      }
     ]
   },
   {
@@ -96,8 +174,6 @@
     "price": "$16.99",
     "currency": "USD",
     "calories": "2280 (whole Large)",
-    "rating": 4.5,
-    "reviewCount": 2140,
     "image": "/philly-cheese-steak-pizza.webp",
     "imageAlt": "Domino's Philly Cheese Steak Pizza with steak, peppers and provolone",
     "ingredients": [
@@ -110,21 +186,57 @@
       "Mushrooms"
     ],
     "allergens": [
-      { "name": "Wheat/Gluten", "present": true },
-      { "name": "Milk", "present": true },
-      { "name": "Soy", "present": true },
-      { "name": "Egg", "present": false },
-      { "name": "Tree Nuts", "present": false },
-      { "name": "Fish/Shellfish", "present": false }
+      {
+        "name": "Wheat/Gluten",
+        "present": true
+      },
+      {
+        "name": "Milk",
+        "present": true
+      },
+      {
+        "name": "Soy",
+        "present": true
+      },
+      {
+        "name": "Egg",
+        "present": false
+      },
+      {
+        "name": "Tree Nuts",
+        "present": false
+      },
+      {
+        "name": "Fish/Shellfish",
+        "present": false
+      }
     ],
     "sizes": [
-      { "size": "Small (10\") Hand Tossed", "price": "$12.99", "calories": "1320" },
-      { "size": "Medium (12\") Hand Tossed", "price": "$14.99", "calories": "1800" },
-      { "size": "Large (14\") Hand Tossed", "price": "$16.99", "calories": "2280" }
+      {
+        "size": "Small (10\") Hand Tossed",
+        "price": "$12.99",
+        "calories": "1320"
+      },
+      {
+        "size": "Medium (12\") Hand Tossed",
+        "price": "$14.99",
+        "calories": "1800"
+      },
+      {
+        "size": "Large (14\") Hand Tossed",
+        "price": "$16.99",
+        "calories": "2280"
+      }
     ],
     "faqs": [
-      { "question": "Does the Philly Cheese Steak pizza have tomato sauce?", "answer": "No. It uses a blend of American and provolone cheese as the base instead of tomato sauce, giving it a true cheesesteak-style flavor." },
-      { "question": "What kind of meat is on it?", "answer": "Tender Philly-style steak. There is no pork on this pizza, which makes it a good pick for diners avoiding pork." }
+      {
+        "question": "Does the Philly Cheese Steak pizza have tomato sauce?",
+        "answer": "No. It uses a blend of American and provolone cheese as the base instead of tomato sauce, giving it a true cheesesteak-style flavor."
+      },
+      {
+        "question": "What kind of meat is on it?",
+        "answer": "Tender Philly-style steak. There is no pork on this pizza, which makes it a good pick for diners avoiding pork."
+      }
     ]
   },
   {
@@ -137,8 +249,6 @@
     "price": "$7.99",
     "currency": "USD",
     "calories": "1140 (whole order)",
-    "rating": 4.8,
-    "reviewCount": 4680,
     "image": "/stuffed-cheesy-bread.webp",
     "imageAlt": "Domino's Stuffed Cheesy Bread pulled apart showing melted cheese",
     "ingredients": [
@@ -149,21 +259,58 @@
       "Marinara dipping sauce"
     ],
     "allergens": [
-      { "name": "Wheat/Gluten", "present": true },
-      { "name": "Milk", "present": true },
-      { "name": "Soy", "present": true },
-      { "name": "Egg", "present": false, "note": "Present if ranch/garlic dip is added" },
-      { "name": "Tree Nuts", "present": false },
-      { "name": "Fish/Shellfish", "present": false }
+      {
+        "name": "Wheat/Gluten",
+        "present": true
+      },
+      {
+        "name": "Milk",
+        "present": true
+      },
+      {
+        "name": "Soy",
+        "present": true
+      },
+      {
+        "name": "Egg",
+        "present": false,
+        "note": "Present if ranch/garlic dip is added"
+      },
+      {
+        "name": "Tree Nuts",
+        "present": false
+      },
+      {
+        "name": "Fish/Shellfish",
+        "present": false
+      }
     ],
     "sizes": [
-      { "size": "Original (8 pieces)", "price": "$7.99", "calories": "1140" },
-      { "size": "Bacon & Jalapeño (8 pieces)", "price": "$8.49", "calories": "1220" },
-      { "size": "Spinach & Feta (8 pieces)", "price": "$8.49", "calories": "1180" }
+      {
+        "size": "Original (8 pieces)",
+        "price": "$7.99",
+        "calories": "1140"
+      },
+      {
+        "size": "Bacon & Jalapeño (8 pieces)",
+        "price": "$8.49",
+        "calories": "1220"
+      },
+      {
+        "size": "Spinach & Feta (8 pieces)",
+        "price": "$8.49",
+        "calories": "1180"
+      }
     ],
     "faqs": [
-      { "question": "How much is Stuffed Cheesy Bread at Domino's?", "answer": "The original is typically around $7.99, but it often qualifies for the $6.99 Each or Mix & Match deal. Verify the final price at checkout." },
-      { "question": "How many pieces come in an order?", "answer": "Each order of Stuffed Cheesy Bread is baked as a round and cut into 8 pieces." }
+      {
+        "question": "How much is Stuffed Cheesy Bread at Domino's?",
+        "answer": "The original is typically around $7.99, but it often qualifies for the $6.99 Each or Mix & Match deal. Verify the final price at checkout."
+      },
+      {
+        "question": "How many pieces come in an order?",
+        "answer": "Each order of Stuffed Cheesy Bread is baked as a round and cut into 8 pieces."
+      }
     ],
     "featured": true
   },
@@ -177,8 +324,6 @@
     "price": "$8.99",
     "currency": "USD",
     "calories": "540 (8 pieces, plain)",
-    "rating": 4.4,
-    "reviewCount": 2890,
     "image": "/boneless-chicken.webp",
     "imageAlt": "Domino's Boneless Chicken pieces with dipping sauce",
     "ingredients": [
@@ -187,21 +332,57 @@
       "Choice of sauce (Hot Buffalo, Sweet BBQ, Garlic Parmesan, Mango Habanero)"
     ],
     "allergens": [
-      { "name": "Wheat/Gluten", "present": true },
-      { "name": "Milk", "present": true },
-      { "name": "Soy", "present": true },
-      { "name": "Egg", "present": true },
-      { "name": "Tree Nuts", "present": false },
-      { "name": "Fish/Shellfish", "present": false }
+      {
+        "name": "Wheat/Gluten",
+        "present": true
+      },
+      {
+        "name": "Milk",
+        "present": true
+      },
+      {
+        "name": "Soy",
+        "present": true
+      },
+      {
+        "name": "Egg",
+        "present": true
+      },
+      {
+        "name": "Tree Nuts",
+        "present": false
+      },
+      {
+        "name": "Fish/Shellfish",
+        "present": false
+      }
     ],
     "sizes": [
-      { "size": "8 pieces (plain)", "price": "$8.99", "calories": "540" },
-      { "size": "8 pieces (sauced)", "price": "$8.99", "calories": "600-720" },
-      { "size": "16 pieces", "price": "$15.99", "calories": "1080+" }
+      {
+        "size": "8 pieces (plain)",
+        "price": "$8.99",
+        "calories": "540"
+      },
+      {
+        "size": "8 pieces (sauced)",
+        "price": "$8.99",
+        "calories": "600-720"
+      },
+      {
+        "size": "16 pieces",
+        "price": "$15.99",
+        "calories": "1080+"
+      }
     ],
     "faqs": [
-      { "question": "Is Domino's boneless chicken actually boneless?", "answer": "Yes — it is made from all-white-meat chicken with no bones, lightly breaded and oven-baked. It is different from Domino's bone-in wings." },
-      { "question": "Can I get boneless chicken in the $6.99 deal?", "answer": "Yes, Boneless Chicken is commonly an eligible item in both the $6.99 Each and Mix & Match deals. Verify eligibility and price at checkout." }
+      {
+        "question": "Is Domino's boneless chicken actually boneless?",
+        "answer": "Yes — it is made from all-white-meat chicken with no bones, lightly breaded and oven-baked. It is different from Domino's bone-in wings."
+      },
+      {
+        "question": "Can I get boneless chicken in the $6.99 deal?",
+        "answer": "Yes, Boneless Chicken is commonly an eligible item in both the $6.99 Each and Mix & Match deals. Verify eligibility and price at checkout."
+      }
     ]
   },
   {
@@ -214,26 +395,913 @@
     "price": "$2.49",
     "currency": "USD",
     "calories": "0-240 per serving",
-    "rating": 4.3,
-    "reviewCount": 1120,
     "image": "/drinks.webp",
     "imageAlt": "Domino's Coca-Cola drinks including 20oz bottles and a 2-liter",
-    "ingredients": ["Coca-Cola fountain and bottled beverages"],
+    "ingredients": [
+      "Coca-Cola fountain and bottled beverages"
+    ],
     "allergens": [
-      { "name": "Wheat/Gluten", "present": false },
-      { "name": "Milk", "present": false },
-      { "name": "Soy", "present": false },
-      { "name": "Egg", "present": false },
-      { "name": "Tree Nuts", "present": false },
-      { "name": "Fish/Shellfish", "present": false }
+      {
+        "name": "Wheat/Gluten",
+        "present": false
+      },
+      {
+        "name": "Milk",
+        "present": false
+      },
+      {
+        "name": "Soy",
+        "present": false
+      },
+      {
+        "name": "Egg",
+        "present": false
+      },
+      {
+        "name": "Tree Nuts",
+        "present": false
+      },
+      {
+        "name": "Fish/Shellfish",
+        "present": false
+      }
     ],
     "sizes": [
-      { "size": "20 oz Bottle", "price": "$2.49", "calories": "0-240" },
-      { "size": "2-Liter Bottle", "price": "$3.49", "calories": "0-240 per serving" }
+      {
+        "size": "20 oz Bottle",
+        "price": "$2.49",
+        "calories": "0-240"
+      },
+      {
+        "size": "2-Liter Bottle",
+        "price": "$3.49",
+        "calories": "0-240 per serving"
+      }
     ],
     "faqs": [
-      { "question": "What drinks does Domino's have?", "answer": "Domino's carries Coca-Cola products including Coca-Cola, Diet Coke, Coke Zero Sugar, Sprite, Fanta Orange and Barq's Root Beer, in 20 oz and 2-liter sizes. Availability varies by store." },
-      { "question": "Is a 2-liter cheaper than bottles?", "answer": "Almost always. Per ounce, a 2-liter bottle is the best value if you are ordering for more than one person." }
+      {
+        "question": "What drinks does Domino's have?",
+        "answer": "Domino's carries Coca-Cola products including Coca-Cola, Diet Coke, Coke Zero Sugar, Sprite, Fanta Orange and Barq's Root Beer, in 20 oz and 2-liter sizes. Availability varies by store."
+      },
+      {
+        "question": "Is a 2-liter cheaper than bottles?",
+        "answer": "Almost always. Per ounce, a 2-liter bottle is the best value if you are ordering for more than one person."
+      }
+    ]
+  },
+  {
+    "id": "chicken-alfredo-pasta",
+    "slug": "chicken-alfredo-pasta",
+    "category": "Pasta",
+    "title": "Domino's Chicken Alfredo Pasta",
+    "description": "Penne baked with grilled chicken breast in a creamy Alfredo sauce, served in a dish or inside a hollowed-out bread bowl.",
+    "fullContent": "<h2>What It Is</h2><p>Chicken Alfredo is Domino's most popular pasta and the one most people default to. It is penne tossed with grilled chicken breast in a creamy Alfredo sauce, then <strong>baked in the same conveyor oven as the pizzas</strong> rather than boiled and plated. That oven finish is what gives the top a slightly browned, bubbling edge that you don't get from pasta reheated in a pan.</p><h2>Dish or Bread Bowl?</h2><p>This is the only real decision, and it matters more than the pasta choice itself.</p><table><thead><tr><th>Served In</th><th>Example Price</th><th>Calories</th></tr></thead><tbody><tr><td>Dish</td><td>~$7.99</td><td>~620</td></tr><tr><td>Bread bowl</td><td>~$8.99</td><td>~980</td></tr></tbody></table><p>The bread bowl is a round loaf hollowed out and baked with the pasta inside, so the bowl itself is edible. <strong>It adds roughly a dollar and around 360 calories</strong> — you are effectively ordering a large bread roll alongside your meal. It is genuinely fun once, and if you are properly hungry it turns a modest portion into a heavy one. But if pasta felt like the sensible choice next to pizza, the bread bowl quietly cancels that out.</p><h2>How It Tastes</h2><p>Rich, mild and heavily cheese-forward. The Alfredo is a thick cream sauce rather than a thin one, so it clings to the penne and the chicken instead of pooling at the bottom. There is no chilli heat at all, which makes it the safe pick for children or anyone who finds the marinara-based options too sharp.</p><p>The chicken is grilled breast meat, diced rather than shredded. It is the lean part of an otherwise rich dish, and it is the reason this reads as a meal rather than a side.</p><h2>Who It Suits</h2><ul><li><strong>Someone who doesn't want pizza</strong> but is ordering with a group that does</li><li><strong>Lunch</strong> — the dish version travels well and needs no sharing</li><li><strong>Children</strong> — mild, familiar, no heat</li><li><strong>Not</strong> anyone watching calories closely — even the dish is around 620, and the bread bowl clears 950</li></ul><h2>Ordering Notes</h2><p>A few things worth knowing before you tap order:</p><ul><li><strong>It is Mix &amp; Match eligible at most stores.</strong> Ordering it inside a deal alongside a pizza is normally cheaper than adding it at menu price — see our <a href=\"/posts/dominos-mix-and-match-deal\">Mix &amp; Match explainer</a>.</li><li><strong>You can build your own instead.</strong> If you want the Alfredo base with different additions, the build-your-own penne lets you pick the sauce and up to three toppings.</li><li><strong>It contains dairy throughout.</strong> The Alfredo sauce is cream-based, so there is no dairy-free version of this dish — see our <a href=\"/posts/dominos-vegetarian-vegan-options\">vegetarian and vegan guide</a> for what works instead.</li><li><strong>Reheats poorly in a microwave.</strong> Cream sauces split. An oven at low heat holds it together far better.</li></ul><h2>How It Compares</h2><p>Against the other pastas: Chicken Carbonara is richer and heavier, Italian Sausage Marinara is the tomato-based alternative, and Pasta Primavera is the lightest and the only vegetarian one. Full prices and calories for all of them are in our <a href=\"/posts/dominos-sides-menu-prices\">sides menu guide</a>.</p><p>Prices on this page are examples for guidance. Domino's stores set their own prices, so the checkout screen is the only figure that counts.</p>",
+    "price": "$7.99",
+    "currency": "USD",
+    "calories": "620 (dish) / 980 (bread bowl)",
+    "image": "/menu/chicken-alfredo-pasta.webp",
+    "imageAlt": "Domino's Chicken Alfredo Pasta — illustration for the menu guide",
+    "ingredients": [
+      "Penne pasta",
+      "Grilled chicken breast",
+      "Creamy Alfredo sauce",
+      "Cheese blend"
+    ],
+    "allergens": [
+      {
+        "name": "Wheat/Gluten",
+        "present": true
+      },
+      {
+        "name": "Milk",
+        "present": true
+      },
+      {
+        "name": "Soy",
+        "present": true,
+        "note": "Commonly present in oils and doughs"
+      },
+      {
+        "name": "Egg",
+        "present": false
+      },
+      {
+        "name": "Tree Nuts",
+        "present": false,
+        "note": "Verify with Domino's published allergen guide before ordering — recipes and store handling vary."
+      },
+      {
+        "name": "Fish/Shellfish",
+        "present": false
+      }
+    ],
+    "sizes": [
+      {
+        "size": "Dish",
+        "price": "$7.99",
+        "calories": "620"
+      },
+      {
+        "size": "Bread bowl",
+        "price": "$8.99",
+        "calories": "980"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much is Domino's Chicken Alfredo?",
+        "answer": "Around $7.99 for the dish and roughly $8.99 in a bread bowl. Stores are individually franchised, so confirm the price at checkout."
+      },
+      {
+        "question": "Is the bread bowl worth it?",
+        "answer": "It adds about a dollar and roughly 360 calories. It turns the pasta into a very filling meal, but if you ordered pasta as the lighter option it undoes most of that."
+      },
+      {
+        "question": "Is Chicken Alfredo spicy?",
+        "answer": "No. It is a mild, creamy dish — the Alfredo sauce carries garlic and cheese flavour rather than heat."
+      }
+    ]
+  },
+  {
+    "id": "italian-sausage-marinara-pasta",
+    "slug": "italian-sausage-marinara-pasta",
+    "category": "Pasta",
+    "title": "Domino's Italian Sausage Marinara Pasta",
+    "description": "Penne baked with Italian sausage in a hearty marinara sauce, available in a dish or a bread bowl.",
+    "fullContent": "<h2>What It Is</h2><p>This is the tomato-based option in Domino's pasta lineup: penne baked with crumbled Italian sausage in a hearty marinara, finished with cheese. It sits opposite Chicken Alfredo on the menu — <strong>where Alfredo is cream and mild, this is tomato and seasoned.</strong></p><h2>Prices and Calories</h2><table><thead><tr><th>Served In</th><th>Example Price</th><th>Calories</th></tr></thead><tbody><tr><td>Dish</td><td>~$7.99</td><td>~580</td></tr><tr><td>Bread bowl</td><td>~$8.99</td><td>~940</td></tr></tbody></table><p>Notice that the dish is <strong>around 40 calories lighter than the Alfredo</strong> — that is the tomato sauce doing its job. It is not a big gap, but if you are choosing between the two on those grounds, marinara is the lighter one.</p><h2>How It Tastes</h2><p>Italian sausage is the whole point here. It is crumbled rather than sliced, so it distributes through the pasta instead of sitting in lumps, and it carries fennel and black pepper. That gives the dish a savoury, slightly herby edge that the marinara alone wouldn't have.</p><p>People often ask whether it is spicy. It isn't, in the chilli sense — <strong>the heat is seasoning, not burn.</strong> If you want actual heat you'd need to build your own and add jalapeños.</p><h2>Who It Suits</h2><ul><li><strong>Anyone who finds cream sauces heavy</strong> — this is the alternative</li><li><strong>People who want the pasta to taste of something</strong> beyond cheese</li><li><strong>A group order</strong> where someone has already claimed the Alfredo</li><li><strong>Not</strong> vegetarians — the sausage is central, and there is no meat-free version of this recipe</li></ul><h2>Ordering Notes</h2><ul><li><strong>Skip the bread bowl if calories matter.</strong> It adds roughly 360, taking a mid-weight dish to almost a thousand.</li><li><strong>Mix &amp; Match eligible</strong> at most stores, which is nearly always cheaper than ordering it standalone next to a full-price pizza.</li><li><strong>Reheats better than Alfredo.</strong> Tomato sauces survive a microwave; cream sauces split. If leftovers are likely, this is the more forgiving choice.</li><li><strong>Build-your-own alternative:</strong> choose Robust Inspired Tomato Sauce and add your own toppings if you want the marinara base without sausage.</li></ul><h2>How It Compares</h2><p>Marinara versus Alfredo is the real question, and it comes down to whether you want cream or tomato. Chicken Carbonara is the richest of the four at around 660 in a dish, and Pasta Primavera is the lightest at roughly 490 and the only vegetarian one. Our <a href=\"/posts/dominos-sides-menu-prices\">sides menu guide</a> has all four side by side, and the <a href=\"/posts/dominos-calories-nutrition-guide\">calories guide</a> puts them in context against the pizzas.</p><p>Every price here is an example. Confirm the real total at official checkout.</p>",
+    "price": "$7.99",
+    "currency": "USD",
+    "calories": "580 (dish) / 940 (bread bowl)",
+    "image": "/menu/italian-sausage-marinara-pasta.webp",
+    "imageAlt": "Domino's Italian Sausage Marinara Pasta — illustration for the menu guide",
+    "ingredients": [
+      "Penne pasta",
+      "Italian sausage",
+      "Hearty marinara sauce",
+      "Cheese blend"
+    ],
+    "allergens": [
+      {
+        "name": "Wheat/Gluten",
+        "present": true
+      },
+      {
+        "name": "Milk",
+        "present": true
+      },
+      {
+        "name": "Soy",
+        "present": true,
+        "note": "Commonly present in oils and doughs"
+      },
+      {
+        "name": "Egg",
+        "present": false
+      },
+      {
+        "name": "Tree Nuts",
+        "present": false,
+        "note": "Verify with Domino's published allergen guide before ordering — recipes and store handling vary."
+      },
+      {
+        "name": "Fish/Shellfish",
+        "present": false
+      }
+    ],
+    "sizes": [
+      {
+        "size": "Dish",
+        "price": "$7.99",
+        "calories": "580"
+      },
+      {
+        "size": "Bread bowl",
+        "price": "$8.99",
+        "calories": "940"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much is Italian Sausage Marinara pasta?",
+        "answer": "Roughly $7.99 in a dish and about $8.99 in a bread bowl, though franchised stores price independently."
+      },
+      {
+        "question": "Is it spicy?",
+        "answer": "Not really. Italian sausage brings fennel and pepper rather than chilli heat, so it is savoury and seasoned rather than hot."
+      },
+      {
+        "question": "Is it lighter than Chicken Alfredo?",
+        "answer": "Slightly. The tomato-based marinara is around 580 calories in a dish versus roughly 620 for the cream-based Alfredo."
+      }
+    ]
+  },
+  {
+    "id": "pasta-primavera",
+    "slug": "pasta-primavera",
+    "category": "Pasta",
+    "title": "Domino's Pasta Primavera",
+    "description": "The vegetarian pasta — penne baked with vegetables in a creamy sauce, and the lightest of Domino's four pasta dishes.",
+    "fullContent": "<h2>What It Is</h2><p>Pasta Primavera is the vegetarian entry in Domino's pasta range: penne baked with vegetables in a creamy sauce. It is also, by a clear margin, <strong>the lightest of the four pastas</strong> — roughly 490 calories in a dish against 620 for Chicken Alfredo and about 660 for Chicken Carbonara.</p><h2>Prices and Calories</h2><table><thead><tr><th>Served In</th><th>Example Price</th><th>Calories</th></tr></thead><tbody><tr><td>Dish</td><td>~$7.99</td><td>~490</td></tr><tr><td>Bread bowl</td><td>~$8.99</td><td>~850</td></tr></tbody></table><p>Worth pausing on those two rows. <strong>The bread bowl adds about 360 calories</strong> — nearly as much again as the pasta itself. If you chose Primavera because it was the light option, the dish is the version that keeps that promise.</p><h2>How It Tastes</h2><p>Vegetable-forward but still creamy — this is not a tomato pasta. The vegetables soften in the oven rather than staying crunchy, and the sauce binds everything together. It is milder than the sausage marinara and lighter than the Alfredo, which puts it in a genuinely useful middle position rather than making it a compromise.</p><h2>Vegetarian, Not Vegan</h2><p>This matters and it gets confused often. <strong>Pasta Primavera contains no meat, so it works for vegetarians.</strong> It is not vegan — the sauce and cheese are dairy-based, and Domino's prepares everything in a shared kitchen with shared surfaces and utensils.</p><p>If you are vegan, the workable route is a build-your-own penne with Robust Inspired Tomato Sauce, vegetable toppings and no cheese. Our <a href=\"/posts/dominos-vegetarian-vegan-options\">vegetarian and vegan guide</a> walks through that in full, including which crusts and sauces qualify.</p><h2>Who It Suits</h2><ul><li><strong>The one vegetarian in a group</strong> ordering pizza — this is a proper meal, not an afterthought</li><li><strong>Anyone counting calories</strong> who still wants something hot and filling</li><li><strong>Lunch</strong>, where a full pizza is too much</li><li><strong>Not</strong> anyone avoiding dairy — the sauce rules it out</li></ul><h2>Ordering Notes</h2><ul><li><strong>Order the dish, not the bowl,</strong> if the calorie count is why you picked it</li><li><strong>Mix &amp; Match eligible</strong> at most stores — cheaper inside a deal than beside one</li><li><strong>Pair it with a garden salad</strong> rather than a bread side if you want to keep the meal light</li><li><strong>Check the vegetable mix at your store</strong>, since recipes vary slightly by market</li></ul><p>Prices shown are examples for guidance only. Domino's franchises price independently — verify at checkout. The full non-pizza menu with prices is in our <a href=\"/posts/dominos-sides-menu-prices\">sides menu guide</a>.</p>",
+    "price": "$7.99",
+    "currency": "USD",
+    "calories": "490 (dish) / 850 (bread bowl)",
+    "image": "/menu/pasta-primavera.webp",
+    "imageAlt": "Domino's Pasta Primavera — illustration for the menu guide",
+    "ingredients": [
+      "Penne pasta",
+      "Baby spinach",
+      "Mushrooms",
+      "Onions",
+      "Tomatoes",
+      "Creamy sauce",
+      "Cheese blend"
+    ],
+    "allergens": [
+      {
+        "name": "Wheat/Gluten",
+        "present": true
+      },
+      {
+        "name": "Milk",
+        "present": true
+      },
+      {
+        "name": "Soy",
+        "present": true,
+        "note": "Commonly present in oils and doughs"
+      },
+      {
+        "name": "Egg",
+        "present": false
+      },
+      {
+        "name": "Tree Nuts",
+        "present": false,
+        "note": "Verify with Domino's published allergen guide before ordering — recipes and store handling vary."
+      },
+      {
+        "name": "Fish/Shellfish",
+        "present": false
+      }
+    ],
+    "sizes": [
+      {
+        "size": "Dish",
+        "price": "$7.99",
+        "calories": "490"
+      },
+      {
+        "size": "Bread bowl",
+        "price": "$8.99",
+        "calories": "850"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is Pasta Primavera vegetarian?",
+        "answer": "Yes, it contains no meat. It is not vegan — the sauce and cheese contain dairy, and everything is prepared in a shared kitchen."
+      },
+      {
+        "question": "Is it the lightest pasta at Domino's?",
+        "answer": "Yes. At roughly 490 calories in a dish it is around 130 lighter than Chicken Alfredo and about 170 lighter than Chicken Carbonara."
+      },
+      {
+        "question": "Can I add chicken to it?",
+        "answer": "You'd generally build your own penne instead, picking the sauce and adding chicken plus vegetables as toppings. Adding items raises the price."
+      }
+    ]
+  },
+  {
+    "id": "philly-cheese-steak-sandwich",
+    "slug": "philly-cheese-steak-sandwich",
+    "category": "Sandwiches",
+    "title": "Domino's Philly Cheese Steak Sandwich",
+    "description": "Oven-baked sandwich with steak, onions, green peppers, mushrooms and a provolone and American cheese blend on artisan bread.",
+    "fullContent": "<h2>The Most Overlooked Thing on the Menu</h2><p>Domino's sandwiches get almost no attention, and that is a shame, because <strong>they are the reason Domino's works as a lunch stop</strong> rather than only a dinner one. They are baked on artisan bread in the same conveyor oven as the pizzas, which is why they arrive properly hot instead of sitting under a lamp.</p><p>The Philly Cheese Steak is the flagship. It is sliced steak with onions, green peppers and mushrooms under a blend of provolone and American cheese.</p><h2>Price and Portion</h2><table><thead><tr><th>Item</th><th>Example Price</th><th>Calories</th></tr></thead><tbody><tr><td>Philly Cheese Steak Sandwich</td><td>~$7.99</td><td>~700–900</td></tr><tr><td>Small pizza, for comparison</td><td>~$8.99</td><td>~1,200</td></tr></tbody></table><p>That comparison is the useful one. <strong>For one person eating alone, a sandwich is often the smarter buy than a small pizza</strong> — similar money, no leftovers going stale in a box, and it survives the trip better.</p><p>On the calorie figure: 700 to 900 is an honest range rather than a precise number. Sandwich nutrition varies more between recipes than pizza does, so if it matters, read the live figure in the app.</p><h2>How It Tastes</h2><p>Savoury and cheese-heavy, with no tomato sauce anywhere. The two cheeses do different jobs — provolone for stretch and American for the melt — and the vegetables soften in the oven rather than staying crisp. The steak is sliced thin, so it reads as part of the filling rather than as a separate piece of meat.</p><p>If you like the Philly Cheese Steak <em>pizza</em>, this is the same flavour profile in a more portable format. If you have never tried either, this is the least pizza-like thing Domino's makes, and that is exactly its appeal on a day when you don't want pizza.</p><h2>Who It Suits</h2><ul><li><strong>Solo lunch</strong> — the single best use case, no sharing and no leftovers</li><li><strong>Someone in the group who doesn't want pizza</strong></li><li><strong>Carryout orders</strong>, where it arrives at its best</li><li><strong>Not</strong> vegetarians — the Mediterranean Veggie is the meat-free sandwich</li></ul><h2>Ordering Notes</h2><ul><li><strong>Sandwiches are usually Mix &amp; Match eligible.</strong> Adding one inside a deal costs less than adding it at menu price — see our <a href=\"/posts/dominos-mix-and-match-deal\">Mix &amp; Match explainer</a>.</li><li><strong>Eat it hot.</strong> The melted cheese is the whole structure of the thing; cold it becomes solid.</li><li><strong>Add a dipping cup</strong> if you like — marinara is the light one at around 45 calories against 100 to 170 for the creamy dips.</li><li><strong>Check the current deals</strong> before paying, since sandwich pricing moves with promotions. Our <a href=\"/coupons\">coupons page</a> tracks what is running.</li></ul><p>Prices here are examples. Domino's stores are individually franchised and set their own prices — always verify at checkout. The rest of the non-pizza menu is covered in our <a href=\"/posts/dominos-sides-menu-prices\">sides menu guide</a>.</p>",
+    "price": "$7.99",
+    "currency": "USD",
+    "calories": "Approximately 700–900",
+    "image": "/menu/philly-cheese-steak-sandwich.webp",
+    "imageAlt": "Domino's Philly Cheese Steak Sandwich — illustration for the menu guide",
+    "ingredients": [
+      "Artisan bread",
+      "Sliced steak",
+      "Fresh onions",
+      "Green peppers",
+      "Mushrooms",
+      "Provolone",
+      "American cheese"
+    ],
+    "allergens": [
+      {
+        "name": "Wheat/Gluten",
+        "present": true
+      },
+      {
+        "name": "Milk",
+        "present": true
+      },
+      {
+        "name": "Soy",
+        "present": true,
+        "note": "Commonly present in oils and doughs"
+      },
+      {
+        "name": "Egg",
+        "present": false
+      },
+      {
+        "name": "Tree Nuts",
+        "present": false,
+        "note": "Verify with Domino's published allergen guide before ordering — recipes and store handling vary."
+      },
+      {
+        "name": "Fish/Shellfish",
+        "present": false
+      }
+    ],
+    "sizes": [
+      {
+        "size": "1 sandwich",
+        "price": "$7.99",
+        "calories": "~700–900"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much is a Domino's sandwich?",
+        "answer": "Typically $6.99 to $8.99 depending on the sandwich and your store. The Philly Cheese Steak usually sits around $7.99."
+      },
+      {
+        "question": "Are Domino's sandwiches any good cold?",
+        "answer": "Not especially — they are built around melted cheese, so they are much better eaten hot. Carryout, or a short delivery, gets the best result."
+      },
+      {
+        "question": "How many calories are in a Domino's sandwich?",
+        "answer": "Most land somewhere in the 700 to 900 range. That is an approximate band rather than an exact figure — check the app for the precise number."
+      }
+    ]
+  },
+  {
+    "id": "chicken-bacon-ranch-sandwich",
+    "slug": "chicken-bacon-ranch-sandwich",
+    "category": "Sandwiches",
+    "title": "Domino's Chicken Bacon Ranch Sandwich",
+    "description": "Oven-baked sandwich with grilled chicken, smoked bacon, creamy ranch and provolone on artisan bread.",
+    "fullContent": "<h2>What It Is</h2><p>Grilled chicken breast, smoked bacon, creamy ranch and provolone, baked on artisan bread. It is the richest of Domino's sandwiches and <strong>the closest thing on the menu to straightforward comfort food.</strong></p><h2>Price and Calories</h2><table><thead><tr><th>Item</th><th>Example Price</th><th>Calories</th></tr></thead><tbody><tr><td>Chicken Bacon Ranch Sandwich</td><td>~$7.99</td><td>~700–900</td></tr></tbody></table><p>As with all the sandwiches, treat that calorie band as approximate. It is a real range rather than a precise count, and the app will give you the exact figure for your store's recipe.</p><h2>How It Tastes</h2><p>Ranch is the dominant note, and whether that appeals to you decides the whole sandwich. It is creamy, tangy and mild — <strong>there is no heat in it at all.</strong> The bacon supplies smoke and salt, the chicken keeps it from being purely rich, and the provolone melts into the sauce rather than sitting on top of it.</p><p>If you have had the Cali Chicken Bacon Ranch pizza, this is the same idea in sandwich form. Both are built on ranch instead of tomato sauce, which is the single most surprising thing on Domino's menu for anyone who has only ordered red-sauce pizzas.</p><h2>Who It Suits</h2><ul><li><strong>Anyone who likes ranch</strong> — this is the most ranch-forward item Domino's makes</li><li><strong>Solo lunch or a late-night order</strong></li><li><strong>Children</strong> — mild, no heat, familiar flavours</li><li><strong>Not</strong> anyone avoiding dairy or egg — the ranch rules out both</li><li><strong>Not</strong> the choice if you want heat; look at the habanero or buffalo options where your store carries them</li></ul><h2>Ordering Notes</h2><ul><li><strong>Order it hot and eat it hot.</strong> Ranch and melted provolone are excellent warm and unpleasant cold.</li><li><strong>Mix &amp; Match eligible</strong> at most stores — building it into a larger order is cheaper than adding it at the end.</li><li><strong>Skip the extra ranch cup.</strong> The sandwich already carries the sauce, and a dipping cup adds roughly 170 calories on top.</li><li><strong>Allergen check:</strong> ranch typically contains egg as well as dairy. Domino's publishes an allergen guide, and that is the source worth reading rather than any third-party page.</li></ul><h2>How It Compares</h2><p>Against the Philly Cheese Steak, this is the creamier and less savoury of the two — Philly is steak and vegetables, this is chicken and sauce. The Mediterranean Veggie is the vegetarian alternative. All the sandwich prices sit in the same $6.99 to $8.99 band, so the choice is about flavour rather than value.</p><p>Prices on this page are examples for guidance. Verify the real total at official checkout. More context on the full non-pizza menu is in our <a href=\"/posts/dominos-sides-menu-prices\">sides menu guide</a>, and calorie comparisons across the menu are in the <a href=\"/posts/dominos-calories-nutrition-guide\">nutrition guide</a>.</p>",
+    "price": "$7.99",
+    "currency": "USD",
+    "calories": "Approximately 700–900",
+    "image": "/menu/chicken-bacon-ranch-sandwich.webp",
+    "imageAlt": "Domino's Chicken Bacon Ranch Sandwich — illustration for the menu guide",
+    "ingredients": [
+      "Artisan bread",
+      "Grilled chicken breast",
+      "Smoked bacon",
+      "Creamy ranch sauce",
+      "Provolone"
+    ],
+    "allergens": [
+      {
+        "name": "Wheat/Gluten",
+        "present": true
+      },
+      {
+        "name": "Milk",
+        "present": true
+      },
+      {
+        "name": "Soy",
+        "present": true,
+        "note": "Commonly present in oils and doughs"
+      },
+      {
+        "name": "Egg",
+        "present": true
+      },
+      {
+        "name": "Tree Nuts",
+        "present": false,
+        "note": "Verify with Domino's published allergen guide before ordering — recipes and store handling vary."
+      },
+      {
+        "name": "Fish/Shellfish",
+        "present": false
+      }
+    ],
+    "sizes": [
+      {
+        "size": "1 sandwich",
+        "price": "$7.99",
+        "calories": "~700–900"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is the Chicken Bacon Ranch sandwich spicy?",
+        "answer": "No. It is creamy and savoury rather than hot — the ranch is the dominant flavour. The Chicken Habanero is the spicy option where available."
+      },
+      {
+        "question": "Does it contain egg?",
+        "answer": "Ranch dressings typically contain egg. If that matters, check Domino's published allergen guide for your market before ordering."
+      },
+      {
+        "question": "Is it the same as the pizza?",
+        "answer": "Similar flavour, different format. The Cali Chicken Bacon Ranch pizza uses the same core combination of chicken, bacon and ranch."
+      }
+    ]
+  },
+  {
+    "id": "mediterranean-veggie-sandwich",
+    "slug": "mediterranean-veggie-sandwich",
+    "category": "Sandwiches",
+    "title": "Domino's Mediterranean Veggie Sandwich",
+    "description": "The vegetarian sandwich — spinach, feta, banana peppers, onions and tomatoes baked on artisan bread.",
+    "fullContent": "<h2>The Vegetarian Sandwich</h2><p>This is the only meat-free sandwich Domino's makes: baby spinach, feta, banana peppers, onions and tomatoes with provolone, baked on artisan bread. <strong>If you are vegetarian and someone else has ordered pizza, this is your hot alternative</strong> to picking at a side.</p><h2>Price and Calories</h2><table><thead><tr><th>Item</th><th>Example Price</th><th>Calories</th></tr></thead><tbody><tr><td>Mediterranean Veggie Sandwich</td><td>~$8.99</td><td>~700–900</td></tr><tr><td>Other sandwiches</td><td>~$6.99–$7.99</td><td>~700–900</td></tr></tbody></table><p>It commonly lists a little higher than the meat sandwiches, which surprises people. Feta and the vegetable mix are the usual reason. Whether that is worth a dollar is your call, but it is the only option in this category if you don't eat meat.</p><h2>How It Tastes</h2><p>Brighter and sharper than the other two sandwiches. <strong>Feta is doing most of the work</strong> — it is salty and tangy in a way mozzarella isn't, and it stops a vegetable sandwich from tasting flat. The banana peppers add acidity rather than heat; they are tangy, not hot, which people frequently expect wrongly.</p><p>The spinach wilts down in the oven, so do not expect a fresh salad texture. This is a baked, soft, savoury sandwich, and it is better for it.</p><h2>Vegetarian, Not Vegan</h2><p>Worth being precise about. It contains <strong>no meat, so it works for vegetarians</strong>. It is not vegan — both the feta and the provolone are dairy, and Domino's prepares everything in a shared kitchen on shared surfaces.</p><p>There is currently no vegan sandwich on the US menu. If you are vegan, the practical options are a cheeseless build-your-own pizza or a build-your-own pasta with tomato sauce. Our <a href=\"/posts/dominos-vegetarian-vegan-options\">vegetarian and vegan guide</a> covers exactly what qualifies and what doesn't.</p><h2>Who It Suits</h2><ul><li><strong>The vegetarian in a mixed group order</strong> — its main reason to exist</li><li><strong>Anyone who finds the ranch and cheese sandwiches too heavy</strong></li><li><strong>People who like feta and briny flavours</strong></li><li><strong>Not</strong> vegans, and not anyone expecting the banana peppers to be spicy</li></ul><h2>Ordering Notes</h2><ul><li><strong>Usually Mix &amp; Match eligible</strong>, which offsets the slightly higher menu price</li><li><strong>Eat it hot</strong> — the feta and provolone set as it cools</li><li><strong>Pair it with a garden salad</strong> rather than a bread side to keep the meal from being carbohydrate on carbohydrate</li><li><strong>Check availability</strong> — the sandwich lineup varies more by market than the pizza menu does</li></ul><p>All prices shown are examples for guidance. Domino's franchises set their own prices, so verify at official checkout.</p>",
+    "price": "$8.99",
+    "currency": "USD",
+    "calories": "Approximately 700–900",
+    "image": "/menu/mediterranean-veggie-sandwich.webp",
+    "imageAlt": "Domino's Mediterranean Veggie Sandwich — illustration for the menu guide",
+    "ingredients": [
+      "Artisan bread",
+      "Baby spinach",
+      "Feta",
+      "Banana peppers",
+      "Fresh onions",
+      "Diced tomatoes",
+      "Provolone"
+    ],
+    "allergens": [
+      {
+        "name": "Wheat/Gluten",
+        "present": true
+      },
+      {
+        "name": "Milk",
+        "present": true
+      },
+      {
+        "name": "Soy",
+        "present": true,
+        "note": "Commonly present in oils and doughs"
+      },
+      {
+        "name": "Egg",
+        "present": false
+      },
+      {
+        "name": "Tree Nuts",
+        "present": false,
+        "note": "Verify with Domino's published allergen guide before ordering — recipes and store handling vary."
+      },
+      {
+        "name": "Fish/Shellfish",
+        "present": false
+      }
+    ],
+    "sizes": [
+      {
+        "size": "1 sandwich",
+        "price": "$8.99",
+        "calories": "~700–900"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is the Mediterranean Veggie sandwich vegetarian?",
+        "answer": "Yes, it contains no meat. It is not vegan — feta and provolone are dairy, and everything is prepared in a shared kitchen."
+      },
+      {
+        "question": "Is it spicy?",
+        "answer": "No. Banana peppers are tangy rather than hot, so the sandwich is bright and briny rather than spicy."
+      },
+      {
+        "question": "Why is it sometimes more expensive?",
+        "answer": "It often lists slightly higher than the meat sandwiches, commonly around $8.99. Pricing varies by store."
+      }
+    ]
+  },
+  {
+    "id": "chocolate-lava-crunch-cakes",
+    "slug": "chocolate-lava-crunch-cakes",
+    "category": "Desserts",
+    "title": "Domino's Chocolate Lava Crunch Cakes",
+    "description": "Two warm chocolate cakes with a molten chocolate centre — Domino's best-known dessert.",
+    "fullContent": "<h2>The Dessert People Actually Order</h2><p>Domino's dessert menu is short, and the Chocolate Lava Crunch Cakes are the reason most people look at it. Two warm chocolate cakes with a <strong>molten chocolate centre</strong>, baked so the middle stays liquid.</p><h2>Price and Calories</h2><table><thead><tr><th>Item</th><th>Portion</th><th>Example Price</th><th>Calories</th></tr></thead><tbody><tr><td>Chocolate Lava Crunch Cakes</td><td>2 cakes</td><td>~$4.99</td><td>~350 each</td></tr><tr><td>Cinnamon Bread Twists</td><td>8 pieces</td><td>~$5.99</td><td>~250 / 2 pc</td></tr><tr><td>Marbled Cookie Brownie</td><td>9 pieces</td><td>~$6.99</td><td>~200 / piece</td></tr></tbody></table><p>They are <strong>the cheapest dessert on the menu and the one that splits most cleanly</strong> — two cakes, two people, no negotiation. Eating both yourself is roughly 700 calories, which is worth knowing before you decide.</p><h2>Getting Them at Their Best</h2><p>This is the one dessert on the menu where timing genuinely matters. <strong>The molten centre firms up as the cake cools</strong>, so a lava cake eaten twenty minutes after delivery is a decent chocolate cake, while one eaten immediately is the thing you actually ordered.</p><p>Two practical consequences:</p><ul><li><strong>Carryout beats a long delivery</strong> for these specifically</li><li><strong>Eat them before the pizza cools</strong> if delivery took a while — counterintuitive, but the cakes are more time-sensitive than the pizza is</li></ul><p>If they have gone cold, a short warm-up in an oven restores the centre far better than a microwave, which tends to make the cake rubbery.</p><h2>Who It Suits</h2><ul><li><strong>Two people</strong> — the portion is designed for exactly this</li><li><strong>Anyone wanting dessert without ordering a whole tray</strong> of something</li><li><strong>Carryout orders</strong>, where they arrive properly warm</li><li><strong>Not</strong> a group of four or more — order the Cinnamon Bread Twists or the Cookie Brownie instead, which divide properly</li><li><strong>Not</strong> vegans — they contain dairy and egg, and there is no vegan dessert on the US menu</li></ul><h2>Ordering Notes</h2><ul><li><strong>Usually Mix &amp; Match eligible</strong>, so adding them inside a deal costs less than tacking them on at menu price</li><li><strong>They contain wheat, dairy and egg</strong> — check Domino's allergen guide if that matters to you</li><li><strong>Don't over-order.</strong> One pair between two is plenty; two pairs between two is a lot of chocolate</li></ul><p>Prices are examples for guidance only — Domino's stores price independently, so verify at checkout. The full dessert and sides lineup is in our <a href=\"/posts/dominos-sides-menu-prices\">sides menu guide</a>, and calorie context across the whole menu is in the <a href=\"/posts/dominos-calories-nutrition-guide\">nutrition guide</a>.</p>",
+    "price": "$4.99",
+    "currency": "USD",
+    "calories": "350 per cake",
+    "image": "/menu/chocolate-lava-crunch-cakes.webp",
+    "imageAlt": "Domino's Chocolate Lava Crunch Cakes — illustration for the menu guide",
+    "ingredients": [
+      "Chocolate cake",
+      "Molten chocolate centre",
+      "Wheat flour",
+      "Dairy",
+      "Egg"
+    ],
+    "allergens": [
+      {
+        "name": "Wheat/Gluten",
+        "present": true
+      },
+      {
+        "name": "Milk",
+        "present": true
+      },
+      {
+        "name": "Soy",
+        "present": true,
+        "note": "Commonly present in oils and doughs"
+      },
+      {
+        "name": "Egg",
+        "present": true
+      },
+      {
+        "name": "Tree Nuts",
+        "present": false,
+        "note": "Verify with Domino's published allergen guide before ordering — recipes and store handling vary."
+      },
+      {
+        "name": "Fish/Shellfish",
+        "present": false
+      }
+    ],
+    "sizes": [
+      {
+        "size": "2 cakes",
+        "price": "$4.99",
+        "calories": "350 each (~700 total)"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How many lava cakes come in an order?",
+        "answer": "Two. They are sold as a pair, which works out neatly between two people or as roughly 700 calories if you eat both."
+      },
+      {
+        "question": "How many calories are in a Domino's lava cake?",
+        "answer": "About 350 per cake, so around 700 for the pair."
+      },
+      {
+        "question": "Are the lava cakes actually molten inside?",
+        "answer": "Yes, that is the point of them — they are baked so the centre stays liquid. They are best eaten straight away; the centre firms up as they cool."
+      }
+    ]
+  },
+  {
+    "id": "cinnamon-bread-twists",
+    "slug": "cinnamon-bread-twists",
+    "category": "Desserts",
+    "title": "Domino's Cinnamon Bread Twists",
+    "description": "Eight freshly baked bread twists dusted with cinnamon and sugar, served with sweet icing.",
+    "fullContent": "<h2>The Dessert for a Group</h2><p>Cinnamon Bread Twists are the same twisted bread as Domino's savoury sides, baked golden and then dusted with cinnamon and sugar, with a cup of sweet icing for dipping. <strong>Eight pieces to an order</strong>, which is what makes them the sharing option.</p><h2>Price and Portion</h2><table><thead><tr><th>Dessert</th><th>Pieces</th><th>Example Price</th><th>Feeds</th></tr></thead><tbody><tr><td>Cinnamon Bread Twists</td><td>8</td><td>~$5.99</td><td>3–4 people</td></tr><tr><td>Lava Crunch Cakes</td><td>2</td><td>~$4.99</td><td>2 people</td></tr><tr><td>Marbled Cookie Brownie</td><td>9</td><td>~$6.99</td><td>4–5 people</td></tr></tbody></table><p>That is the honest way to choose between the three: <strong>pick by how many people you are feeding, not by flavour.</strong> Two lava cakes between four means somebody misses out; eight twists divides cleanly.</p><h2>Calories — Read This Bit</h2><p>Roughly <strong>250 calories per two pieces</strong>, which sounds modest until you do the arithmetic. A full eight-piece order is around 1,000 calories, and that is before the icing cup.</p><p>They are easy to eat without noticing, in the way a shared plate of bread always is. Shared between three or four people it is a reasonable dessert; eaten solo it is a second meal. Our <a href=\"/posts/dominos-calories-nutrition-guide\">calories guide</a> puts that in context against the rest of the menu.</p><h2>How They Taste</h2><p>Soft rather than crisp, with cinnamon sugar on the outside and a plain bread interior. They are sweeter through the coating than the dough — the twist itself is fairly neutral, which is why the icing cup matters. Dipped, they are properly sweet; undipped, they are closer to a cinnamon roll without the glaze.</p><p>They hold up better than the lava cakes on a long delivery, since there is no molten centre to set. That makes them the safer dessert if your store is far away.</p><h2>Who It Suits</h2><ul><li><strong>Groups of three or four</strong> — the portion divides properly</li><li><strong>Long deliveries</strong>, where lava cakes would arrive cold</li><li><strong>Anyone who prefers bread-based desserts</strong> to cake</li><li><strong>Not</strong> vegans — they contain milk, like all of Domino's bread sides</li><li><strong>Not</strong> the best solo order; the portion is too big for one</li></ul><h2>Ordering Notes</h2><ul><li><strong>Mix &amp; Match eligible</strong> at most stores — cheaper inside a deal than added at the end</li><li><strong>Ask for the icing on the side</strong> if you'd rather control the sweetness; it usually comes that way</li><li><strong>They reheat reasonably</strong> — a few minutes in an oven brings them back, unlike cream-based items</li><li><strong>Treat them as replacing a side</strong>, not adding to one, if you have already ordered bread with the meal</li></ul><p>Prices shown are examples. Domino's stores are individually franchised — confirm at official checkout.</p>",
+    "price": "$5.99",
+    "currency": "USD",
+    "calories": "250 per 2 pieces",
+    "image": "/menu/cinnamon-bread-twists.webp",
+    "imageAlt": "Domino's Cinnamon Bread Twists — illustration for the menu guide",
+    "ingredients": [
+      "Bread dough",
+      "Cinnamon",
+      "Sugar",
+      "Sweet icing dip"
+    ],
+    "allergens": [
+      {
+        "name": "Wheat/Gluten",
+        "present": true
+      },
+      {
+        "name": "Milk",
+        "present": true
+      },
+      {
+        "name": "Soy",
+        "present": true,
+        "note": "Commonly present in oils and doughs"
+      },
+      {
+        "name": "Egg",
+        "present": false
+      },
+      {
+        "name": "Tree Nuts",
+        "present": false,
+        "note": "Verify with Domino's published allergen guide before ordering — recipes and store handling vary."
+      },
+      {
+        "name": "Fish/Shellfish",
+        "present": false
+      }
+    ],
+    "sizes": [
+      {
+        "size": "8 pieces",
+        "price": "$5.99",
+        "calories": "~250 / 2 pieces"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How many Cinnamon Bread Twists come in an order?",
+        "answer": "Eight pieces, served with a cup of sweet icing for dipping. That makes them the easiest Domino's dessert to share around a table."
+      },
+      {
+        "question": "How many calories are in Cinnamon Bread Twists?",
+        "answer": "Roughly 250 for two pieces, so a full eight-piece order is around 1,000 calories before the icing."
+      },
+      {
+        "question": "Are they vegan?",
+        "answer": "No. The bread twists contain milk, as do all of Domino's bread sides. There is currently no vegan dessert on the US menu."
+      }
+    ]
+  },
+  {
+    "id": "marbled-cookie-brownie",
+    "slug": "marbled-cookie-brownie",
+    "category": "Desserts",
+    "title": "Domino's Marbled Cookie Brownie",
+    "description": "A baked tray of marbled cookie and brownie, cut into nine pieces — the dessert that feeds a group.",
+    "fullContent": "<h2>The Group Dessert</h2><p>The Marbled Cookie Brownie is exactly what the name says: cookie dough and brownie batter swirled together, baked as a tray and <strong>cut into nine pieces</strong>. It is the largest dessert portion on the menu and the only one that comfortably feeds four or five people.</p><h2>Price and Portion</h2><table><thead><tr><th>Dessert</th><th>Pieces</th><th>Example Price</th><th>Cal / Piece</th></tr></thead><tbody><tr><td>Marbled Cookie Brownie</td><td>9</td><td>~$6.99</td><td>~200</td></tr><tr><td>Cinnamon Bread Twists</td><td>8</td><td>~$5.99</td><td>~125</td></tr><tr><td>Lava Crunch Cakes</td><td>2</td><td>~$4.99</td><td>~350</td></tr></tbody></table><p>Per piece it is the middle option on calories and the most expensive per order — but <strong>per person it is the cheapest way to give five people dessert.</strong> One tray covers a table that two lava cakes would not.</p><p>The whole tray is roughly 1,800 calories, which is the number worth knowing if it ends up sitting on the coffee table during a film.</p><h2>How It Tastes</h2><p>Because the batter is marbled rather than layered, each piece carries both textures — the chew of a cookie and the denser, fudgier brownie running through it. The result is sweeter and denser than the bread twists and less dramatic than a lava cake, with no molten centre to lose.</p><p>That last point is a practical advantage. <strong>It survives delivery better than anything else on the dessert menu.</strong> There is nothing time-sensitive about it, so a long delivery does not spoil it the way it spoils lava cakes.</p><h2>Who It Suits</h2><ul><li><strong>Four or five people</strong> — the only Domino's dessert that stretches that far</li><li><strong>Long deliveries</strong>, since nothing about it depends on arriving hot</li><li><strong>Parties and film nights</strong>, where a tray beats individual portions</li><li><strong>Not</strong> one or two people — you will be eating brownie for two days</li><li><strong>Not</strong> vegans; it contains dairy and egg</li></ul><h2>Ordering Notes</h2><ul><li><strong>Mix &amp; Match eligible</strong> at most stores, which is where the value is — added at menu price next to a full-price pizza, it is the most expensive dessert</li><li><strong>Keeps well.</strong> Unlike the rest of the menu, leftovers are genuinely fine the next day</li><li><strong>Contains wheat, dairy and egg</strong> — check the official allergen guide if that matters</li><li><strong>Order it instead of, not alongside, a bread side</strong> unless you are feeding a real crowd</li></ul><h2>Choosing Between the Three</h2><p>Simple rule: <strong>two people order lava cakes, three or four order cinnamon twists, five or more order the brownie.</strong> Flavour preference matters less than portion here, because all three are sweet, shareable and priced within two dollars of each other.</p><p>Prices on this page are examples for guidance. Verify at official checkout. The full dessert and sides range is covered in our <a href=\"/posts/dominos-sides-menu-prices\">sides menu guide</a>.</p>",
+    "price": "$6.99",
+    "currency": "USD",
+    "calories": "200 per piece",
+    "image": "/menu/marbled-cookie-brownie.webp",
+    "imageAlt": "Domino's Marbled Cookie Brownie — illustration for the menu guide",
+    "ingredients": [
+      "Cookie dough",
+      "Brownie batter",
+      "Chocolate",
+      "Wheat flour",
+      "Dairy",
+      "Egg"
+    ],
+    "allergens": [
+      {
+        "name": "Wheat/Gluten",
+        "present": true
+      },
+      {
+        "name": "Milk",
+        "present": true
+      },
+      {
+        "name": "Soy",
+        "present": true,
+        "note": "Commonly present in oils and doughs"
+      },
+      {
+        "name": "Egg",
+        "present": true
+      },
+      {
+        "name": "Tree Nuts",
+        "present": false,
+        "note": "Verify with Domino's published allergen guide before ordering — recipes and store handling vary."
+      },
+      {
+        "name": "Fish/Shellfish",
+        "present": false
+      }
+    ],
+    "sizes": [
+      {
+        "size": "9 pieces",
+        "price": "$6.99",
+        "calories": "~200 per piece"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How big is the Marbled Cookie Brownie?",
+        "answer": "It is baked as a tray and cut into nine pieces, which makes it the largest dessert portion Domino's sells and the best one for a group of four or five."
+      },
+      {
+        "question": "How many calories per piece?",
+        "answer": "Around 200 per piece, so roughly 1,800 for the whole tray if nobody shows restraint."
+      },
+      {
+        "question": "Is it a cookie or a brownie?",
+        "answer": "Both — the batter is marbled, so each piece has cookie and brownie running through it rather than being one or the other."
+      }
+    ]
+  },
+  {
+    "id": "parmesan-bread-bites",
+    "slug": "parmesan-bread-bites",
+    "category": "Sides & Bread",
+    "title": "Domino's Parmesan Bread Bites",
+    "description": "Sixteen small baked bread bites brushed with garlic and Parmesan — the best value side on the menu.",
+    "fullContent": "<h2>The Best Value Side on the Menu</h2><p>Sixteen small baked bread bites, brushed with garlic seasoning and Parmesan, for around $4.99. <strong>Per piece, nothing else on the Domino's menu comes close on value</strong>, and the portion is the easiest to pass around a table without anyone measuring their share.</p><h2>Price Against the Other Bread Sides</h2><table><thead><tr><th>Side</th><th>Pieces</th><th>Example Price</th><th>Calories</th></tr></thead><tbody><tr><td>Parmesan Bread Bites</td><td>16</td><td>~$4.99</td><td>~220 / 4 pc</td></tr><tr><td>Garlic Bread Twists</td><td>8</td><td>~$5.99</td><td>~220 / 2 pc</td></tr><tr><td>Stuffed Cheesy Bread</td><td>8</td><td>~$7.99</td><td>~260 / 2 pc</td></tr></tbody></table><p>Two things stand out. The bites are <strong>the cheapest order and the largest piece count</strong>. And per calorie they are the lightest way into the bread category — 220 for four small bites against 260 for two pieces of Stuffed Cheesy Bread.</p><p>That said, a full sixteen-piece order is roughly 880 calories, so \"lightest\" is relative. They are easy to eat absent-mindedly.</p><h2>How They Taste</h2><p>Small, soft and garlicky, with Parmesan on the outside rather than inside. They are closer to seasoned dinner rolls than to breadsticks — there is no crisp shell, and no cheese pull, because there is no cheese filling.</p><p>Because each piece is small, <strong>they work far better for sharing than the twists do.</strong> Sixteen pieces around four people is four each; eight twists around four people is two each and immediately awkward.</p><h2>Dipping Sauce Matters Here</h2><p>The bites are fairly plain on their own, so the dip does real work. Worth knowing what each one costs you:</p><ul><li><strong>Marinara</strong> — around 45 calories a cup, the light choice</li><li><strong>Ranch or blue cheese</strong> — roughly 100 to 170 a cup</li><li><strong>Garlic and butter style dips</strong> — the heaviest of the lot</li></ul><p>If you are having two or three cups with a shared bread side, that is a meaningful number sitting quietly next to your pizza. Marinara is the freebie in calorie terms.</p><h2>Who It Suits</h2><ul><li><strong>Sharing around a table of three or four</strong> — the portion divides best of any side</li><li><strong>Ordering on a budget</strong> — the cheapest way to add something to a pizza order</li><li><strong>Children</strong>, since the pieces are small and mild</li><li><strong>Not</strong> anyone wanting the cheese-pull experience — that is Stuffed Cheesy Bread</li><li><strong>Not</strong> vegans; all Domino's bread sides contain milk</li></ul><h2>Ordering Notes</h2><ul><li><strong>Mix &amp; Match eligible</strong> at most stores, which makes an already cheap side cheaper</li><li><strong>One shared side per three or four people</strong> is the rule that stops food going home in a box</li><li><strong>They cool quickly</strong> because the pieces are small — worth eating early in the meal</li></ul><p>Prices shown are examples. Domino's stores set their own prices — verify at official checkout. The full side lineup is in our <a href=\"/posts/dominos-sides-menu-prices\">sides menu guide</a>.</p>",
+    "price": "$4.99",
+    "currency": "USD",
+    "calories": "220 per 4 pieces",
+    "image": "/menu/parmesan-bread-bites.webp",
+    "imageAlt": "Domino's Parmesan Bread Bites — illustration for the menu guide",
+    "ingredients": [
+      "Bread dough",
+      "Garlic seasoning",
+      "Parmesan",
+      "Butter-flavoured spread"
+    ],
+    "allergens": [
+      {
+        "name": "Wheat/Gluten",
+        "present": true
+      },
+      {
+        "name": "Milk",
+        "present": true
+      },
+      {
+        "name": "Soy",
+        "present": true,
+        "note": "Commonly present in oils and doughs"
+      },
+      {
+        "name": "Egg",
+        "present": false
+      },
+      {
+        "name": "Tree Nuts",
+        "present": false,
+        "note": "Verify with Domino's published allergen guide before ordering — recipes and store handling vary."
+      },
+      {
+        "name": "Fish/Shellfish",
+        "present": false
+      }
+    ],
+    "sizes": [
+      {
+        "size": "16 pieces",
+        "price": "$4.99",
+        "calories": "~220 / 4 pieces"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How many Parmesan Bread Bites come in an order?",
+        "answer": "Sixteen pieces for around $4.99, which makes them the cheapest side on the Domino's menu and the best value per piece."
+      },
+      {
+        "question": "How many calories are in Parmesan Bread Bites?",
+        "answer": "Roughly 220 calories for four pieces, so a full sixteen-piece order is about 880 before any dipping sauce."
+      },
+      {
+        "question": "Are they vegan?",
+        "answer": "No. Like every bread side at Domino's, they contain milk, and the Parmesan is dairy."
+      }
+    ]
+  },
+  {
+    "id": "garlic-bread-twists",
+    "slug": "garlic-bread-twists",
+    "category": "Sides & Bread",
+    "title": "Domino's Garlic Bread Twists",
+    "description": "Eight freshly baked bread twists brushed with garlic and butter-flavoured seasoning, served with marinara.",
+    "fullContent": "<h2>What It Is</h2><p>Eight lengths of bread dough, twisted, baked, and brushed with garlic and a butter-flavoured seasoning, served with a marinara cup. This is <strong>the plainest, most familiar side Domino's makes</strong> — no filling, no cheese layer, just garlic bread in a twisted shape.</p><h2>Price and Calories</h2><table><thead><tr><th>Side</th><th>Pieces</th><th>Example Price</th><th>Cal / 2 pc</th></tr></thead><tbody><tr><td>Garlic Bread Twists</td><td>8</td><td>~$5.99</td><td>~220</td></tr><tr><td>Parmesan Bread Twists</td><td>8</td><td>~$5.99</td><td>~230</td></tr><tr><td>Parmesan Bread Bites</td><td>16</td><td>~$4.99</td><td>~110</td></tr></tbody></table><p>The comparison worth making is with the bites. <strong>The bites are cheaper, and there are twice as many pieces</strong> — so if you are feeding a group, they are the better buy. The twists win on format: they are substantial enough to eat as a proper side rather than a nibble, and they dip better.</p><h2>Garlic or Parmesan?</h2><p>The two twist varieties are the same bread with a different finish. Garlic is brushed with seasoning and butter flavour. Parmesan adds cheese on top and comes out roughly ten calories heavier per two pieces.</p><p>In practice: <strong>garlic is the better partner for a pizza that already has a lot going on</strong>, and Parmesan is better if the bread is doing more of the work in the meal. The price is normally identical, so this is purely taste.</p><h2>Calories in Context</h2><p>Around 220 per two pieces means a full order is roughly 880 calories — <strong>close to half a large cheese pizza.</strong> That is the thing people underestimate about bread sides. They read as \"a side\" and they eat like a course.</p><p>The practical fix is not to skip them but to let them replace pizza rather than accompany it. One bread side plus two fewer slices lands in the same place as three slices, and the table enjoys it more. Our <a href=\"/posts/dominos-calories-nutrition-guide\">calories guide</a> has the full comparison.</p><h2>Who It Suits</h2><ul><li><strong>Two or three people</strong> sharing alongside a pizza</li><li><strong>Anyone who wants plain garlic bread</strong> rather than a cheese-filled side</li><li><strong>Dipping</strong> — the twist shape holds sauce better than bites do</li><li><strong>Not</strong> a big group; sixteen bites divide better than eight twists</li><li><strong>Not</strong> vegans — they contain milk</li></ul><h2>Ordering Notes</h2><ul><li><strong>Mix &amp; Match eligible</strong> at most stores — always cheaper inside a deal than beside one</li><li><strong>Marinara is the light dip</strong> at around 45 calories against 100 to 170 for the creamy ones</li><li><strong>Eat them hot.</strong> Bread sides firm up noticeably as they cool</li><li><strong>Check what your pizza already has.</strong> If you have ordered Parmesan Stuffed Crust, another garlic bread side is a lot of the same flavour</li></ul><p>Prices on this page are examples for guidance only — verify the real total at official checkout.</p>",
+    "price": "$5.99",
+    "currency": "USD",
+    "calories": "220 per 2 pieces",
+    "image": "/menu/garlic-bread-twists.webp",
+    "imageAlt": "Domino's Garlic Bread Twists — illustration for the menu guide",
+    "ingredients": [
+      "Bread dough",
+      "Garlic seasoning",
+      "Butter-flavoured spread",
+      "Marinara dipping sauce"
+    ],
+    "allergens": [
+      {
+        "name": "Wheat/Gluten",
+        "present": true
+      },
+      {
+        "name": "Milk",
+        "present": true
+      },
+      {
+        "name": "Soy",
+        "present": true,
+        "note": "Commonly present in oils and doughs"
+      },
+      {
+        "name": "Egg",
+        "present": false
+      },
+      {
+        "name": "Tree Nuts",
+        "present": false,
+        "note": "Verify with Domino's published allergen guide before ordering — recipes and store handling vary."
+      },
+      {
+        "name": "Fish/Shellfish",
+        "present": false
+      }
+    ],
+    "sizes": [
+      {
+        "size": "8 pieces",
+        "price": "$5.99",
+        "calories": "~220 / 2 pieces"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between Garlic and Parmesan Bread Twists?",
+        "answer": "Same twisted bread base. The garlic version is brushed with garlic and butter-flavoured seasoning; the Parmesan version adds a Parmesan cheese finish and runs slightly higher in calories."
+      },
+      {
+        "question": "How many calories are in Garlic Bread Twists?",
+        "answer": "Around 220 for two pieces, so a full eight-piece order is roughly 880 before the dipping sauce."
+      },
+      {
+        "question": "Do they come with dipping sauce?",
+        "answer": "They are normally served with a marinara cup. Additional dips are usually charged separately."
+      }
+    ]
+  },
+  {
+    "id": "loaded-tots",
+    "slug": "loaded-tots",
+    "category": "Sides & Bread",
+    "title": "Domino's Loaded Tots",
+    "description": "Crispy potato tots baked with cheese and toppings, in three versions — Cheddar Bacon, Melty 3-Cheese and Philly Cheese Steak.",
+    "fullContent": "<h2>The Newest Side</h2><p>Loaded Tots are the most recent addition to this part of Domino's menu: crispy potato tots baked with sauce and cheese on top, in <strong>three versions</strong>. They are the only non-bread, non-chicken hot side on the menu, which is the main reason to order them.</p><h2>The Three Versions</h2><table><thead><tr><th>Version</th><th>What's On Them</th><th>Cal / Quarter</th></tr></thead><tbody><tr><td>Cheddar Bacon</td><td>Bacon, mozzarella, cheddar, garlic Parmesan sauce</td><td>~240</td></tr><tr><td>Melty 3-Cheese</td><td>Mozzarella, cheddar, provolone, Alfredo</td><td>~210</td></tr><tr><td>Philly Cheese Steak</td><td>Steak, onions, green peppers, Alfredo, cheese blend</td><td>~200</td></tr></tbody></table><p>All three are normally the same price — commonly around <strong>$6.99 as part of a Mix &amp; Match order</strong>. Philly Cheese Steak is both the lightest and the most substantial in terms of actual filling, which makes it the pick if you are choosing on merit rather than on cheese volume.</p><h2>The Honest Verdict on Delivery</h2><p>This needs saying plainly, because it decides whether you enjoy them. <strong>Tots travel worse than bread does.</strong> Crispiness is the entire appeal, and twenty minutes in a sealed container with hot cheese on top steams it away.</p><ul><li><strong>On carryout:</strong> genuinely good — crisp outside, molten on top</li><li><strong>On a short delivery:</strong> fine</li><li><strong>On a long delivery:</strong> soft, and you will wonder what the fuss was about</li></ul><p>If your store is far away, order bread instead and save the tots for a pickup run. Our <a href=\"/posts/dominos-carryout-deals-guide\">carryout deals guide</a> covers where pickup wins on price too, which makes this an easy trade.</p><h2>How They Taste</h2><p>Familiar, in a good way — these are recognisably potato tots, not a reinvention. The sauces are the differentiator: garlic Parmesan on the Cheddar Bacon gives it a savoury, garlicky edge, while the Alfredo versions are creamier and milder. None of the three is spicy.</p><h2>Who It Suits</h2><ul><li><strong>Carryout orders</strong> — the format they are built for</li><li><strong>Anyone bored of bread sides</strong>, which until recently was the only real option</li><li><strong>Sharing between two</strong>; a portion divides into about four servings</li><li><strong>Not</strong> long-delivery orders</li><li><strong>Not</strong> vegans — all three versions carry dairy</li></ul><h2>Ordering Notes</h2><ul><li><strong>Usually Mix &amp; Match eligible</strong>, which is where the $6.99 price comes from — standalone they cost more</li><li><strong>Availability varies.</strong> As a newer item, not every store carries all three versions</li><li><strong>Don't stack them with a bread side.</strong> Both are heavy starch; pick one</li><li><strong>Eat them first</strong> if they arrive with a pizza — they are the most time-sensitive thing in the bag</li></ul><p>Prices shown are examples for guidance. Domino's stores are individually franchised and price independently — always confirm at official checkout.</p>",
+    "price": "$6.99",
+    "currency": "USD",
+    "calories": "200–240 per quarter portion",
+    "image": "/menu/loaded-tots.webp",
+    "imageAlt": "Domino's Loaded Tots — illustration for the menu guide",
+    "ingredients": [
+      "Potato tots",
+      "Mozzarella",
+      "Cheddar",
+      "Choice of toppings (bacon, steak, peppers, onions)",
+      "Alfredo or garlic Parmesan sauce"
+    ],
+    "allergens": [
+      {
+        "name": "Wheat/Gluten",
+        "present": true
+      },
+      {
+        "name": "Milk",
+        "present": true
+      },
+      {
+        "name": "Soy",
+        "present": true,
+        "note": "Commonly present in oils and doughs"
+      },
+      {
+        "name": "Egg",
+        "present": false
+      },
+      {
+        "name": "Tree Nuts",
+        "present": false,
+        "note": "Verify with Domino's published allergen guide before ordering — recipes and store handling vary."
+      },
+      {
+        "name": "Fish/Shellfish",
+        "present": false
+      }
+    ],
+    "sizes": [
+      {
+        "size": "Cheddar Bacon",
+        "price": "$6.99",
+        "calories": "~240 / quarter"
+      },
+      {
+        "size": "Melty 3-Cheese",
+        "price": "$6.99",
+        "calories": "~210 / quarter"
+      },
+      {
+        "size": "Philly Cheese Steak",
+        "price": "$6.99",
+        "calories": "~200 / quarter"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What flavours do Domino's Loaded Tots come in?",
+        "answer": "Three — Cheddar Bacon, Melty 3-Cheese and Philly Cheese Steak. All are usually priced the same, commonly around $6.99 in a Mix & Match order."
+      },
+      {
+        "question": "How many calories are in Loaded Tots?",
+        "answer": "Roughly 200 to 240 per quarter portion depending on the version, with Cheddar Bacon the heaviest and Philly Cheese Steak the lightest."
+      },
+      {
+        "question": "Do Loaded Tots travel well?",
+        "answer": "Not especially. Tots are at their best straight from the oven, and a long delivery softens them. They are a much better carryout order."
+      }
     ]
   }
 ]
