@@ -505,7 +505,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         label: "Domino's delivery near me guide",
         href: "/dominos-delivery-near-me",
-        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+        description: "How zones and timing work, and what a long hot drive does to your order.",
       },
     ],
     additionalLocations: [
@@ -574,7 +574,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "Northeast Philadelphia, Germantown & West Philly routes",
         body:
-          "Farther neighborhood routes can involve longer drives, different store assignments and delivery boundaries that are not obvious from a citywide page. Enter the exact address before assuming delivery is available. If the address is near the edge of a zone, carryout may show more predictable timing. For larger households or watch parties, choose simple popular items and use coupons to keep the per-person cost easier to understand.",
+          "Farther neighborhood routes can involve longer drives, different store assignments and delivery boundaries that are not obvious from a citywide page. If the address is near the edge of a zone, carryout may show more predictable timing. For larger households or watch parties, choose simple popular items and use coupons to keep the per-person cost easier to understand.",
       },
     ],
     orderingTips: [
@@ -619,7 +619,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         label: "Domino's hours guide",
         href: "/hours",
-        description: "Understand typical hours, late-night ordering and why each store should be verified.",
+        description: "Late-night hours differ sharply between Center City and the neighbourhoods — check yours before a midnight order.",
       },
     ],
     additionalLocations: [
@@ -723,12 +723,12 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         label: "Domino's menu prices guide",
         href: "/menus-prices",
-        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+        description: "Example prices for every category before you plan an order across a spread-out city.",
       },
       {
         label: "Domino's coupons and deals",
         href: "/coupons",
-        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+        description: "Current deals — carryout savings add up when stores are spread out.",
       },
       {
         label: "Domino's delivery near me guide",
@@ -765,7 +765,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "Why San Diego orders need exact address checks",
         body:
-          "San Diego neighborhoods can be separated by freeways, hills, canyons, beach traffic and military-area access. A store that seems close on a map may not be the delivery store assigned to your address. Before planning a large order, enter the full address in Domino's official app. That check will show whether delivery, carryout or both are available, which coupons apply and what the current estimated timing looks like.",
+          "San Diego neighborhoods can be separated by freeways, hills, canyons, beach traffic and military-area access. A store that seems close on a map may not be the delivery store assigned to your address. That check will show whether delivery, carryout or both are available, which coupons apply and what the current estimated timing looks like.",
       },
       {
         heading: "How beach traffic and events affect delivery",
@@ -802,7 +802,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "Chula Vista, National City & East County routes",
         body:
-          "San Diego-area orders outside the central neighborhoods can involve longer drives, different store assignments and more specific delivery boundaries. Enter the exact address before assuming a citywide estimate applies. If the address is near a zone edge, carryout may show more predictable timing. For family meals, use bundle-style offers and simple popular toppings to keep the order flexible.",
+          "San Diego-area orders outside the central neighborhoods can involve longer drives, different store assignments and more specific delivery boundaries. If the address is near a zone edge, carryout may show more predictable timing. For family meals, use bundle-style offers and simple popular toppings to keep the order flexible.",
       },
     ],
     orderingTips: [
@@ -837,17 +837,17 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         label: "Domino's menu prices guide",
         href: "/menus-prices",
-        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+        description: "Menu prices in full — handy when a beach-day order has to feed a group.",
       },
       {
         label: "Domino's coupons and deals",
         href: "/coupons",
-        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+        description: "Live offers, including the carryout specials that skip the fee entirely.",
       },
       {
         label: "Domino's delivery near me guide",
         href: "/dominos-delivery-near-me",
-        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+        description: "How zones, fees and timing work when coastal traffic is the main variable.",
       },
     ],
     additionalLocations: [
@@ -874,7 +874,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       { label: "Plan for", value: "DFW traffic" },
     ],
     intro:
-      "Dallas is a major DFW city with dense apartment districts, office towers, college areas, entertainment zones and suburban edges that can all affect a Domino's order differently. This independent guide helps Dallas customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Dallas store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. For accurate store assignment, current hours, local pricing, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
+      "Dallas is a major DFW city with dense apartment districts, office towers, college areas, entertainment zones and suburban edges that can all affect a Domino's order differently. This independent guide helps Dallas customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Dallas store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. ",
     editorialSections: [
       {
         heading: "Why Dallas delivery depends on exact address entry",
@@ -938,7 +938,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "For late-night and event timing",
         body:
-          "Do not assume every Dallas store follows the same closing time. Hours can vary by store, weekday, staffing and local demand. Before a late order, enter the exact address and verify whether delivery or carryout is currently available. Around concerts, games or storms, order earlier and keep instructions simple.",
+          "Do not assume every Dallas store follows the same closing time. Hours can vary by store, weekday, staffing and local demand. Around concerts, games or storms, order earlier and keep instructions simple.",
       },
     ],
     resourceLinks: [
@@ -951,12 +951,12 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         label: "Domino's menu prices guide",
         href: "/menus-prices",
-        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+        description: "Example prices across every category before committing to a DFW-sized order.",
       },
       {
         label: "Domino's coupons and deals",
         href: "/coupons",
-        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+        description: "What is currently running, and where carryout beats a delivery through DFW traffic.",
       },
       {
         label: "Domino's rewards guide",
@@ -988,12 +988,12 @@ export const locationRichContent: Record<string, RichLocationData> = {
       { label: "Plan for", value: "Events" },
     ],
     intro:
-      "Austin is a fast-growing city with college housing, tech offices, music venues, downtown apartments and expanding suburban edges that can all change how a Domino's order works. This independent guide helps Austin customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Austin store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. For accurate store assignment, current hours, local pricing, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
+      "Austin is a fast-growing city with college housing, tech offices, music venues, downtown apartments and expanding suburban edges that can all change how a Domino's order works. This independent guide helps Austin customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Austin store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. ",
     editorialSections: [
       {
         heading: "Why Austin orders need exact address verification",
         body:
-          "Austin delivery can vary sharply by neighborhood, apartment complex, campus area and suburban boundary. A store that looks close on a map may not be the delivery store assigned to your address, especially around major roads, new developments and edge-of-zone communities. Enter the full street address in Domino's official app before planning a large order. That check confirms delivery eligibility, carryout availability, estimated timing, local coupon participation and the final checkout total.",
+          "Austin delivery can vary sharply by neighborhood, apartment complex, campus area and suburban boundary. A store that looks close on a map may not be the delivery store assigned to your address, especially around major roads, new developments and edge-of-zone communities. Enter the full street address in Domino's official app before planning a large order. ",
       },
       {
         heading: "How events and traffic affect ordering",
@@ -1065,17 +1065,17 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         label: "Domino's menu prices guide",
         href: "/menus-prices",
-        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+        description: "Full menu prices, useful when an event-night order has to stretch further than usual.",
       },
       {
         label: "Domino's coupons and deals",
         href: "/coupons",
-        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+        description: "Current offers — worth checking before an event night when demand spikes.",
       },
       {
         label: "Domino's delivery near me guide",
         href: "/dominos-delivery-near-me",
-        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+        description: "How zones and timing work when an event can slow a whole part of the city.",
       },
     ],
     additionalLocations: [
@@ -1107,7 +1107,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "Why San Jose delivery depends on your exact address",
         body:
-          "San Jose neighborhoods can be divided by freeways, expressways, hills, business parks and city-border areas. A store that looks close on a map may not be the delivery store assigned to your address. Before planning a large order, enter the full street address in Domino's official app. That check confirms delivery eligibility, carryout availability, current timing, local coupon participation and the final checkout total.",
+          "San Jose neighborhoods can be divided by freeways, expressways, hills, business parks and city-border areas. In a valley of adjoining cities, the nearest pin on the map is frequently not the store you are assigned to. ",
       },
       {
         heading: "How Silicon Valley schedules affect ordering",
@@ -1117,7 +1117,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "Why this page avoids exact local store details",
         body:
-          "Unofficial pages can become low quality when they publish store addresses, phone numbers or hours that later change. This San Jose page avoids stale local claims and focuses on durable ordering guidance: delivery versus carryout, apartment and office handoff notes, neighborhood timing, group-order structure and internal guides for prices and deals. Exact store details should come from Domino's official locator.",
+          "Unofficial pages can become low quality when they publish store addresses, phone numbers or hours that later change. This San Jose page avoids stale local claims and focuses on durable ordering guidance: delivery versus carryout, apartment and office handoff notes, neighborhood timing, group-order structure and internal guides for prices and deals. ",
       },
     ],
     neighborhoods: [
@@ -1144,7 +1144,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "Cambrian, Almaden & South San Jose",
         body:
-          "South San Jose neighborhoods can involve longer drives, larger residential areas and specific delivery boundaries. Do not assume a citywide delivery estimate applies to every address. Enter the exact address first, then compare pickup versus delivery. For late dinners or weekend group orders, order earlier and keep handoff instructions short and practical.",
+          "South San Jose neighborhoods can involve longer drives, larger residential areas and specific delivery boundaries. Enter the exact address first, then compare pickup versus delivery. For late dinners or weekend group orders, order earlier and keep handoff instructions short and practical.",
       },
     ],
     orderingTips: [
@@ -1166,7 +1166,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "For late-night and commute-hour orders",
         body:
-          "Store hours and delivery availability can vary by location, staffing and day of week. Before a late order, enter the exact address and verify whether delivery or carryout is currently available. During commute-heavy windows or event nights, order earlier and choose items that hold up well during a longer trip.",
+          "Store hours and delivery availability can vary by location, staffing and day of week. During commute-heavy windows or event nights, order earlier and choose items that hold up well during a longer trip.",
       },
     ],
     resourceLinks: [
@@ -1179,17 +1179,17 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         label: "Domino's menu prices guide",
         href: "/menus-prices",
-        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+        description: "Example prices across the menu for office lunches and late finishes.",
       },
       {
         label: "Domino's coupons and deals",
         href: "/coupons",
-        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+        description: "Live deals, including the ones that make an office order cheaper per head.",
       },
       {
         label: "Domino's hours guide",
         href: "/hours",
-        description: "Understand typical hours, late-night ordering and why each store should be verified.",
+        description: "Hours shift with campus terms and commute patterns across the valley, so confirm your own store.",
       },
     ],
     additionalLocations: [
@@ -1216,12 +1216,12 @@ export const locationRichContent: Record<string, RichLocationData> = {
       { label: "Plan for", value: "Distance" },
     ],
     intro:
-      "Jacksonville covers a very large land area, so ordering Domino's here is usually about matching your exact address to the right store rather than relying on a single citywide assumption. This independent guide helps Jacksonville customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Jacksonville store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. For accurate store assignment, current hours, local pricing, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
+      "Jacksonville covers a very large land area, so ordering Domino's here is usually about matching your exact address to the right store rather than relying on a single citywide assumption. This independent guide helps Jacksonville customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Jacksonville store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. ",
     editorialSections: [
       {
         heading: "Why Jacksonville delivery zones need exact address checks",
         body:
-          "Jacksonville neighborhoods can be separated by bridges, rivers, highways, beaches, military-area routes and long suburban drives. A store that looks close on a map may not be the store assigned to your address. Before planning a large order, enter the full street address in Domino's official app. That check confirms delivery eligibility, carryout availability, estimated timing, local coupon participation and the final checkout total.",
+          "Jacksonville neighborhoods can be separated by bridges, rivers, highways, beaches, military-area routes and long suburban drives. Across a city footprint this large, map distance and assigned store routinely disagree. ",
       },
       {
         heading: "How distance changes carryout versus delivery",
@@ -1253,7 +1253,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "Arlington, Regency & Northside",
         body:
-          "These areas can involve different routes, bridges, apartment clusters and store assignments. Enter the exact address before assuming delivery is available. If the app shows a longer estimate, choose menu items that travel reliably and avoid too many custom changes. For family meals, compare bundle-style offers before ordering separate items one by one.",
+          "These areas can involve different routes, bridges, apartment clusters and store assignments. If the app shows a longer estimate, choose menu items that travel reliably and avoid too many custom changes. For family meals, compare bundle-style offers before ordering separate items one by one.",
       },
       {
         heading: "Orange Park edge, Baymeadows & Westside routes",
@@ -1270,7 +1270,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "For apartments, hotels and gated communities",
         body:
-          "Give clear delivery notes: property name, building number, gate process, front desk instruction, floor or visible meeting point. Jacksonville has many apartment communities, hotels and gated areas where a driver may need exact handoff details. Short accurate notes help reduce calls and keep food warmer.",
+          "Give clear delivery notes: property name, building number, gate process, front desk instruction, floor or visible meeting point. Jacksonville has many apartment communities, hotels and gated areas where a driver may need exact handoff details. Clear notes matter more here than in a compact city, because the drive is already long before anyone gets lost.",
       },
       {
         heading: "For families and game nights",
@@ -1293,17 +1293,17 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         label: "Domino's menu prices guide",
         href: "/menus-prices",
-        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+        description: "Menu prices in full — worth checking when your assigned store is a real drive away.",
       },
       {
         label: "Domino's coupons and deals",
         href: "/coupons",
-        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+        description: "Current offers — the carryout specials matter more when the drive is longer.",
       },
       {
         label: "Domino's delivery near me guide",
         href: "/dominos-delivery-near-me",
-        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+        description: "How delivery zones work across one of the largest city footprints in the country.",
       },
     ],
     additionalLocations: [
@@ -1330,12 +1330,12 @@ export const locationRichContent: Record<string, RichLocationData> = {
       { label: "Plan for", value: "Campus" },
     ],
     intro:
-      "Columbus is a large college, government and business city with neighborhoods that order Domino's in different ways. Downtown offices, Ohio State student housing, suburban family areas and event corridors can all change whether carryout or delivery is the smarter choice. This independent guide helps Columbus customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Columbus store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. For accurate store assignment, current hours, local pricing, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
+      "Columbus is a large college, government and business city with neighborhoods that order Domino's in different ways. Downtown offices, Ohio State student housing, suburban family areas and event corridors can all change whether carryout or delivery is the smarter choice. This independent guide helps Columbus customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Columbus store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. ",
     editorialSections: [
       {
         heading: "Why Columbus orders need exact address verification",
         body:
-          "Columbus has campus housing, downtown offices, neighborhoods with similar street names, suburban edges and busy highway corridors. A store that looks close on a map may not be the delivery store assigned to your address. Before planning a large order, enter the full address in Domino's official app. That check confirms whether delivery, carryout or both are available, what coupons apply and what the estimated timing looks like.",
+          "Columbus has campus housing, downtown offices, neighborhoods with similar street names, suburban edges and busy highway corridors. Near campus the closest store is often not your assigned one, which is why estimates surprise people. That check confirms whether delivery, carryout or both are available, what coupons apply and what the estimated timing looks like.",
       },
       {
         heading: "How campus and event demand affect timing",
@@ -1345,7 +1345,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "Why this page avoids exact local store details",
         body:
-          "Unofficial pages can become low quality when they copy store addresses, phone numbers or hours that later change. This Columbus page avoids stale local claims and focuses on durable ordering guidance: how to compare carryout and delivery, what to include in delivery notes, how neighborhood context affects timing and which internal price and coupon guides can help before checkout. Exact store details should come from Domino's official locator.",
+          "Unofficial pages can become low quality when they copy store addresses, phone numbers or hours that later change. This Columbus page avoids stale local claims and focuses on durable ordering guidance: how to compare carryout and delivery, what to include in delivery notes, how neighborhood context affects timing and which internal price and coupon guides can help before checkout. ",
       },
     ],
     neighborhoods: [
@@ -1362,7 +1362,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "German Village, Brewery District & Merion Village",
         body:
-          "These neighborhoods include older homes, apartments, narrow streets and busy evening demand. Carryout can be a strong value if the assigned store is close and pickup is convenient. For delivery, add short notes for side entrances, duplexes, gate access or hard-to-see house numbers. Compare the final delivered total against carryout coupons before deciding.",
+          "These neighborhoods include older homes, apartments, narrow streets and busy evening demand. Carryout can be a strong value if the assigned store is close and pickup is convenient. For delivery, add short notes for side entrances, duplexes, gate access or hard-to-see house numbers. With a store often walkable from campus housing, pickup usually wins on price outright.",
       },
       {
         heading: "Easton, Gahanna edge & Northeast Columbus",
@@ -1372,14 +1372,14 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "Dublin edge, Hilliard edge & Grove City routes",
         body:
-          "Columbus-area edges can feel close to the city while still routing to different stores or delivery zones. Enter the exact address before assuming a citywide estimate applies. If the app shows a longer delivery window, carryout may be more predictable. For family nights, bundle-style offers can be easier and cheaper than ordering several items separately.",
+          "Columbus-area edges can feel close to the city while still routing to different stores or delivery zones. If the app shows a longer delivery window, carryout may be more predictable. For family nights, bundle-style offers can be easier and cheaper than ordering several items separately.",
       },
     ],
     orderingTips: [
       {
         heading: "For cheapest Columbus orders",
         body:
-          "Start with carryout coupons, then compare the final delivered total after tax, delivery charge and tip. Carryout is often the value play when pickup is nearby and parking is simple. Delivery may be worth it when weather, campus traffic, downtown events or group size makes pickup inconvenient. Always judge the deal by the final checkout total.",
+          "Compare a carryout coupon against the full delivered total — on a student budget that gap is the entire decision. Carryout is often the value play when pickup is nearby and parking is simple. Delivery may be worth it when weather, campus traffic, downtown events or group size makes pickup inconvenient. Always judge the deal by the final checkout total.",
       },
       {
         heading: "For campus, apartments and offices",
@@ -1389,12 +1389,12 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "For families and group orders",
         body:
-          "A practical group order usually includes variety: one cheese or pepperoni pizza, one specialty pizza, bread, chicken or dessert. This keeps the order flexible for kids, adults, coworkers or roommates. Check coupon participation in the official app before collecting money or setting a per-person budget.",
+          "For a house share, one plain pizza, one specialty and a bread side covers most preferences without over-ordering. That mix works whether it is a family table or a house full of students. Confirm the offer applies at your store before you split the bill four ways.",
       },
       {
         heading: "For late-night and bad-weather orders",
         body:
-          "Do not assume every Columbus store follows the same late-night schedule. Hours can vary by store, staffing, demand and day of week. Before a late order, enter the exact address and verify whether delivery or carryout is currently available. During snow, heavy rain or big event nights, order earlier and keep handoff instructions simple.",
+          "Do not assume every Columbus store follows the same late-night schedule. Hours can vary by store, staffing, demand and day of week. During snow, heavy rain or big event nights, order earlier and keep handoff instructions simple.",
       },
     ],
     resourceLinks: [
@@ -1407,17 +1407,17 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         label: "Domino's menu prices guide",
         href: "/menus-prices",
-        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+        description: "Example prices across the menu, including the sides that divide well in a shared house.",
       },
       {
         label: "Domino's coupons and deals",
         href: "/coupons",
-        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+        description: "What is running now, including the deals that stretch across a group order.",
       },
       {
         label: "Domino's hours guide",
         href: "/hours",
-        description: "Understand typical hours, late-night ordering and why each store should be verified.",
+        description: "Campus-area stores often run later than suburban ones — worth confirming before a late order.",
       },
     ],
     additionalLocations: [
@@ -1444,12 +1444,12 @@ export const locationRichContent: Record<string, RichLocationData> = {
       { label: "Plan for", value: "Growth" },
     ],
     intro:
-      "Charlotte is a fast-growing city with Uptown offices, apartment-heavy neighborhoods, university housing, family suburbs and event districts that can all affect a Domino's order differently. This independent guide helps Charlotte customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Charlotte store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. For accurate store assignment, current hours, local pricing, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
+      "Charlotte is a fast-growing city with Uptown offices, apartment-heavy neighborhoods, university housing, family suburbs and event districts that can all affect a Domino's order differently. This independent guide helps Charlotte customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Charlotte store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. ",
     editorialSections: [
       {
         heading: "Why Charlotte orders need exact address verification",
         body:
-          "Charlotte neighborhoods can change quickly from dense apartments to suburban streets, office corridors and edge-of-city developments. A store that looks close on a map may not be the store assigned to your address. Before planning a large order, enter the full street address in Domino's official app. That check confirms delivery eligibility, carryout availability, current timing, local coupon participation and the final checkout total.",
+          "Charlotte neighborhoods can change quickly from dense apartments to suburban streets, office corridors and edge-of-city developments. In fast-growing areas the store nearest you on a map may not yet be the one serving your street. ",
       },
       {
         heading: "How growth and traffic affect delivery timing",
@@ -1459,7 +1459,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "Why this page avoids fixed store details",
         body:
-          "Unofficial local pages become weak when they publish exact store addresses, phone numbers or hours that later change. This Charlotte page avoids stale local claims and focuses on durable ordering advice: delivery versus carryout, apartment and office handoff notes, neighborhood timing, group-order structure and internal guides for prices and deals. Exact store details should come from Domino's official locator.",
+          "This Charlotte page avoids stale local claims and focuses on durable ordering advice: delivery versus carryout, apartment and office handoff notes, neighborhood timing, group-order structure and internal guides for prices and deals. ",
       },
     ],
     neighborhoods: [
@@ -1471,7 +1471,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "NoDa, Plaza Midwood & Elizabeth",
         body:
-          "These neighborhoods mix apartments, older homes, restaurants and evening demand. Carryout can be a strong value when the assigned store is close and parking is manageable. For delivery, add short notes for side entrances, duplexes, gates or hard-to-see house numbers. Compare the final delivered total against carryout coupons before deciding.",
+          "These neighborhoods mix apartments, older homes, restaurants and evening demand. Carryout can be a strong value when the assigned store is close and parking is manageable. For delivery, add short notes for side entrances, duplexes, gates or hard-to-see house numbers. Weigh the delivered total against the pickup price before defaulting to delivery.",
       },
       {
         heading: "University City, UNC Charlotte & Northlake",
@@ -1481,34 +1481,34 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "Ballantyne, SouthPark & Matthews edge",
         body:
-          "South Charlotte routes can involve office parks, shopping traffic, subdivisions and different store assignments. A nearby store may not serve every address across a major road or boundary. For family meals or office lunches, verify coupon participation before setting a budget. If delivery time looks long, carryout may be more predictable when pickup is convenient.",
+          "South Charlotte routes can involve office parks, shopping traffic, subdivisions and different store assignments. A nearby store may not serve every address across a major road or boundary. For family meals or office lunches, verify coupon participation before setting a budget. When the estimate stretches, pickup is the more predictable option if you are driving anyway.",
       },
       {
         heading: "West Charlotte, Steele Creek & airport-area routes",
         body:
-          "West and southwest Charlotte orders can be shaped by airport traffic, apartment growth, warehouse shifts and suburban routes. Enter the exact address before assuming delivery is available. If ordering to a hotel, workplace or apartment community, include a clear handoff point. For late dinners or group orders, choose simple popular items that travel well.",
+          "West and southwest Charlotte orders can be shaped by airport traffic, apartment growth, warehouse shifts and suburban routes. If ordering to a hotel, workplace or apartment community, include a clear handoff point. For late dinners or group orders, choose simple popular items that travel well.",
       },
     ],
     orderingTips: [
       {
         heading: "For cheapest Charlotte orders",
         body:
-          "Start with carryout coupons, then compare the final delivered total after tax, delivery charge and tip. Carryout is often the value play when pickup is close and parking is simple. Delivery may be worth it when Uptown traffic, rain, event crowds or group size makes pickup inconvenient. Judge the deal by the final checkout total.",
+          "Price the carryout offer first, then add the fee and tip to the delivery version before choosing. Carryout is often the value play when pickup is close and parking is simple. Delivery may be worth it when Uptown traffic, rain, event crowds or group size makes pickup inconvenient. Judge the deal by the final checkout total.",
       },
       {
         heading: "For apartments, hotels and offices",
         body:
-          "Add clear delivery notes: building name, entrance, floor, suite, concierge desk, gate process or safe meeting point. Charlotte has many newer apartment communities and office buildings where a driver may need exact handoff details. Short accurate notes help reduce calls and keep food warmer.",
+          "Add clear delivery notes: building name, entrance, floor, suite, concierge desk, gate process or safe meeting point. Charlotte has many newer apartment communities and office buildings where a driver may need exact handoff details. In newer developments where mapping is still catching up, a landmark in the notes beats an address alone.",
       },
       {
         heading: "For families and group meals",
         body:
-          "A practical group order usually includes variety: one cheese or pepperoni pizza, one specialty pizza, bread, chicken or dessert. This keeps the order flexible for kids, adults, coworkers or roommates. Check coupon participation in the official app before collecting money or setting a per-person budget.",
+          "For a mixed group, two pizzas with different personalities plus one shared side beats three similar pizzas. It also leaves something for the person who turns up late without anyone rationing slices. Offers are store-by-store, so check yours before promising anyone a per-head price.",
       },
       {
         heading: "For late-night and event-day orders",
         body:
-          "Store hours and delivery availability can vary by location, staffing, demand and day of week. Before a late order, enter the exact address and verify whether delivery or carryout is currently available. Around Uptown events or severe weather, order earlier and keep handoff instructions simple.",
+          "Hours and delivery availability differ between Uptown and the outer suburbs, and shift with demand. Around Uptown events or severe weather, order earlier and keep handoff instructions simple.",
       },
     ],
     resourceLinks: [
@@ -1521,17 +1521,17 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         label: "Domino's menu prices guide",
         href: "/menus-prices",
-        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+        description: "Full menu prices before ordering across a metro that keeps adding neighbourhoods.",
       },
       {
         label: "Domino's coupons and deals",
         href: "/coupons",
-        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+        description: "Live offers, and why building the whole order inside one beats adding to it.",
       },
       {
         label: "Domino's delivery near me guide",
         href: "/dominos-delivery-near-me",
-        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+        description: "How zones are drawn in a metro where new neighbourhoods keep appearing.",
       },
     ],
     additionalLocations: [
@@ -1558,12 +1558,12 @@ export const locationRichContent: Record<string, RichLocationData> = {
       { label: "Plan for", value: "Events" },
     ],
     intro:
-      "Indianapolis is a wide metro city with downtown event traffic, college housing, family neighborhoods, hospitals, office areas and suburban edges that can all affect a Domino's order differently. This independent guide helps Indianapolis customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Indianapolis store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. For accurate store assignment, current hours, local pricing, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
+      "Indianapolis is a wide metro city with downtown event traffic, college housing, family neighborhoods, hospitals, office areas and suburban edges that can all affect a Domino's order differently. This independent guide helps Indianapolis customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Indianapolis store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. ",
     editorialSections: [
       {
         heading: "Why Indianapolis orders need exact address verification",
         body:
-          "Indianapolis neighborhoods and suburbs can route to different stores depending on delivery boundaries, highways, apartment clusters and edge-of-city locations. A store that looks close on a map may not be the store assigned to your address. Before planning a large order, enter the full street address in Domino's official app. That check confirms delivery eligibility, carryout availability, current timing, local coupon participation and the final checkout total.",
+          "Indianapolis neighborhoods and suburbs can route to different stores depending on delivery boundaries, highways, apartment clusters and edge-of-city locations. Zones follow store boundaries rather than straight-line distance, so the closest pin can mislead. ",
       },
       {
         heading: "How events and weather affect delivery timing",
@@ -1573,7 +1573,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "Why this page avoids fixed store details",
         body:
-          "Unofficial local pages become weak when they publish exact store addresses, phone numbers or hours that later change. This Indianapolis page avoids stale local claims and focuses on durable ordering advice: carryout versus delivery, apartment and hotel handoff notes, neighborhood timing, group-order structure and internal guides for prices and deals. Exact store details should come from Domino's official locator.",
+          "This Indianapolis page avoids stale local claims and focuses on durable ordering advice: carryout versus delivery, apartment and hotel handoff notes, neighborhood timing, group-order structure and internal guides for prices and deals. ",
       },
     ],
     neighborhoods: [
@@ -1585,7 +1585,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "Broad Ripple, Butler-Tarkington & Meridian-Kessler",
         body:
-          "These neighborhoods combine homes, student housing, apartments, restaurants and evening demand. Carryout can be a strong value when the assigned store is close and pickup is simple. For delivery, add short notes for side entrances, duplexes, gate access or hard-to-see house numbers. Compare the final delivered total against carryout coupons before deciding.",
+          "These neighborhoods combine homes, student housing, apartments, restaurants and evening demand. Carryout can be a strong value when the assigned store is close and pickup is simple. For delivery, add short notes for side entrances, duplexes, gate access or hard-to-see house numbers. The delivered total and the carryout price are rarely close — check both before choosing.",
       },
       {
         heading: "IUPUI, Near Westside & Medical District",
@@ -1595,34 +1595,34 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "Castleton, Keystone & Northside routes",
         body:
-          "Northside orders can involve shopping traffic, office corridors, apartments and suburban boundaries. Exact address entry matters because delivery zones may change across major roads. For office lunches or family orders, verify coupon participation before setting a budget. If delivery time looks long, carryout may be more predictable when pickup is convenient.",
+          "Northside orders can involve shopping traffic, office corridors, apartments and suburban boundaries. Exact address entry matters because delivery zones may change across major roads. For office lunches or family orders, verify coupon participation before setting a budget. A long estimate on an event night usually means the kitchen is backed up, and pickup skips the queue for a driver.",
       },
       {
         heading: "Greenwood edge, Speedway & Lawrence-area ordering",
         body:
-          "Indianapolis-area edges can feel close to the city while still routing to different stores or delivery zones. Enter the exact address before assuming a citywide estimate applies. Speedway event traffic, suburban routes and apartment access can all change timing. For larger orders, choose simple popular items and verify final checkout cost before collecting money from a group.",
+          "Indianapolis-area edges can feel close to the city while still routing to different stores or delivery zones. Speedway event traffic, suburban routes and apartment access can all change timing. For larger orders, choose simple popular items and verify final checkout cost before collecting money from a group.",
       },
     ],
     orderingTips: [
       {
         heading: "For cheapest Indianapolis orders",
         body:
-          "Start with carryout coupons, then compare the final delivered total after tax, delivery charge and tip. Carryout is often the value play when pickup is nearby and parking is easy. Delivery may be worth it when weather, downtown events, campus demand or group size makes pickup inconvenient. Always judge the deal by the final checkout total.",
+          "Carryout offers usually win outright unless the weather makes the trip genuinely unpleasant. Carryout is often the value play when pickup is nearby and parking is easy. Delivery may be worth it when weather, downtown events, campus demand or group size makes pickup inconvenient. Always judge the deal by the final checkout total.",
       },
       {
         heading: "For apartments, hotels and offices",
         body:
-          "Add clear delivery notes: building name, entrance, floor, room or suite, lobby desk, gate process or safe meeting point. Indianapolis has many apartment communities, hotels and office buildings where a driver may need exact handoff details. Short accurate notes help reduce calls and keep food warmer.",
+          "Add clear delivery notes: building name, entrance, floor, room or suite, lobby desk, gate process or safe meeting point. Indianapolis has many apartment communities, hotels and office buildings where a driver may need exact handoff details. A line about the entrance saves a phone call, and on a cold night that is the difference between warm and lukewarm.",
       },
       {
         heading: "For families and group orders",
         body:
-          "A practical group order usually includes variety: one cheese or pepperoni pizza, one specialty pizza, bread, chicken or dessert. This keeps the order flexible for kids, adults, coworkers or roommates. Check coupon participation in the official app before collecting money or setting a per-person budget.",
+          "For a game-day crowd, chicken and a bread side disappear faster than a third pizza will. Variety matters more than volume once a group goes past four people. Not every store joins every promotion — worth confirming before you collect money from people.",
       },
       {
         heading: "For late-night and event-day orders",
         body:
-          "Store hours and delivery availability can vary by location, staffing, demand and day of week. Before a late order, enter the exact address and verify whether delivery or carryout is currently available. Around downtown events, races, games or severe weather, order earlier and keep handoff instructions simple.",
+          "Downtown stores often extend hours around events while suburban ones keep to a steadier schedule. Around downtown events, races, games or severe weather, order earlier and keep handoff instructions simple.",
       },
     ],
     resourceLinks: [
@@ -1635,17 +1635,17 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         label: "Domino's menu prices guide",
         href: "/menus-prices",
-        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+        description: "Example prices for every category before a game-day or event order.",
       },
       {
         label: "Domino's coupons and deals",
         href: "/coupons",
-        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+        description: "Current deals — check before an event night, when ordering early pays twice.",
       },
       {
         label: "Domino's hours guide",
         href: "/hours",
-        description: "Understand typical hours, late-night ordering and why each store should be verified.",
+        description: "Downtown hours stretch on event nights and contract on quiet ones, so check rather than assume.",
       },
     ],
     additionalLocations: [
@@ -1672,12 +1672,12 @@ export const locationRichContent: Record<string, RichLocationData> = {
       { label: "Plan for", value: "Traffic" },
     ],
     intro:
-      "Seattle is a dense, hill-heavy city with apartments, tech offices, campus housing, ferry and bridge traffic, and neighborhoods where delivery timing can change quickly. This independent guide helps Seattle customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Seattle store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. For accurate store assignment, current hours, local pricing, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
+      "Seattle is a dense, hill-heavy city with apartments, tech offices, campus housing, ferry and bridge traffic, and neighborhoods where delivery timing can change quickly. This independent guide helps Seattle customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Seattle store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. ",
     editorialSections: [
       {
         heading: "Why Seattle orders need exact address verification",
         body:
-          "Seattle delivery can be affected by hills, bridges, water, dense apartment buildings, one-way streets and neighborhood boundaries. A store that looks close on a map may not be the delivery store assigned to your address. Before planning a large order, enter the full street address in Domino's official app. That check confirms delivery eligibility, carryout availability, estimated timing, local coupon participation and the final checkout total.",
+          "Seattle delivery can be affected by hills, bridges, water, dense apartment buildings, one-way streets and neighborhood boundaries. A store a few blocks away can sit on the other side of a hill or a bridge, and zones are drawn accordingly. ",
       },
       {
         heading: "How traffic, weather and building access affect timing",
@@ -1687,7 +1687,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "Why this page avoids fixed store details",
         body:
-          "Unofficial local pages become weak when they publish exact store addresses, phone numbers or hours that later change. This Seattle page avoids stale local claims and focuses on durable ordering advice: delivery versus carryout, apartment and office handoff notes, neighborhood timing, group-order structure and internal guides for prices and deals. Exact store details should come from Domino's official locator.",
+          "This Seattle page avoids stale local claims and focuses on durable ordering advice: delivery versus carryout, apartment and office handoff notes, neighborhood timing, group-order structure and internal guides for prices and deals. ",
       },
     ],
     neighborhoods: [
@@ -1709,34 +1709,34 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "Ballard, Queen Anne & Magnolia",
         body:
-          "Northwest Seattle routes can involve hills, bridges, water-adjacent roads and neighborhood traffic. Store assignment may not match what looks closest on a map, so use the official app first. If delivery time looks long, carryout may be more predictable when pickup is convenient. For family meals, check bundle-style offers before ordering several separate items.",
+          "Northwest Seattle routes can involve hills, bridges, water-adjacent roads and neighborhood traffic. Store assignment may not match what looks closest on a map, so use the official app first. A long estimate often reflects the route rather than the kitchen, so walking over can be quicker than waiting. For family meals, check bundle-style offers before ordering several separate items.",
       },
       {
         heading: "West Seattle, Beacon Hill & Rainier Valley",
         body:
-          "South and West Seattle orders can be shaped by bridge routes, hills, apartment clusters and neighborhood boundaries. Enter the exact address before assuming a citywide estimate applies. If ordering to an apartment, workplace or hotel, include a clear handoff point. For late dinners or larger orders, choose simple popular items that travel well.",
+          "South and West Seattle orders can be shaped by bridge routes, hills, apartment clusters and neighborhood boundaries. If ordering to an apartment, workplace or hotel, include a clear handoff point. For late dinners or larger orders, choose simple popular items that travel well.",
       },
     ],
     orderingTips: [
       {
         heading: "For cheapest Seattle orders",
         body:
-          "Start with carryout coupons, then compare the final delivered total after tax, delivery charge and tip. Carryout is often the value play when pickup is close and parking is simple. Delivery may be worth it when rain, traffic, hills or group size makes pickup inconvenient. Always judge the deal by the final checkout total.",
+          "If your store is walkable, a carryout coupon plus no fee and no tip is hard for delivery to beat. Carryout is often the value play when pickup is close and parking is simple. Delivery may be worth it when rain, traffic, hills or group size makes pickup inconvenient. Always judge the deal by the final checkout total.",
       },
       {
         heading: "For apartments, offices and hotels",
         body:
-          "Add clear delivery notes: building name, entrance, floor, suite, lobby desk, callbox process or safe meeting point. Seattle has many apartment and office buildings where a driver may need exact handoff details. Short accurate notes help reduce calls and keep food warmer.",
+          "Add clear delivery notes: building name, entrance, floor, suite, lobby desk, callbox process or safe meeting point. Seattle has many apartment and office buildings where a driver may need exact handoff details. Note which street the entrance is on — on a hill, buildings often have doors on two different levels.",
       },
       {
         heading: "For students and group orders",
         body:
-          "A practical group order usually includes variety: one cheese or pepperoni pizza, one specialty pizza, bread, chicken or dessert. This keeps the order flexible for students, coworkers, roommates or families. Check coupon participation in the official app before collecting money or setting a per-person budget.",
+          "One safe pizza, one interesting one and a shared side handles a group better than four individual orders. This keeps the order flexible for students, coworkers, roommates or families. Participation varies between stores, so verify the deal before quoting a total to the office.",
       },
       {
         heading: "For late-night and rainy-day orders",
         body:
-          "Store hours and delivery availability can vary by location, staffing, demand and day of week. Before a late order, enter the exact address and verify whether delivery or carryout is currently available. During heavy rain or event nights, order earlier and keep handoff instructions simple.",
+          "Availability varies between dense neighbourhoods and outlying ones, and with staffing on any given night. During heavy rain or event nights, order earlier and keep handoff instructions simple.",
       },
     ],
     resourceLinks: [
@@ -1749,17 +1749,17 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         label: "Domino's menu prices guide",
         href: "/menus-prices",
-        description: "Compare example pizza, side, chicken, dessert and drink prices before checking your assigned store.",
+        description: "Menu prices in full, including which sides actually survive a hilly cross-town drive.",
       },
       {
         label: "Domino's coupons and deals",
         href: "/coupons",
-        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+        description: "Live offers, including carryout deals worth the walk if your store is close.",
       },
       {
         label: "Domino's delivery near me guide",
         href: "/dominos-delivery-near-me",
-        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+        description: "How zones and timing work when hills, bridges and buildings all add minutes.",
       },
     ],
     additionalLocations: [
@@ -1868,12 +1868,12 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         label: "Domino's coupons and deals",
         href: "/coupons",
-        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+        description: "What is running now — carryout savings are real when the weather is not.",
       },
       {
         label: "Domino's delivery near me guide",
         href: "/dominos-delivery-near-me",
-        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+        description: "How zones and fees work, and what winter weather does to delivery estimates.",
       },
     ],
     additionalLocations: [
@@ -1982,12 +1982,12 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         label: "Domino's coupons and deals",
         href: "/coupons",
-        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+        description: "Current offers, including the carryout deals that skip the fee and the lobby wait.",
       },
       {
         label: "Domino's delivery near me guide",
         href: "/dominos-delivery-near-me",
-        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+        description: "How zones and timing work when traffic and building access both slow things down.",
       },
     ],
     additionalLocations: [
@@ -2014,7 +2014,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       { label: "Plan for", value: "Traffic" },
     ],
     intro:
-      "Atlanta Domino's ordering depends heavily on the exact address, assigned store, traffic, apartment access, event timing and whether local coupons are available at checkout. This independent guide helps Atlanta customers compare example Domino's menu prices, delivery convenience, carryout savings, coupon value and group-order planning before using Domino's official ordering tools. It does not publish a single fixed Atlanta store address, local phone number or guaranteed hours because metro Atlanta has many stores and local details can change. For accurate store assignment, current hours, local pricing, coupon participation, delivery eligibility and final checkout totals, enter the full address on Domino's official locator or app.",
+      "Atlanta Domino's ordering depends heavily on the exact address, assigned store, traffic, apartment access, event timing and whether local coupons are available at checkout. This independent guide helps Atlanta customers compare example Domino's menu prices, delivery convenience, carryout savings, coupon value and group-order planning before using Domino's official ordering tools. It does not publish a single fixed Atlanta store address, local phone number or guaranteed hours because metro Atlanta has many stores and local details can change. ",
     editorialSections: [
       {
         heading: "Why Atlanta orders need exact address verification",
@@ -2029,7 +2029,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "Why this page avoids copied store details",
         body:
-          "Unofficial local pages become weak when they copy store addresses, phone numbers and hours that can become stale. This Atlanta guide focuses on durable ordering advice instead: how to verify delivery zones, when carryout may be cheaper, how to plan a group order, what to check before relying on a coupon and which internal guides help compare prices and deals. Exact store details should come from Domino's official locator.",
+          "Unofficial local pages become weak when they copy store addresses, phone numbers and hours that can become stale. This Atlanta guide focuses on durable ordering advice instead: how to verify delivery zones, when carryout may be cheaper, how to plan a group order, what to check before relying on a coupon and which internal guides help compare prices and deals. ",
       },
     ],
     neighborhoods: [
@@ -2056,7 +2056,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         heading: "South Atlanta, East Point & airport-area neighborhoods",
         body:
-          "Airport-area and southside orders may involve hotels, travel schedules, apartment gates and traffic near major roads. Do not assume a citywide delivery estimate applies to every address. Enter the full address first, verify the assigned store and decide whether delivery or carryout is better. For hotel orders, include the hotel name and front-desk or lobby instructions.",
+          "Airport-area and southside orders may involve hotels, travel schedules, apartment gates and traffic near major roads. Enter the full address first, verify the assigned store and decide whether delivery or carryout is better. For hotel orders, include the hotel name and front-desk or lobby instructions.",
       },
     ],
     orderingTips: [
@@ -2096,12 +2096,12 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         label: "Domino's coupons and deals",
         href: "/coupons",
-        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+        description: "Live deals — building the order inside one beats bolting items on at the end.",
       },
       {
         label: "Domino's delivery near me guide",
         href: "/dominos-delivery-near-me",
-        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+        description: "How zones, fees and timing work around some of the worst traffic in the country.",
       },
     ],
     additionalLocations: [
@@ -2128,7 +2128,7 @@ export const locationRichContent: Record<string, RichLocationData> = {
       { label: "Plan for", value: "Buildings" },
     ],
     intro:
-      "Boston Domino's ordering can change by exact address, assigned store, campus demand, apartment access, traffic, weather and whether local coupons are available at checkout. This independent guide helps Boston customers compare example Domino's menu prices, delivery convenience, carryout savings, coupon value and group-order planning before using Domino's official ordering tools. It does not publish one fixed Boston store address, local phone number or guaranteed schedule because store assignment, delivery boundaries, hours and local offers can change. For accurate store assignment, current hours, local pricing, coupon participation, delivery eligibility and final checkout totals, enter the full address on Domino's official locator or app.",
+      "Boston Domino's ordering can change by exact address, assigned store, campus demand, apartment access, traffic, weather and whether local coupons are available at checkout. This independent guide helps Boston customers compare example Domino's menu prices, delivery convenience, carryout savings, coupon value and group-order planning before using Domino's official ordering tools. It does not publish one fixed Boston store address, local phone number or guaranteed schedule because store assignment, delivery boundaries, hours and local offers can change. ",
     editorialSections: [
       {
         heading: "Why Boston orders should start with exact address entry",
@@ -2210,12 +2210,12 @@ export const locationRichContent: Record<string, RichLocationData> = {
       {
         label: "Domino's coupons and deals",
         href: "/coupons",
-        description: "Review carryout, delivery and mix-and-match deal guidance before final checkout.",
+        description: "Current offers, including deals that make a shared house order much cheaper per head.",
       },
       {
         label: "Domino's delivery near me guide",
         href: "/dominos-delivery-near-me",
-        description: "Learn how delivery zones, fees, timing and address checks usually work.",
+        description: "How zones work in a city of narrow streets, old buildings and student housing.",
       },
     ],
     additionalLocations: [
