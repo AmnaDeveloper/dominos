@@ -36,6 +36,17 @@ export const ADSENSE_ADS_TXT_ID = "";
 export const GOOGLE_SITE_VERIFICATION = "";
 export const CLARITY_ID = "";
 
+/**
+ * Public contact address, shown on the contact page as a mailto link.
+ *
+ * This is the primary contact route rather than the form, because it works
+ * with no mail provider configured. The form posts to /api/contact, which
+ * needs SENDGRID_API_KEY and CONTACT_TO_EMAIL set in the environment; until
+ * those exist the form reports an honest failure and points here instead of
+ * pretending the message was delivered.
+ */
+export const CONTACT_EMAIL = "amnasadam2003@gmail.com";
+
 export const NOT_AFFILIATED_DISCLAIMER =
   "This is an independent, unofficial informational guide. It is not affiliated with, endorsed by, or sponsored by Domino's Pizza LLC. All trademarks belong to their respective owners. Prices shown are examples and may vary by location — always verify final prices at official checkout.";
 

@@ -37,14 +37,21 @@ export async function POST(request: Request) {
       }
     }
 
-    // Fallback: no email provider configured yet.
-    console.log("[contact] New message (no email provider configured):", {
-      name,
-      email,
-      subject,
-      message,
-    });
-    return NextResponse.json({ ok: true, message: "Message received." });
+    // No mail provider configured. This used to log the message and return
+    // ok:true, so the sender was shown "Message sent" while the message went
+    // nowhere but a server log. Telling someone their correction was delivered
+    // when it was not is worse than telling them the form is down, so this now
+    // fails honestly and the page points at the email address instead.
+    console.warn(
+      "[contact] Message could not be delivered — SENDGRID_API_KEY/CONTACT_TO_EMAIL not configured."
+    );
+    return NextResponse.json(
+      {
+        error:
+          "The contact form isn't connected to email yet. Please send your message by email instead — the address is on this page.",
+      },
+      { status: 503 }
+    );
   } catch {
     return NextResponse.json({ error: "Invalid request." }, { status: 400 });
   }
