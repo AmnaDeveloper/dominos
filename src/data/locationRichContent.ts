@@ -46,17 +46,87 @@ export interface RichLocationData {
 export const locationRichContent: Record<string, RichLocationData> = {
   "new-york-ny": {
     slug: "new-york-ny",
-    heroSubtitle: "Menu prices, hours, delivery zones and ordering tips for Domino's across New York City.",
+    heroSubtitle:
+      "How ordering Domino's actually works in New York City — boroughs, buildings, carryout and where a chain pizza fits in a city full of slice shops.",
     stats: [
       { label: "Best first check", value: "Exact address" },
       { label: "Value angle", value: "Carryout" },
-      { label: "Plan for", value: "Borough traffic" },
+      { label: "Plan for", value: "Building access" },
     ],
     intro:
-      "Domino's is one of the most widely available pizza options in New York City, with locations across Manhattan, Brooklyn, Queens, the Bronx and Staten Island. Because NYC stores are busy and often keep late hours, delivery times can stretch on weekends. This unofficial guide covers example prices and ordering tips — always verify on the official Domino's locator.",
+      "New York is the hardest city in America to sell chain pizza in, and that shapes how Domino's works here. You are never far from an independent slice shop, so Domino's competes on price, consistency and deals rather than on being New York pizza. What makes ordering here genuinely different from anywhere else is not the menu — it is the buildings, the boroughs and how short the distances are. This is an unofficial guide; find your actual store and its hours on Domino's official locator.",
+    editorialSections: [
+      {
+        heading: "Domino's versus the slice shop on your corner",
+        body: "Worth being honest about this rather than pretending otherwise. A plain slice from a New York pizzeria is a different product from a Domino's pizza, and if you want that specific thing, the corner shop wins. Where Domino's genuinely competes is on a large pizza for a group, on deals that a slice shop will never run, on delivery to a specific address at 11pm, and on knowing exactly what you are getting. Ordering two large pizzas for six people is where the chain maths works; buying one slice on the way home is where it does not.",
+      },
+      {
+        heading: "Brooklyn Style is the closest thing on the menu",
+        body: "If you want something in the direction of a New York slice, Brooklyn Style crust is the one to order. It is thin, stretched wide, cut into large slices you can actually fold, and it is the only crust that scales to Extra Large. It is not a substitute for a real slice shop, but it is the crust that makes the most sense in this city, and plenty of people order Hand Tossed here purely out of habit without ever trying it.",
+      },
+      {
+        heading: "The building is the delivery problem, not the distance",
+        body: "In most American cities the variable is how far the driver has to travel. In New York it is what happens after they arrive. Walk-ups with no elevator, doormen who will not let drivers upstairs, buzzers that do not work, and long lobby waits all add time that has nothing to do with the kitchen. If your building has a doorman, expect a lobby handoff. If it is a fifth-floor walk-up, expect to come down. Putting that instruction in the delivery notes saves everyone ten minutes.",
+      },
+    ],
     neighborhoods: [
-      { heading: "Manhattan", body: "Dense store coverage means short delivery radiuses and generally fast times midweek. Carryout is easy in most neighborhoods and skips the delivery fee." },
-      { heading: "Brooklyn & Queens", body: "Extensive coverage with many late-night stores. Brooklyn Style crust is a natural fit if you want big, foldable slices." },
+      {
+        heading: "Manhattan",
+        body: "Store density is high and delivery radiuses are short, so distance is rarely the issue — traffic and building access are. Below 96th Street especially, carryout is often genuinely quick because a store is usually within walking distance, which is unusual for a Domino's order anywhere else in the country.",
+      },
+      {
+        heading: "Brooklyn",
+        body: "Broad coverage with real variation between neighbourhoods. Brownstone blocks mean stoops and buzzers; newer buildings along the waterfront mean lobbies and package rooms. Brooklyn also has the strongest independent pizza competition in the city, so Domino's here is mostly a deals-and-groups order.",
+      },
+      {
+        heading: "Queens",
+        body: "The most spread-out of the inner boroughs, and the one where checking your exact address matters most. Coverage is good but delivery zones are drawn around individual stores, and two addresses a few blocks apart can be assigned to different ones with different wait times.",
+      },
+      {
+        heading: "The Bronx & Staten Island",
+        body: "More car-oriented than Manhattan or Brooklyn, which shifts the calculation toward carryout. If you drive, picking up is straightforward here in a way it simply is not in Midtown, and it removes both the delivery fee and the parking problem at the other end.",
+      },
+    ],
+    orderingTips: [
+      {
+        heading: "Write the building instruction first",
+        body: "Not the last line of the notes — the first. Doorman, buzzer number, walk-up floor, or 'call and I'll come down'. This is the single biggest cause of slow deliveries in New York and it costs you nothing to prevent.",
+      },
+      {
+        heading: "Carryout is unusually practical here",
+        body: "In most cities carryout means a drive. In dense parts of New York it means a five-minute walk, which makes skipping the delivery fee and tip far easier to justify. Check the store distance before defaulting to delivery.",
+      },
+      {
+        heading: "Order earlier than you think on weekends",
+        body: "Friday and Saturday evenings are the busiest windows and stores here serve a lot of orders in a small area. The kitchen is the bottleneck, not the driver, so ordering at 6:30 rather than 7:30 makes a real difference.",
+      },
+      {
+        heading: "Go large for groups, not medium",
+        body: "New York apartments mean shared meals with friends more often than family-sized orders at home. A large inside a deal is nearly always better value per slice than two mediums — and Brooklyn Style at Extra Large is the most pizza you can get in one box.",
+      },
+    ],
+    resourceLinks: [
+      {
+        label: "Official Domino's store finder — New York",
+        href: "https://pizza.dominos.com/new-york/new-york",
+        description: "Exact stores, current hours and whether your address is in a delivery zone.",
+        external: true,
+      },
+      {
+        label: "Crust types explained",
+        href: "/posts/dominos-crust-types-explained",
+        description: "Why Brooklyn Style is the crust that makes most sense in this city.",
+      },
+      {
+        label: "Carryout deals guide",
+        href: "/posts/dominos-carryout-deals-guide",
+        description: "What skipping the delivery fee is actually worth on a typical order.",
+      },
+      {
+        label: "Current coupons",
+        href: "/coupons",
+        description: "Deals are where a chain pizza beats a slice shop on price.",
+      },
     ],
     additionalLocations: ["Midtown Manhattan", "Downtown Brooklyn", "Long Island City", "The Bronx", "Staten Island"],
     pizzaPrices: standardPizzaPrices2026,
