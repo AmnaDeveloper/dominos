@@ -330,9 +330,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
       "Houston is spread across a large metro area, so ordering Domino's here is less about one central store and more about matching your exact address to the right delivery zone. This page is an independent planning guide for Houston customers who want to compare example menu prices, carryout value, delivery convenience and group-order strategy before opening the official Domino's app. It does not list a fixed Houston address or local phone number because store assignments, hours, delivery boundaries and prices can change by location. Always confirm the final store, checkout total, hours and delivery eligibility through Domino's official locator.",
     editorialSections: [
       {
-        heading: "Why Houston delivery zones need an exact address",
+        heading: "Pizza is not Houston's default takeaway",
         body:
-          "Houston neighborhoods can feel close on a map but still fall into different delivery zones because of highways, bayous, traffic patterns and franchise boundaries. A restaurant near one side of town may not deliver across another major road or into a different suburb. The safest way to avoid wrong information is to enter your full street address in the official Domino's app before comparing prices or planning a large order. That address check will show whether delivery, carryout or both are available from the assigned store.",
+          "It is worth being realistic about where a chain pizza sits in this city. Houston's takeaway culture runs through taquerias, barbecue, Vietnamese and West African kitchens and a hundred other things before it reaches pizza, and the standard for cheap, fast, excellent food here is unusually high. Domino's is not going to win a Friday night against a good taqueria on flavour. What it does win on is scale and logistics — feeding eight people from one order, arriving hot at an address forty minutes from anywhere interesting, and running deals that independents do not. Order it for the situations it is good at rather than as a default, and it holds up perfectly well.",
       },
       {
         heading: "How Houston traffic changes the best ordering choice",
@@ -416,9 +416,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
       "Phoenix is a wide, car-focused city, so a useful Domino's guide has to focus on delivery zones, pickup convenience and final checkout cost rather than pretending every neighborhood works the same way. This independent page helps Phoenix customers compare example menu prices, typical hours, carryout value and practical order timing before using Domino's official ordering tools. It does not publish a fixed local address, local phone number or guaranteed store hours because those details can change by store. For the accurate store assignment, current menu pricing, coupon participation and delivery eligibility, enter your exact Phoenix address on Domino's official locator.",
     editorialSections: [
       {
-        heading: "Why Phoenix orders depend heavily on distance",
+        heading: "Summer heat is a genuine food-quality problem here",
         body:
-          "Phoenix neighborhoods are spread across long arterial roads, freeway corridors and large residential areas. Two addresses can be in the same city but still route to different Domino's stores or different service options. That matters for delivery fees, estimated time, coupon availability and whether carryout is realistic. Before building a large cart, check the exact address in the official app. This is especially important for edge-of-zone homes, new apartment complexes and addresses near city-border areas.",
+          "In most cities weather is an inconvenience. In Phoenix between roughly May and September it changes what you should order. A delivery bag that keeps pizza warm in Denver is sitting in a car in triple-digit heat here, and the effect is not that food arrives cold — it is that it arrives steamed. Crisp things stop being crisp, cheese keeps cooking, and anything with a molten centre sets on the way. The practical response is to favour items that tolerate that journey, treat Loaded Tots and lava cakes as carryout-only in summer, and order earlier in the evening when the drive is shorter and cooler. Winter here is a completely different city, and none of this applies.",
       },
       {
         heading: "How heat changes the ordering decision",
@@ -525,9 +525,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
       "Philadelphia is dense, walkable in some neighborhoods and spread out in others, which makes Domino's ordering different from city to city and even block to block. This independent guide helps Philadelphia customers compare example menu prices, carryout value, delivery convenience, apartment or rowhome handoff details and group-order strategy before opening Domino's official ordering tools. It does not publish a fixed Philadelphia address, local phone number or guaranteed store hours because those details can change by store. Always confirm the exact assigned store, current hours, menu prices, coupon participation and delivery eligibility through Domino's official locator or app.",
     editorialSections: [
       {
-        heading: "Why Philadelphia orders need exact address verification",
+        heading: "Philadelphia has its own pizza, and it barely resembles a Domino's",
         body:
-          "Philadelphia has compact neighborhoods, narrow streets, rowhomes, apartment buildings, campus areas and busy commercial corridors. A store that looks close on a map may still have a specific delivery boundary, and another address only a short distance away may route differently. Before using this page for planning, enter your full address in Domino's official app. That address check is the only reliable way to see whether delivery is available, which store is assigned, what hours apply and which coupons can be used at checkout.",
+          "Before you order a chain pizza here it is worth knowing what you are ordering instead of. Philadelphia's own contribution is tomato pie: a thick, airy, rectangular bakery flatbread with a heavy, sweet cooked-down tomato sauce spread over the top and little or no cheese, cut into squares and very often eaten at room temperature. It came out of South Philadelphia's Italian bakeries and descends from Sicilian sfincione, and locals also call it square pizza, red pie or church pie. It is not a competitor to a Domino's pizza so much as a completely different food. Where Domino's actually competes in this city is hot delivery, deals and feeding a group — not on being Philadelphia pizza, which is a contest it was never entered in.",
       },
       {
         heading: "How parking and building access affect delivery",
@@ -634,9 +634,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
       "San Antonio is a large, spread-out city with neighborhoods, military communities, colleges, tourist areas and suburban edges that can order very differently. This independent guide helps San Antonio customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not list a fixed San Antonio store address, local phone number or guaranteed hours because those details can vary by assigned store and can change over time. For accurate store assignment, open hours, prices, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
     editorialSections: [
       {
-        heading: "Why San Antonio delivery depends on the exact address",
+        heading: "A military city with a Tex-Mex appetite",
         body:
-          "San Antonio covers a wide area, and delivery routes can be shaped by highways, loops, military-area access, gated communities, apartment complexes and suburban growth. A location that looks close on a map may not be the store assigned to your address. Before using any estimate from a city page, enter the full street address in Domino's official app. That check shows whether delivery, carryout or both are available and which offers apply to the assigned store.",
+          "Two things shape ordering in San Antonio more than most people expect. The first is the scale of the military presence — the bases and the families around them drive a lot of weeknight and weekend demand, and base and gated-community access is one of the most common reasons a delivery goes wrong here. The second is that Tex-Mex is the default comfort food, not pizza, so a Domino's order is usually a deliberate choice for a group, a party or a night when nobody wants to cook. Both point the same way: order for numbers rather than for one person, and be precise about access instructions if you live anywhere with a gate or a checkpoint.",
       },
       {
         heading: "How city layout changes carryout versus delivery",
@@ -743,9 +743,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
       "San Diego has beach neighborhoods, college areas, military communities, tourist zones and inland suburbs that can all affect a Domino's order differently. This independent guide helps San Diego customers compare example Domino's menu prices, carryout convenience, delivery timing, group-order value and address verification before using Domino's official ordering tools. It does not publish a fixed San Diego store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. For the accurate store assignment, current hours, local prices, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
     editorialSections: [
       {
-        heading: "Why San Diego orders need exact address checks",
+        heading: "Beach plans and outdoor eating change the order",
         body:
-          "San Diego neighborhoods can be separated by freeways, hills, canyons, beach traffic and military-area access. A store that seems close on a map may not be the delivery store assigned to your address. That check will show whether delivery, carryout or both are available, which coupons apply and what the current estimated timing looks like.",
+          "San Diego's weather means a lot of pizza here is eaten somewhere other than a kitchen table — a park, a patio, a beach car park, the back of a car after a day on the water. That is a different problem from a normal delivery, and it favours carryout almost every time. Pizza travels reasonably well and stays edible at room temperature; the things that suffer are the sides that depend on being hot and crisp. If the pizza is going outdoors, keep the order simple, pick items that are still good twenty minutes later, and treat the dipping cups as the thing most likely to end up spilled in a bag.",
       },
       {
         heading: "How beach traffic and events affect delivery",
@@ -852,9 +852,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
       "Dallas is a major DFW city with dense apartment districts, office towers, college areas, entertainment zones and suburban edges that can all affect a Domino's order differently. This independent guide helps Dallas customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Dallas store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. ",
     editorialSections: [
       {
-        heading: "Why Dallas delivery depends on exact address entry",
+        heading: "Built around highways, which is the whole ordering problem",
         body:
-          "Dallas has highways, tollways, apartment corridors, office districts and neighborhood boundaries that can affect which Domino's store serves an address. A store may look nearby on a map but still not be the delivery store assigned to your building or home. The most reliable first step is to enter your full address in Domino's official app. That check confirms delivery eligibility, carryout availability, estimated timing, store participation in coupons and the final checkout total.",
+          "Dallas is organised around its motorways, and a delivery route here often means merging onto one. That is why the gap between a quiet Tuesday estimate and a Friday evening one is wider than in most cities — the variable is not how many orders the kitchen has, it is which interchange the driver is sitting in. Two addresses on either side of a major road can also route to different stores despite being visibly close. If you are ordering at peak, either accept the estimate or use the same highway logic in your favour: if you are already driving, carryout is quick, parking is generally easy, and you skip both the fee and the traffic that would otherwise be happening to your food.",
       },
       {
         heading: "How DFW traffic changes the best order choice",
@@ -961,9 +961,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
       "Austin is a fast-growing city with college housing, tech offices, music venues, downtown apartments and expanding suburban edges that can all change how a Domino's order works. This independent guide helps Austin customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Austin store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. ",
     editorialSections: [
       {
-        heading: "Why Austin orders need exact address verification",
+        heading: "An event city, and events break the normal rules",
         body:
-          "Austin delivery can vary sharply by neighborhood, apartment complex, campus area and suburban boundary. A store that looks close on a map may not be the delivery store assigned to your address, especially around major roads, new developments and edge-of-zone communities. Enter the full street address in Domino's official app before planning a large order. ",
+          "Austin runs on a calendar that most cities do not. Festival weeks, a home football weekend, a big show downtown — each one takes a part of the city and makes ordering there behave completely differently for a day or two. Streets close, drivers cannot get through, and the stores nearest the action take far more orders than usual. The rule that actually works: check whether something is on before you assume a normal wait, order earlier than you otherwise would, and if you are inside the affected area, carryout on foot often beats a delivery that has to navigate closures. On an ordinary week none of this applies and Austin orders like any other Texas city.",
       },
       {
         heading: "How events and traffic affect ordering",
@@ -1070,9 +1070,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
       "San Jose is a large Silicon Valley city with downtown apartments, tech corridors, college housing, suburban neighborhoods and long commute routes that can all affect a Domino's order. This independent guide helps San Jose customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed San Jose store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. For accurate store assignment, current hours, local prices, coupon participation and delivery eligibility, enter your exact address on Domino's official locator or app.",
     editorialSections: [
       {
-        heading: "Why San Jose delivery depends on your exact address",
+        heading: "Free campus food changes when people actually order",
         body:
-          "San Jose neighborhoods can be divided by freeways, expressways, hills, business parks and city-border areas. In a valley of adjoining cities, the nearest pin on the map is frequently not the store you are assigned to. ",
+          "Silicon Valley has a quirk that genuinely shifts ordering patterns: a large share of the workforce eats free or subsidised food at work. Weekday lunch, the peak for pizza almost everywhere else, is much weaker here — and evenings, late finishes and weekends carry the demand instead. That has two practical effects. Midday orders often move faster than you would expect because stores are quieter, and the evening peak is sharper when it comes. It is also an expensive area to eat in generally, which is a large part of why a deal-priced pizza still makes sense here even on good salaries.",
       },
       {
         heading: "How Silicon Valley schedules affect ordering",
@@ -1179,9 +1179,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
       "Jacksonville covers a very large land area, so ordering Domino's here is usually about matching your exact address to the right store rather than relying on a single citywide assumption. This independent guide helps Jacksonville customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Jacksonville store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. ",
     editorialSections: [
       {
-        heading: "Why Jacksonville delivery zones need exact address checks",
+        heading: "Jacksonville is spread out in a way that changes how you order",
         body:
-          "Jacksonville neighborhoods can be separated by bridges, rivers, highways, beaches, military-area routes and long suburban drives. Across a city footprint this large, map distance and assigned store routinely disagree. ",
+          "Jacksonville consolidated with Duval County in 1968, and the result is a city footprint far larger than its population would suggest — one of the biggest of any city in the country. That single fact drives most of what is different about ordering here. Delivery zones cover a lot of ground, two addresses that look near each other can be assigned to different stores, and the drive between a store and your door is often longer than it would be in a denser city of the same size. The practical version: order enough in one trip rather than adding a second delivery later, favour items that travel well over ones that depend on arriving crisp, and if your assigned store turns out to be a real distance away, carryout stops being about saving the fee and starts being about food quality.",
       },
       {
         heading: "How distance changes carryout versus delivery",
@@ -1288,9 +1288,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
       "Columbus is a large college, government and business city with neighborhoods that order Domino's in different ways. Downtown offices, Ohio State student housing, suburban family areas and event corridors can all change whether carryout or delivery is the smarter choice. This independent guide helps Columbus customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Columbus store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. ",
     editorialSections: [
       {
-        heading: "Why Columbus orders need exact address verification",
+        heading: "Columbus-style pizza sets what people here expect",
         body:
-          "Columbus has campus housing, downtown offices, neighborhoods with similar street names, suburban edges and busy highway corridors. Near campus the closest store is often not your assigned one, which is why estimates surprise people. That check confirms whether delivery, carryout or both are available, what coupons apply and what the estimated timing looks like.",
+          "Columbus has a genuine regional pizza style, and it changes what a Domino's order feels like by comparison. Columbus-style is thin and crisp, usually made with provolone rather than mozzarella alone, topped edge to edge so there is no bare rim, and cut tavern-style into squares rather than wedges. It is generally credited to Romeo Siri and the Massucci brothers from the late 1940s, and Donatos is the local chain that carried it well beyond Ohio. Two practical consequences when ordering Domino's here: Crunchy Thin is the crust closest to what you are used to, and if you grew up on edge-to-edge pepperoni, standard topping coverage with a bare crust rim can feel sparse — ordering extra pepperoni closes most of that gap.",
       },
       {
         heading: "How campus and event demand affect timing",
@@ -1397,9 +1397,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
       "Charlotte is a fast-growing city with Uptown offices, apartment-heavy neighborhoods, university housing, family suburbs and event districts that can all affect a Domino's order differently. This independent guide helps Charlotte customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Charlotte store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. ",
     editorialSections: [
       {
-        heading: "Why Charlotte orders need exact address verification",
+        heading: "A city growing faster than the maps",
         body:
-          "Charlotte neighborhoods can change quickly from dense apartments to suburban streets, office corridors and edge-of-city developments. In fast-growing areas the store nearest you on a map may not yet be the one serving your street. ",
+          "Charlotte has added neighbourhoods, apartment complexes and whole suburban developments quickly, and the supporting infrastructure has not always kept pace. That produces a specific and very local problem: new streets that mapping software renders badly, addresses that are hard to find at night, complexes where the entrance is nowhere near the numbered building, and delivery zones drawn before a development existed. If you live somewhere recently built, assume the driver has not been to your street before. A landmark, a gate code and a building number in the notes will do more for your delivery time than anything else on this page.",
       },
       {
         heading: "How growth and traffic affect delivery timing",
@@ -1506,9 +1506,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
       "Indianapolis is a wide metro city with downtown event traffic, college housing, family neighborhoods, hospitals, office areas and suburban edges that can all affect a Domino's order differently. This independent guide helps Indianapolis customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Indianapolis store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. ",
     editorialSections: [
       {
-        heading: "Why Indianapolis orders need exact address verification",
+        heading: "Race weekend and convention season are their own thing",
         body:
-          "Indianapolis neighborhoods and suburbs can route to different stores depending on delivery boundaries, highways, apartment clusters and edge-of-city locations. Zones follow store boundaries rather than straight-line distance, so the closest pin can mislead. ",
+          "Indianapolis is a convention and motorsport city, and both reshape ordering for days at a time rather than hours. Race weekend in particular turns the area around the Speedway into a different place, and downtown convention weeks fill hotels with people who all order at once. During those periods, stores near the action take a volume they do not see the rest of the year, estimates stretch, and delivery access gets genuinely difficult around closures. Away from event weeks Indianapolis is an easy city to order in — good coverage, manageable distances, and carryout that is quick if you drive.",
       },
       {
         heading: "How events and weather affect delivery timing",
@@ -1615,9 +1615,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
       "Seattle is a dense, hill-heavy city with apartments, tech offices, campus housing, ferry and bridge traffic, and neighborhoods where delivery timing can change quickly. This independent guide helps Seattle customers compare example Domino's menu prices, delivery convenience, carryout value, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Seattle store address, local phone number or guaranteed store hours because those details can vary by assigned store and change over time. ",
     editorialSections: [
       {
-        heading: "Why Seattle orders need exact address verification",
+        heading: "Water and hills cut the city into pieces",
         body:
-          "Seattle delivery can be affected by hills, bridges, water, dense apartment buildings, one-way streets and neighborhood boundaries. A store a few blocks away can sit on the other side of a hill or a bridge, and zones are drawn accordingly. ",
+          "Seattle's geography does something to delivery that flat cities never deal with. The city is split by water and crossed by a small number of bridges, and it is steep enough that two addresses a few hundred metres apart can be a long way apart in driving terms. A store that looks close on a map may be on the wrong side of a ship canal bridge, and a delivery zone boundary often follows the water rather than distance. Hills matter at the door too: buildings on a slope frequently have entrances on two different levels and street numbers that make sense from only one of them. Saying which street your entrance is on is a genuinely useful line in the notes here.",
       },
       {
         heading: "How traffic, weather and building access affect timing",
@@ -1724,9 +1724,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
       "Denver is a spread-out city with downtown apartments, campus housing, airport-area neighborhoods, mountain-weather swings and traffic patterns that can change quickly across the metro. This independent guide helps Denver customers compare example Domino's menu prices, delivery convenience, carryout savings, group-order planning and address verification before using Domino's official ordering tools. It does not publish a fixed Denver store address, local phone number or guaranteed hours because assigned stores, local coupons, delivery boundaries and availability can change by address and date. For accurate store assignment, current hours, local prices, coupon participation and final checkout totals, enter your exact address on Domino's official locator or app.",
     editorialSections: [
       {
-        heading: "Why Denver orders should start with the official locator",
+        heading: "Snow days are the busiest days",
         body:
-          "Denver has many neighborhoods that look close together on a map but may be assigned to different Domino's stores. Delivery boundaries can depend on streets, highways, store capacity and local operating rules. Before comparing coupons or planning a group meal, enter the exact street address in Domino's official app. That check confirms whether delivery is available, whether carryout is open, which store handles the order and what the final local price will be.",
+          "Denver's ordering pattern has a weather-shaped spike in it. When a serious snow arrives, everybody has the same idea at once — nobody wants to drive, and delivery demand jumps precisely when driving conditions are worst. That combination is the one time of year the usual advice inverts: kitchens are slammed, drivers are slower, estimates stretch, and carryout is not a sensible alternative because you would be making the same drive. If you can see the forecast, ordering before the weather lands rather than during it is the single most useful thing you can do. And when a driver does come out in it, tip like they made an effort, because they did.",
       },
       {
         heading: "How weather and traffic affect delivery timing",
@@ -1833,9 +1833,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
       "Miami Domino's orders can vary by neighborhood, exact address, traffic, apartment access, hotel location and whether the assigned store is currently offering delivery or carryout. This independent guide helps Miami customers compare example Domino's menu prices, coupon value, delivery convenience, carryout savings and group-order planning before using Domino's official ordering tools. It does not publish one fixed Miami address, local phone number or guaranteed schedule because Miami-Dade coverage is split across many stores and local details can change. For accurate store assignment, current hours, local prices, coupon participation, delivery eligibility and final checkout totals, enter your full address on Domino's official locator or app.",
     editorialSections: [
       {
-        heading: "Why Miami delivery depends on the exact address",
+        heading: "Condo towers, front desks and a Latin food default",
         body:
-          "Miami is not one simple delivery zone. Store assignment can change between Downtown, Brickell, Little Havana, Coral Gables, Coconut Grove, Kendall, Doral, North Miami and beach-area addresses. A store that appears nearby may not be the store assigned to your address. Always start by entering the full delivery address in Domino's official app, then compare the available delivery and carryout options shown at checkout.",
+          "Two things define ordering in Miami. First, a very large share of addresses are in condo towers with a front desk, security, visitor procedures and lifts that drivers cannot always use. The delivery does not end at the building — that is where the slow part starts, and it is why a lobby meeting point or a clear front-desk instruction is worth more here than in most cities. Second, the default cheap hot food in Miami is Cuban and Latin American rather than pizza, so a Domino's order tends to be a group decision or a late-night one rather than a habit. Both point toward ordering with a bit more planning than you would elsewhere.",
       },
       {
         heading: "Traffic, weather and building access matter",
@@ -1942,9 +1942,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
       "Atlanta Domino's ordering depends heavily on the exact address, assigned store, traffic, apartment access, event timing and whether local coupons are available at checkout. This independent guide helps Atlanta customers compare example Domino's menu prices, delivery convenience, carryout savings, coupon value and group-order planning before using Domino's official ordering tools. It does not publish a single fixed Atlanta store address, local phone number or guaranteed hours because metro Atlanta has many stores and local details can change. ",
     editorialSections: [
       {
-        heading: "Why Atlanta orders need exact address verification",
+        heading: "Traffic is the variable, and everyone already knows it",
         body:
-          "Atlanta delivery zones can shift around interstates, neighborhood boundaries, store capacity and local operating rules. A store that looks closest on a map may not be the store assigned to a specific apartment, office, house or hotel. Before planning dinner, enter the exact address in Domino's official app. That check confirms whether delivery is available, whether carryout is open, which store handles the order and which coupons apply locally.",
+          "Atlanta's traffic is not a stereotype, and it does more to your delivery estimate than the kitchen does. The metro is broad, a lot of trips involve a major road, and a route that takes twelve minutes at three in the afternoon can take three times that at six. The other local factor is housing: large gated apartment complexes are extremely common across the metro, and a gate code missing from the notes is one of the most reliable ways to have your food arrive late. If you are ordering at peak, either build the traffic into your expectations or pick up — and if you live behind a gate, put the code in the instructions every single time.",
       },
       {
         heading: "How traffic and events affect timing",
@@ -2051,9 +2051,9 @@ export const locationRichContent: Record<string, RichLocationData> = {
       "Boston Domino's ordering can change by exact address, assigned store, campus demand, apartment access, traffic, weather and whether local coupons are available at checkout. This independent guide helps Boston customers compare example Domino's menu prices, delivery convenience, carryout savings, coupon value and group-order planning before using Domino's official ordering tools. It does not publish one fixed Boston store address, local phone number or guaranteed schedule because store assignment, delivery boundaries, hours and local offers can change. ",
     editorialSections: [
       {
-        heading: "Why Boston orders should start with exact address entry",
+        heading: "New England pizza is Greek-style, which is a different product entirely",
         body:
-          "Boston has compact neighborhoods, older street patterns, student housing, hospital areas, apartment buildings and nearby suburbs that can make delivery assignment less obvious than it looks on a map. A store that appears close may not be the store assigned to your address. Enter the exact street address in Domino's official app before comparing coupons or planning a group order, then use the checkout screen for the current delivery and carryout options.",
+          "The default neighbourhood pizza across much of New England is Greek-style, and it is worth understanding because it sets local expectations. It is baked in a thick, well-oiled round pan, which crisps and almost fries the bottom, and it is typically topped with a blend of mozzarella and white cheddar rather than mozzarella alone, over a paste-heavy oregano sauce. The style spread after the Second World War as Greek immigrant families took over pizzerias from retiring Italian owners, which is why so many shops in the region are called some variation of House of Pizza. If that is the texture you are after from Domino's, Handmade Pan is the nearest thing on the menu — thick, buttery and pan-baked — though the cheese blend is not the same.",
       },
       {
         heading: "How buildings, campuses and weather affect timing",
