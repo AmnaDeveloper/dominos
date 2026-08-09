@@ -73,8 +73,12 @@ export interface Coupon {
   sub: string;
   title: string;
   desc: string;
-  code: string;
-  noCodeLabel?: string;
+  /**
+   * How the offer is actually claimed. There is no `code` field: Domino's
+   * deals are selected in the app or on the deals page, not typed in as promo
+   * codes, and the codes previously shown here were invented.
+   */
+  howToGet: string;
   expiry: string;
   tags: string[];
   featured?: boolean;

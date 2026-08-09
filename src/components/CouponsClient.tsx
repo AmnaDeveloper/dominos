@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Copy, Check, Star } from "lucide-react";
+import { Star } from "lucide-react";
 import type { Coupon, FAQ } from "@/data/types";
 
 export default function CouponsClient({
@@ -11,28 +11,19 @@ export default function CouponsClient({
   coupons: Coupon[];
   faqs: FAQ[];
 }) {
-  const [copied, setCopied] = useState<string | null>(null);
   const [openFaq, setOpenFaq] = useState<number | null>(0);
-
-  const copy = async (code: string) => {
-    try {
-      await navigator.clipboard.writeText(code);
-      setCopied(code);
-      setTimeout(() => setCopied(null), 2000);
-    } catch {
-      setCopied(null);
-    }
-  };
 
   return (
     <div className="container-max py-10">
-      {/* Stats bar */}
+      {/* Stats bar. No invented figures: this used to claim "40% typical max
+          savings", a number with nothing behind it, and called the offers
+          "live" when they are illustrative examples rather than a feed. */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-10">
         {[
-          { n: `${coupons.length}`, l: "Live example deals" },
-          { n: "40%", l: "Typical max savings" },
-          { n: "$0", l: "Carryout delivery fee" },
-          { n: "60", l: "Points for free pizza" },
+          { n: `${coupons.length}`, l: "Deal types explained" },
+          { n: "None", l: "Promo codes needed" },
+          { n: "$0", l: "Delivery fee on carryout" },
+          { n: "60", l: "Reward points for a free pizza" },
         ].map((s) => (
           <div key={s.l} className="rounded-xl p-4 text-center" style={{ backgroundColor: "#E6F2F7" }}>
             <div className="text-2xl font-black" style={{ color: "#006491" }}>{s.n}</div>
@@ -68,27 +59,28 @@ export default function CouponsClient({
                 </span>
               ))}
             </div>
-            <div className="mt-4 flex items-center justify-between border-t border-dashed border-slate-200 pt-3">
-              <div>
-                <div className="font-mono text-sm font-bold">{c.code}</div>
-                <div className="text-[11px] text-slate-400">{c.noCodeLabel} · Exp: {c.expiry}</div>
-              </div>
-              <button
-                onClick={() => copy(c.code)}
-                className="inline-flex items-center gap-1 text-sm font-semibold px-3 py-1.5 rounded-lg text-white"
-                style={{ backgroundColor: copied === c.code ? "#006491" : "#C8102E" }}
-              >
-                {copied === c.code ? <><Check size={14} /> Copied!</> : <><Copy size={14} /> Copy</>}
-              </button>
+            <div className="mt-4 border-t border-dashed border-slate-200 pt-3">
+              <p className="text-[11px] uppercase tracking-wide font-bold text-slate-400">
+                How to get it
+              </p>
+              <p className="text-sm font-semibold text-slate-800 mt-0.5">{c.howToGet}</p>
+              <p className="text-[11px] text-slate-400 mt-1">Availability: {c.expiry}</p>
             </div>
           </div>
         ))}
       </div>
 
-      <p className="price-disclaimer mt-6">
-        These are example offers for guidance, not guaranteed codes. Verify all
-        deals on the official Domino&apos;s app before ordering.
-      </p>
+      <div className="rounded-xl p-4 mt-6" style={{ backgroundColor: "#E6F2F7" }}>
+        <p className="text-sm text-slate-700 leading-relaxed">
+          <strong className="!bg-transparent">Domino&apos;s deals don&apos;t use promo codes.</strong>{" "}
+          You won&apos;t find a code to paste at checkout — offers are selected from the deals
+          screen in the Domino&apos;s app or website, and some apply automatically once your
+          basket qualifies. Anywhere you see a Domino&apos;s &quot;coupon code&quot; being handed
+          out online, treat it with suspicion. The deals above describe the kinds of offers
+          Domino&apos;s runs and what they are worth; which ones are live at your store, and at
+          what price, is only visible in the app.
+        </p>
+      </div>
 
       {/* Tip cards */}
       <div className="grid gap-4 sm:grid-cols-3 my-12">

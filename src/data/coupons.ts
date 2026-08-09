@@ -1,8 +1,14 @@
 import type { Coupon } from "./types";
 
 /**
- * Example Domino's offers for the /coupons page. These are illustrative and
- * NOT guaranteed codes — always verify live deals on the official app.
+ * Example Domino's offers for the /coupons page.
+ *
+ * These describe the kinds of deals Domino's runs, not a live feed, and they
+ * carry no promo codes because Domino's deals are not claimed that way — they
+ * are selected from the deals screen in the app. This file previously held
+ * invented codes (MIXMATCH, HALFOFF, SIX99) which the page rendered with a
+ * copy-to-clipboard button, so every reader who copied one found it did not
+ * work. Each offer now states how it is actually claimed instead.
  */
 export const coupons: Coupon[] = [
   {
@@ -11,8 +17,7 @@ export const coupons: Coupon[] = [
     sub: "each",
     title: "Mix & Match Deal",
     desc: "Pick any two or more qualifying items — pizzas, sides, pasta, chicken and more — at one fixed price each. Domino's most flexible everyday value.",
-    code: "MIXMATCH",
-    noCodeLabel: "Auto-applies in cart",
+    howToGet: "Auto-applies in cart",
     expiry: "Ongoing",
     tags: ["Popular", "Value", "Family"],
     featured: true,
@@ -23,8 +28,7 @@ export const coupons: Coupon[] = [
     sub: "menu price",
     title: "50% Off Menu-Price Pizzas",
     desc: "Take half off pizzas ordered at regular menu price. Great for specialty pies that aren't in the current Mix & Match lineup.",
-    code: "HALFOFF",
-    noCodeLabel: "Select offer at checkout",
+    howToGet: "Select offer at checkout",
     expiry: "Limited time",
     tags: ["Pizza", "Online only"],
     featured: true,
@@ -35,8 +39,7 @@ export const coupons: Coupon[] = [
     sub: "each (3+)",
     title: "$6.99 Each — 3 or More",
     desc: "Order three or more qualifying items and each drops to a low fixed price. The best value for parties and larger orders.",
-    code: "SIX99",
-    noCodeLabel: "Auto-applies with 3+ items",
+    howToGet: "Auto-applies with 3+ items",
     expiry: "Ongoing",
     tags: ["Value", "Party"],
   },
@@ -46,8 +49,7 @@ export const coupons: Coupon[] = [
     sub: "pizza later",
     title: "Emergency Pizza",
     desc: "Rewards members who place a qualifying order can unlock a free pizza to redeem on a later visit. Availability comes and goes.",
-    code: "EMERGENCY",
-    noCodeLabel: "Rewards members",
+    howToGet: "Rewards members",
     expiry: "While promotion runs",
     tags: ["Rewards", "Free"],
   },
@@ -57,8 +59,7 @@ export const coupons: Coupon[] = [
     sub: "carryout",
     title: "Large Carryout Special",
     desc: "A carryout-only price on large pizzas that beats delivery. Skip the delivery fee and pick up for the lowest total.",
-    code: "CARRYOUT",
-    noCodeLabel: "Carryout only",
+    howToGet: "Carryout only",
     expiry: "Ongoing",
     tags: ["Carryout", "Cheapest"],
   },
@@ -68,8 +69,7 @@ export const coupons: Coupon[] = [
     sub: "delivery*",
     title: "Free Delivery Over Threshold",
     desc: "Some stores waive the delivery fee on orders above a set subtotal. Availability and the minimum vary by franchise.",
-    code: "FREEDEL",
-    noCodeLabel: "Select stores",
+    howToGet: "Select stores",
     expiry: "Varies by store",
     tags: ["Delivery"],
   },
@@ -79,8 +79,7 @@ export const coupons: Coupon[] = [
     sub: "boneless",
     title: "Boneless Chicken Deal",
     desc: "Add an order of boneless chicken at a deal price when combined with a qualifying purchase. A cheap way to add protein.",
-    code: "CHICKEN699",
-    noCodeLabel: "With qualifying order",
+    howToGet: "With qualifying order",
     expiry: "Limited time",
     tags: ["Chicken", "Add-on"],
   },
@@ -90,8 +89,7 @@ export const coupons: Coupon[] = [
     sub: "deal",
     title: "Weekend Family Bundle",
     desc: "A multi-item bundle — pizzas, a side and a 2-liter — priced for family dinners. Perfect for feeding four or more.",
-    code: "WEEKEND",
-    noCodeLabel: "Select offer at checkout",
+    howToGet: "Select offer at checkout",
     expiry: "Weekends, limited time",
     tags: ["Family", "Bundle"],
   },
