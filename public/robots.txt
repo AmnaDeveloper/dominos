@@ -5,6 +5,11 @@ Disallow: /admin/
 Disallow: /private/
 Disallow: /seo-tools
 
+# PWA manifest — a JSON file, not a page. Google was crawling it and filing it
+# under "Crawled - currently not indexed", which is correct but noisy.
+# Blocking it here affects crawlers only; browsers still install the PWA.
+Disallow: /manifest.webmanifest
+
 User-agent: Mediapartners-Google
 Allow: /
 Allow: /ads.txt
