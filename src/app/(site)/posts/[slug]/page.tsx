@@ -30,6 +30,7 @@ const CUSTOM_TITLES: Record<string, (m: string, d: string) => string> = {
   "how-much-to-tip-dominos-delivery": (m) => `How Much to Tip Domino's Delivery (${m})`,
   "which-dominos-deal-is-cheapest": (m) => `Which Domino's Deal Is Cheapest? (${m})`,
   "what-not-to-order-at-dominos": (m) => `What Not to Order at Domino's (${m})`,
+  "dominos-order-wrong-late-or-missing": (m) => `Domino's Order Wrong, Late or Missing? (${m})`,
 };
 
 export async function generateMetadata({
