@@ -123,14 +123,13 @@ const jsonLdGraph = {
       url: SITE_URL,
       name: SITE_NAME,
       publisher: { "@id": `${SITE_URL}/#organization` },
-      potentialAction: {
-        "@type": "SearchAction",
-        target: {
-          "@type": "EntryPoint",
-          urlTemplate: `${SITE_URL}/?s={search_term_string}`,
-        },
-        "query-input": "required name=search_term_string",
-      },
+      // No SearchAction. This used to declare a sitewide search at
+      // `/?s={search_term_string}` — the WordPress search convention, on a
+      // Next.js site that has no search at all. `/?s=pizza` simply returns the
+      // homepage. Google crawled the literal template URL and reported it under
+      // "Alternate page with proper canonical tag". Announcing a feature that
+      // does not exist is the sort of inaccurate markup this site is trying to
+      // get away from; add it back only if real search is ever built.
     },
     {
       "@type": "WebPage",
